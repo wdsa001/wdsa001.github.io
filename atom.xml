@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>王大神——A001</title>
+  <icon>https://www.gravatar.com/avatar/527f0ddb86f86208c41f017e2e654bf4</icon>
+  <subtitle>是非在己，毁誉由人，得失不论</subtitle>
+  <link href="http://wdsa001.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://wdsa001.github.io/"/>
+  <updated>2021-08-08T12:15:44.280Z</updated>
+  <id>http://wdsa001.github.io/</id>
+  
+  <author>
+    <name>wdsa001</name>
+    <email>1054942544@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Second</title>
+    <link href="http://wdsa001.github.io/2018/09/07/chang-shi/"/>
+    <id>http://wdsa001.github.io/2018/09/07/chang-shi/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2021-08-08T12:15:44.280Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;try : &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://wdsa001.github.io/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My First</title>
+    <link href="http://wdsa001.github.io/2018/09/07/shi/"/>
+    <id>http://wdsa001.github.io/2018/09/07/shi/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2021-08-08T12:13:57.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最好啦！&lt;br&gt;CG哥哥最</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://wdsa001.github.io/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
