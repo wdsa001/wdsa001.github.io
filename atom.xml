@@ -47,7 +47,7 @@
     <link href="http://wdsa001.github.io/2021/09/20/ping-heng-shu-ji-chu/"/>
     <id>http://wdsa001.github.io/2021/09/20/ping-heng-shu-ji-chu/</id>
     <published>2021-09-20T01:47:03.000Z</published>
-    <updated>2021-09-20T01:47:49.696Z</updated>
+    <updated>2021-09-20T03:23:14.824Z</updated>
     
     
       
@@ -66,6 +66,37 @@
     <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文艺平衡树</title>
+    <link href="http://wdsa001.github.io/2021/09/20/wen-yi-ping-heng-shu/"/>
+    <id>http://wdsa001.github.io/2021/09/20/wen-yi-ping-heng-shu/</id>
+    <published>2021-09-20T01:47:03.000Z</published>
+    <updated>2021-09-20T14:02:15.516Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;文艺平衡树&quot;&gt;&lt;a href=&quot;#文艺平衡树&quot; class=&quot;headerlink&quot; title=&quot;文艺平衡树&quot;&gt;&lt;/a&gt;文艺平衡树&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3391&quot;&gt;P3391</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
     <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
     
@@ -632,36 +663,6 @@
     <category term="最近公共祖先" scheme="http://wdsa001.github.io/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/"/>
     
     <category term="树链剖分" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CF1538D Another Problem About Dividing Numbers</title>
-    <link href="http://wdsa001.github.io/2021/08/10/cf1538d/"/>
-    <id>http://wdsa001.github.io/2021/08/10/cf1538d/</id>
-    <published>2021-08-10T01:25:00.000Z</published>
-    <updated>2021-09-07T09:18:08.585Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/CF1538D&quot;&gt;传送门&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;题目大意&quot;&gt;&lt;a href=&quot;#题目大意&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="GCD" scheme="http://wdsa001.github.io/tags/GCD/"/>
     
   </entry>
   
