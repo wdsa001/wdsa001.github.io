@@ -43,6 +43,38 @@
   </entry>
   
   <entry>
+    <title>主席树（基础）</title>
+    <link href="http://wdsa001.github.io/2021/09/21/zhu-xi-shu-ji-chu/"/>
+    <id>http://wdsa001.github.io/2021/09/21/zhu-xi-shu-ji-chu/</id>
+    <published>2021-09-21T09:07:36.000Z</published>
+    <updated>2021-09-21T09:16:19.481Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不断开辟新的节点，存储新状态下改变的点，不改变的点直接回历史中去找，相当于新存变化的节点，不变的节点共用。&lt;/p&gt;
+&lt;h2 id=&quot;可持久化线段树-1&quot;&gt;&lt;a href=&quot;#可持久化线段树-1&quot; class=&quot;headerlink&quot; title=&quot;可持久化线段树</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>文艺平衡树</title>
     <link href="http://wdsa001.github.io/2021/09/20/wen-yi-ping-heng-shu/"/>
     <id>http://wdsa001.github.io/2021/09/20/wen-yi-ping-heng-shu/</id>
@@ -628,41 +660,6 @@
     <category term="树链剖分" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
     <category term="仙人掌" scheme="http://wdsa001.github.io/tags/%E4%BB%99%E4%BA%BA%E6%8E%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树链剖分</title>
-    <link href="http://wdsa001.github.io/2021/08/31/shu-lian-pou-fen/"/>
-    <id>http://wdsa001.github.io/2021/08/31/shu-lian-pou-fen/</id>
-    <published>2021-08-30T23:25:00.000Z</published>
-    <updated>2021-09-07T09:07:36.291Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;树链剖分介绍&quot;&gt;&lt;a href=&quot;#树链剖分介绍&quot; class=&quot;headerlink&quot; title=&quot;树链剖分介绍&quot;&gt;&lt;/a&gt;树链剖分介绍&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="最近公共祖先" scheme="http://wdsa001.github.io/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/"/>
-    
-    <category term="树链剖分" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
   </entry>
   
