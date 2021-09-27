@@ -43,18 +43,51 @@
   </entry>
   
   <entry>
-    <title>fhq-treap</title>
-    <link href="http://wdsa001.github.io/2021/09/22/fhq-treap/"/>
-    <id>http://wdsa001.github.io/2021/09/22/fhq-treap/</id>
-    <published>2021-09-22T13:56:13.000Z</published>
-    <updated>2021-09-23T03:07:05.466Z</updated>
+    <title>LCT动态树</title>
+    <link href="http://wdsa001.github.io/2021/09/27/lct-dong-tai-shu/"/>
+    <id>http://wdsa001.github.io/2021/09/27/lct-dong-tai-shu/</id>
+    <published>2021-09-27T07:57:58.000Z</published>
+    <updated>2021-09-27T07:58:23.875Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;可持久化平衡树&quot;&gt;&lt;a href=&quot;#可持久化平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化平衡树&quot;&gt;&lt;/a&gt;可持久化平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;LCT&quot;&gt;&lt;a href=&quot;#LCT&quot; class=&quot;headerlink&quot; title=&quot;$LCT$&quot;&gt;&lt;/a&gt;$LCT$&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3690&quot;&gt;P3690</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+    <category term="LCT" scheme="http://wdsa001.github.io/tags/LCT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>可持久化文艺平衡树</title>
+    <link href="http://wdsa001.github.io/2021/09/23/ke-chi-jiu-hua-wen-yi-ping-heng-shu/"/>
+    <id>http://wdsa001.github.io/2021/09/23/ke-chi-jiu-hua-wen-yi-ping-heng-shu/</id>
+    <published>2021-09-23T08:33:36.000Z</published>
+    <updated>2021-09-23T08:33:41.770Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;可持久化文艺平衡树&quot;&gt;&lt;a href=&quot;#可持久化文艺平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化文艺平衡树&quot;&gt;&lt;/a&gt;可持久化文艺平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
     
@@ -78,18 +111,18 @@
   </entry>
   
   <entry>
-    <title>可持久化文艺平衡树</title>
-    <link href="http://wdsa001.github.io/2021/09/22/ke-chi-jiu-hua-wen-yi-ping-heng-shu/"/>
-    <id>http://wdsa001.github.io/2021/09/22/ke-chi-jiu-hua-wen-yi-ping-heng-shu/</id>
+    <title>fhq-treap</title>
+    <link href="http://wdsa001.github.io/2021/09/22/fhq-treap/"/>
+    <id>http://wdsa001.github.io/2021/09/22/fhq-treap/</id>
     <published>2021-09-22T13:56:13.000Z</published>
-    <updated>2021-09-23T08:06:38.367Z</updated>
+    <updated>2021-09-23T03:07:05.466Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;可持久化文艺平衡树&quot;&gt;&lt;a href=&quot;#可持久化文艺平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化文艺平衡树&quot;&gt;&lt;/a&gt;可持久化文艺平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;可持久化平衡树&quot;&gt;&lt;a href=&quot;#可持久化平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化平衡树&quot;&gt;&lt;/a&gt;可持久化平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
     
@@ -630,37 +663,6 @@
     <category term="莫队" scheme="http://wdsa001.github.io/tags/%E8%8E%AB%E9%98%9F/"/>
     
     <category term="分块" scheme="http://wdsa001.github.io/tags/%E5%88%86%E5%9D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>manacher 算法</title>
-    <link href="http://wdsa001.github.io/2021/09/03/manacher-suan-fa/"/>
-    <id>http://wdsa001.github.io/2021/09/03/manacher-suan-fa/</id>
-    <published>2021-09-03T13:25:00.000Z</published>
-    <updated>2021-09-03T13:19:22.036Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;manacher算法&quot;&gt;&lt;a href=&quot;#manacher算法&quot; class=&quot;headerlink&quot; title=&quot;manacher算法&quot;&gt;&lt;/a&gt;manacher算法&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="manacher" scheme="http://wdsa001.github.io/tags/manacher/"/>
     
   </entry>
   
