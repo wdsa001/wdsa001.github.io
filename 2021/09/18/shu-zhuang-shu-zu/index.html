@@ -564,12 +564,12 @@
 <p>我们以 $8$ 二进制数来举例。</p>
 <p>$5$：$00000101$</p>
 <p>$-5$：$11111011$</p>
-<p>当 $5\&amp;-5$ 时，我们的找到了 $00000001$，将 $5$ 减去它，$(00000100)_2=(4)_{10}$，那么继续。</p>
+<p>当 $5\&amp;-5$ 时，我们的找到了 $00000001$，将 $5$ 减去它，$(00000100)<em>2=(4)</em>{10}$，那么继续。</p>
 <p>$4$：$00000100$</p>
 <p>$-4$：$11111100$</p>
-<p>当 $4\&amp;-4$ 时，我们的找到了 $00000100$，将 $4$ 减去它，$(00000000)_2=(0)_{10}$，结束。</p>
+<p>当 $4\&amp;-4$ 时，我们的找到了 $00000100$，将 $4$ 减去它，$(00000000)<em>2=(0)</em>{10}$，结束。</p>
 <p>这正好是我们需要查询的区间！为什么呢？</p>
-<p>$5=(100)_{2}+(1)_{2}$，我们先查的是区间 $[5,5]$ 然后减去 $1$，后查询的是 $(100)_2=(4)_{10}$ 即 $[1,4]$，统计即可。</p>
+<p>$5=(100)<em>{2}+(1)</em>{2}$，我们先查的是区间 $[5,5]$ 然后减去 $1$，后查询的是 $(100)<em>2=(4)</em>{10}$ 即 $[1,4]$，统计即可。</p>
 <p>我们从概念出发：</p>
 <p>补码是原码的反码 $+1$。反码是原码每位取反，如果这一位是 $1$，那么现在它是 $0$，我们给它 $+1$，可以更具它二进制特性，直接填好从右向左的第一个 $0$，而填的这个 $0$，正是原码中从右向左的第一个 $1$，我们已经知道这个 $1$ 之前的所有情况已经存储，我们直接拿来用即可，然后将这个 $1$ 拿去，前面的 $1$ 的情况也已经存过，直接加和，这样每次询问相当于求了这个数中有多少个 $1$ 的次数。</p>
 <p>而修改数值（上传）也是一个道理，可以感性理解为不断左移最低位的 $1$，如果和原来位的 $1$ <strong>重合</strong>，那么直接进位即可。</p>
@@ -820,18 +820,18 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/09/20/ping-heng-shu-ji-chu/">
+                <a href="/2021/09/20/wen-yi-ping-heng-shu/">
                     <div class="card-image">
                         
-                        <img src="/images/54.jpg" class="responsive-img" alt="平衡树（基础）">
+                        <img src="/images/55.jpg" class="responsive-img" alt="文艺平衡树">
                         
-                        <span class="card-title">平衡树（基础）</span>
+                        <span class="card-title">文艺平衡树</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            平衡树（基础）
+                            文艺平衡树
                         
                     </div>
                     <div class="publish-info">
@@ -855,6 +855,10 @@
                     
                     <a href="/tags/%E9%A2%98%E8%A7%A3/">
                         <span class="chip bg-color">题解</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/">
+                        <span class="chip bg-color">线段树</span>
                     </a>
                     
                     <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
@@ -913,12 +917,12 @@
                         <span class="chip bg-color">题解</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                        <span class="chip bg-color">数据结构</span>
-                    </a>
-                    
                     <a href="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/">
                         <span class="chip bg-color">线段树</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
                     </a>
                     
                     <a href="/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/">
