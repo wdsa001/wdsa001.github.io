@@ -522,7 +522,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    2.1k
                 </div>
                 
 
@@ -552,7 +552,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="集合-amp-元素"><a href="#集合-amp-元素" class="headerlink" title="集合&amp;元素"></a>集合&amp;元素</h2><p>集合：（一般用大写字母表示：$A$,$B$,$C$）一些确定的对象的事物由元素组成。例如：$\lbrace 1,2,3 \rbrace$，直线上所有的点（$y=x,y=x^2,y=\sqrt\lbracex\rbrace$）。</p>
+                <h2 id="集合-amp-元素"><a href="#集合-amp-元素" class="headerlink" title="集合&amp;元素"></a>集合&amp;元素</h2><p>集合：（一般用大写字母表示：$A$,$B$,$C$）一些确定的对象的事物由元素组成。例如：$\lbrace 1,2,3 \rbrace$，直线上所有的点（$y=x,y=x^2,y=\sqrt{x}$）。</p>
 <p>元素：一般用小写字母表示 $a,b,c$。</p>
 <p>元素有限个：有限集；元素无限个：无限集。</p>
 <p>元素和集合有两种关系：元素被包含：$a\in A$；元素不被包含 $a\notin A$。</p>
@@ -568,7 +568,7 @@
 <p>$\cap:A\cap B,A$ 和 $B$ 集合所有重叠部分。</p>
 <p>$-:A- B,A$ 集合中所有和 $B$ 不重叠部分。</p>
 <p>$\Omega:$ 全集。</p>
-<p>$\overline\lbraceA\rbrace:\overline\lbraceA\rbrace=\Omega-A$，集合中不与 $A$ 重叠的部分（补集）。</p>
+<p>$\overline{A}:\overline{A}=\Omega-A$，集合中不与 $A$ 重叠的部分（补集）。</p>
 <p>多重运算：</p>
 <p>$A\cup B=B\cup A$</p>
 <p>$A\cap B=B\cap A$</p>
@@ -576,8 +576,8 @@
 <p>$A\cap(B\cap C)=(A\cap B)\cap C$</p>
 <p>$A\cup(B\cap C)=(A\cup B)\cap (A\cup B)$</p>
 <p>$A\cap(B\cup C)=(A\cap B)\cup (A\cap B)$</p>
-<p>$\overline\lbraceA\cup B\rbrace=\overline\lbraceA\rbrace\cap\overline\lbraceB\rbrace$</p>
-<p>$\overline\lbraceA\cap B\rbrace=\overline\lbraceA\rbrace\cup\overline\lbraceB\rbrace$</p>
+<p>$\overline{A\cup B}=\overline{A}\cap\overline{B}$</p>
+<p>$\overline{A\cap B}=\overline{A}\cup\overline{B}$</p>
 <h3 id="直积（笛卡尔乘积）"><a href="#直积（笛卡尔乘积）" class="headerlink" title="直积（笛卡尔乘积）"></a>直积（笛卡尔乘积）</h3><p>直积（笛卡尔乘积）：两个集合相乘。</p>
 <p>$A\times B=\lbrace (a,b)|a\in A,b\in B \rbrace$ <strong>有序对</strong> $a,b$。</p>
 <p>$A=\lbrace 1,2 \rbrace,B=\lbrace 3,4,5 \rbrace$</p>
@@ -586,8 +586,8 @@
 <h3 id="邻域"><a href="#邻域" class="headerlink" title="邻域"></a>邻域</h3><p>$U(a,\delta)=\lbrace x|a-\delta &lt; x &lt; a+\delta \rbrace$</p>
 <p>$a$：中点，$\delta$：半径。</p>
 <p>去心邻域（不要中点的邻域）：</p>
-<p>$U(\hat\lbracea\rbrace,\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
-<p>$\mathring\lbraceU\rbrace(a,\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
+<p>$U(\hat{a},\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
+<p>$\mathring{U}(a,\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
 <p>（符号不统一，两种表示方法同一个意思）。</p>
 <h3 id="区间"><a href="#区间" class="headerlink" title="区间"></a>区间</h3><p>有限区间：</p>
 <ul>
@@ -617,9 +617,9 @@
 <p>$(+\infty)\times(+\infty)=+\infty$</p>
 <p>$(-\infty)\times(+\infty)=+\infty$</p>
 <p>$(+\infty)\times(-\infty)=-\infty$</p>
-<p>$\frac\lbrace+\infty\rbrace\lbrace+\infty\rbrace=$不确定</p>
-<p>$\frac\lbrace+\infty\rbrace\lbrace-\infty\rbrace=$不确定</p>
-<p>$\frac\lbrace-\infty\rbrace\lbrace-\infty\rbrace=$不确定</p>
+<p>$\frac{+\infty}{+\infty}=$不确定</p>
+<p>$\frac{+\infty}{-\infty}=$不确定</p>
+<p>$\frac{-\infty}{-\infty}=$不确定</p>
 <p>推导：$(+\infty)-(+\infty)=$不确定</p>
 <p>设 $x=+\infty$</p>
 <p>$(+\infty)-(+\infty)=x-x=0$（$0$）</p>
@@ -670,7 +670,7 @@
 </ul>
 <p>周期函数：$f(x+T)=f(x)$，最小正数 $T$ 是它的周期。</p>
 <p>$\because f(x)$，的周期是 $T$。</p>
-<p>$\therefore f(ax)$，的周期是 $\frac\lbraceT\rbrace\lbracea\rbrace$。</p>
+<p>$\therefore f(ax)$，的周期是 $\frac{T}{a}$。</p>
 <ul>
 <li>单调递增函数</li>
 </ul>
@@ -695,81 +695,90 @@
 <li>反函数</li>
 </ul>
 <p>函数：$y=2x$</p>
-<p>它的反函数 $x=\frac\lbracey\rbrace\lbrace2\rbrace$</p>
-<p>由于书写习惯左边用 $y$ 写，$y=\frac\lbracex\rbrace\lbrace2\rbrace$</p>
-<p>（也可以看成根据 $ y=x $ 函数对称）</p>
+<p>它的反函数 $x=\frac{y}{2}$</p>
+<p>由于书写习惯左边用 $y$ 写，$y=\frac{x}{2}$</p>
+<p>(也可以看成根据 $y=x$ 函数对称)</p>
 <p>变化：</p>
 <p>原函数定义域 $\rightarrow$ 反函数值域</p>
 <p>原函数值域 $\rightarrow$ 反函数定义域</p>
 <p>根据特征不难发现，有些函数<strong>没有</strong>反函数，如果有反函数，函数必须满足原函数 $x,y$ 唯一对应。</p>
 <h2 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h2><p>数列：$x_1,x_2,x_3,x_4,…$</p>
-<p>$1,\frac\lbrace1\rbrace\lbrace2\rbrace,\frac\lbrace1\rbrace\lbrace3\rbrace,\frac\lbrace1\rbrace\lbrace4\rbrace,…$(无穷数列)</p>
-<p>第 $n$ 项（通项公式）：$\frac\lbrace1\rbrace\lbracen\rbrace$</p>
+<p>$1,\frac{1}{2},\frac{1}{3},\frac{1}{4},…$(无穷数列)</p>
+<p>第 $n$ 项（通项公式）：$\frac{1}{n}$</p>
 <p>单调递增：$x_1\leqslant x_2\leqslant x_3\leqslant …$</p>
 <p>单调递减：$x_1\geqslant x_2\geqslant x_3\geqslant …$</p>
 <ul>
 <li>有界数列 $|x_n|\leqslant M$</li>
 </ul>
-<p>数列：$\frac\lbracen\rbrace\lbracen+1\rbrace\Rightarrow \frac\lbrace1\rbrace\lbrace2\rbrace,\frac\lbrace2\rbrace\lbrace3\rbrace,\frac\lbrace3\rbrace\lbrace4\rbrace,…\rightarrow 1$</p>
+<p>数列：$\frac{n}{n+1}\Rightarrow \frac{1}{2},\frac{2}{3},\frac{3}{4},…\rightarrow 1$</p>
 <p>我们先定一段小的区间 $\varepsilon=0.1$，代表距离 $1$ 的距离所包含的区间（值 $\geqslant0.9$），设 $N=9$，当 $n$（第 $n$ 项）$&gt; N$ 时 $|x_n-a|&lt; \varepsilon$ 时，$\lbrace x_n \rbrace$ 以 $a$ 为极限。</p>
 <p>极限定义：$|x_n-a|&lt; \varepsilon$ 落在以 $a$ 为中心，以 $\varepsilon$ 为半径的邻域中。</p>
 <h3 id="定义证明极限存在（套模板答题）"><a href="#定义证明极限存在（套模板答题）" class="headerlink" title="定义证明极限存在（套模板答题）"></a>定义证明极限存在（套模板答题）</h3><ul>
-<li>例一：$\lbrace \frac\lbracen\rbrace\lbracen+1\rbrace \rbrace$ 的极限是 $1$</li>
+<li>例一：$\lbrace \frac{n}{n+1} \rbrace$ 的极限是 $1$</li>
 </ul>
 <p>我们只要找到 $N$ 的存在即可。</p>
 <p>任给 $\varepsilon &gt; 0$</p>
-<p>$\because |x_n-a|=|\frac\lbracen\rbrace\lbracen+1\rbrace-1|=\frac\lbrace1\rbrace\lbracen+1\rbrace &lt; \varepsilon$（定义）</p>
-<p>$\therefore \frac\lbrace1\rbrace\lbrace\varepsilon\rbrace &lt; n+1$</p>
-<p>$\therefore n&gt;\frac\lbrace1\rbrace\lbrace\varepsilon \rbrace-1$</p>
-<p>$\therefore N=\lfloor |\frac\lbrace1\rbrace\lbrace\varepsilon\rbrace-1|\rfloor+1$</p>
-<p><strong>注意：这里 $N$ 最后的 $+1$ 只是保证 $n &gt; N$ 后，保证后面所有的项都在邻域中。（$ N=\lfloor |\frac\lbrace1\rbrace\lbrace\varepsilon\rbrace-1|\rfloor+100$ 这么写也不是错的）</strong></p>
+<p>$\because |x_n-a|=|\frac{n}{n+1}-1|=\frac{1}{n+1} &lt; \varepsilon$（定义）</p>
+<p>$\therefore \frac{1}{\varepsilon} &lt; n+1$</p>
+<p>$\therefore n&gt;\frac{1}{\varepsilon }-1$</p>
+<p>$\therefore N=\lfloor |\frac{1}{\varepsilon}-1|\rfloor+1$</p>
+<p><strong>注意：这里 $N$ 最后的 $+1$ 只是保证 $n &gt; N$ 后，保证后面所有的项都在邻域中。（$ N=\lfloor |\frac{1}{\varepsilon}-1|\rfloor+100$ 这么写也不是错的）</strong></p>
 <ul>
 <li>例二：$|q| &lt; 1$ 证明：</li>
 </ul>
-<script type="math/tex; mode=display">\lim_\lbracen\rightarrow+\infty\rbraceq^n=0</script><p>当 $q=0$ 时，$0^n=0$</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow+\infty}q^n=0</script><p>当 $q=0$ 时，$0^n=0$</p>
 <p>当 $q\not=0$ 时，$\forall \varepsilon &gt; 0(\varepsilon &lt; 1)$</p>
 <p>$\because |q_n-0| &lt; \varepsilon (a=0)$</p>
 <p>$\therefore |q_n| &lt; \varepsilon $</p>
-<p>$\therefore n\log|q| &lt; \log\lbrace\varepsilon\rbrace$</p>
+<p>$\therefore n\log|q| &lt; \log{\varepsilon}$</p>
 <p>$\because |q| &lt; 1$</p>
-<p>$\therefore \log\lbrace|q|\rbrace&lt;0$</p>
-<p>$\therefore n &gt; \frac\lbracelog\lbrace\varepsilon\rbrace\rbrace\lbrace\log\lbrace|q|\rbrace\rbrace$</p>
-<p>$\therefore N=\lfloor \frac\lbracelog\lbrace\varepsilon\rbrace\rbrace\lbrace\log\lbrace|q|\rbrace\rbrace\rfloor +1$</p>
+<p>$\therefore \log{|q|}&lt;0$</p>
+<p>$\therefore n &gt; \frac{log{\varepsilon}}{\log{|q|}}$</p>
+<p>$\therefore N=\lfloor \frac{log{\varepsilon}}{\log{|q|}}\rfloor +1$</p>
 <p>$n &gt; N$ 时，$|q^n-0| &lt; \varepsilon$</p>
 <ul>
 <li>例三：$a &gt; 0,$ 证明：</li>
 </ul>
-<script type="math/tex; mode=display">\lim_\lbracen\rightarrow+\infty\rbrace\lbrace\frac\lbrace1\rbrace\lbracen^a\rbrace\rbrace=0</script><p>$\forall \varepsilon &gt; 0,|\frac\lbrace1\rbrace\lbracen^a-0\rbrace| &lt; \varepsilon$</p>
-<p>$\therefore \frac\lbrace1\rbrace\lbracen^a\rbrace &gt; \varepsilon$</p>
-<p>$\therefore n^a &gt; \frac\lbrace1\rbrace\lbrace\varepsilon\rbrace$</p>
-<p>$\therefore (n^a)^\lbrace\frac\lbrace1\rbrace\lbracea\rbrace\rbrace &gt; \frac\lbrace1\rbrace\lbrace\varepsilon\rbrace^\lbrace\frac\lbrace1\rbrace\lbracea\rbrace\rbrace$</p>
-<p>$\therefore n &gt; \frac\lbrace1\rbrace\lbrace\varepsilon\rbrace^\lbrace\frac\lbrace1\rbrace\lbracea\rbrace\rbrace$</p>
-<p>$N=\lfloor (\frac\lbrace1\rbrace\lbrace\varepsilon\rbrace)^\lbrace\frac\lbrace1\rbrace\lbracea\rbrace\rbrace\rfloor+1$</p>
-<p>$n &gt; N$ 时 $|\frac\lbrace1\rbrace\lbracen^a\rbrace-0| &lt; \varepsilon$</p>
-<h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><h3 id="性质-1"><a href="#性质-1" class="headerlink" title="性质 1"></a>性质 1</h3><p>$\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow+\infty}{\frac{1}{n^a}}=0</script><p>$\forall \varepsilon &gt; 0,|\frac{1}{n^a-0}| &lt; \varepsilon$</p>
+<p>$\therefore \frac{1}{n^a} &gt; \varepsilon$</p>
+<p>$\therefore n^a &gt; \frac{1}{\varepsilon}$</p>
+<p>$\therefore (n^a)^{\frac{1}{a}} &gt; \frac{1}{\varepsilon}^{\frac{1}{a}}$</p>
+<p>$\therefore n &gt; \frac{1}{\varepsilon}^{\frac{1}{a}}$</p>
+<p>$N=\lfloor (\frac{1}{\varepsilon})^{\frac{1}{a}}\rfloor+1$</p>
+<p>$n &gt; N$ 时 $|\frac{1}{n^a}-0| &lt; \varepsilon$</p>
+<h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><h3 id="性质-1"><a href="#性质-1" class="headerlink" title="性质 1"></a>性质 1</h3><ul>
+<li>$\lbrace x_n \rbrace$ 收敛，极限唯一。</li>
+</ul>
 <p>反证法：</p>
 <p>假设极限不唯一，有两个极限分别为 $a$，$b$。</p>
-<script type="math/tex; mode=display">\lim_\lbracen\rightarrow +\infty\rbrace\lbracex_n\rbrace=a</script><script type="math/tex; mode=display">\lim_\lbracen\rightarrow +\infty\rbrace\lbracex_n\rbrace=b</script><p>$a\not=b$，设 $a &lt; b$，取 $\varepsilon =\frac\lbraceb-a\rbrace\lbrace2\rbrace$</p>
-<script type="math/tex; mode=display">\because \lim_\lbracen\rightarrow+\infty\rbrace\lbracex_n\rbrace=a,\exists N_1,n > N_1,|x_n-a| < \frac\lbraceb-a\rbrace\lbrace2\rbrace</script><script type="math/tex; mode=display">\therefore -\frac\lbraceb-a\rbrace\lbrace2\rbrace < x_n-a < \frac\lbraceb-a\rbrace\lbrace2\rbrace</script><p>第 $n$ 项范围 $1$：</p>
-<script type="math/tex; mode=display">\therefore \frac\lbrace3a-b\rbrace\lbrace2\rbrace < x_n < \frac\lbracea+b\rbrace\lbrace2\rbrace</script><script type="math/tex; mode=display">\because \lim_\lbracen\rightarrow+\infty\rbrace\lbracex_n\rbrace=b,\exists N_2,n > N_2,|x_n-b| < \frac\lbraceb-a\rbrace\lbrace2\rbrace</script><script type="math/tex; mode=display">\therefore -\frac\lbraceb-a\rbrace\lbrace2\rbrace < x_n-b < \frac\lbraceb-a\rbrace\lbrace2\rbrace</script><p>第 $n$ 项范围 $2$：</p>
-<script type="math/tex; mode=display">\therefore \frac\lbracea+b\rbrace\lbrace2\rbrace < x_n < \frac\lbrace3b-a\rbrace\lbrace2\rbrace</script><p>第 $n$ 项的范围显然矛盾，所以 $\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
-<h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质 2"></a>性质 2</h3><p>$\lbrace x_n \rbrace$ 收敛，$\lbrace x_n \rbrace$ 有界。</p>
-<script type="math/tex; mode=display">\lim_\lbracen\rightarrow +\infty\rbrace\lbracex_n\rbrace=a</script><p>取 $\varepsilon=1,\exists N,n &gt; N$</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=b</script><p>$a\not=b$，设 $a &lt; b$，取 $\varepsilon =\frac{b-a}{2}$</p>
+<script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=a,\exists N_1,n > N_1,|x_n-a| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-a < \frac{b-a}{2}</script><p>第 $n$ 项范围 $1$：</p>
+<script type="math/tex; mode=display">\therefore \frac{3a-b}{2} < x_n < \frac{a+b}{2}</script><script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=b,\exists N_2,n > N_2,|x_n-b| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-b < \frac{b-a}{2}</script><p>第 $n$ 项范围 $2$：</p>
+<script type="math/tex; mode=display">\therefore \frac{a+b}{2} < x_n < \frac{3b-a}{2}</script><p>第 $n$ 项的范围显然矛盾，所以 $\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
+<h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质 2"></a>性质 2</h3><ul>
+<li>$\lbrace x_n \rbrace$ 收敛，$\lbrace x_n \rbrace$ 有界。</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><p>取 $\varepsilon=1,\exists N,n &gt; N$</p>
 <p>$\therefore |x_n-a| &lt; 1$</p>
-<p>$\therefore |x_n|=|x_n-a+a| \leqslant|x_n-a|+|a|&lt;1+|a| $</p>
-<p>$x<em>\lbraceN+1\rbrace,x</em>\lbraceN+2\rbrace,…&lt;|a|+1$</p>
-<p>设 $M=\max \lbrace |x_1|,|x_2|,|x_3|,…,|x_N|,|a|+1 \rbrace$</p>
+<p>$\therefore |x_n|=|x_n-a+a|\leqslant|x_n-a|+|a|&lt;1+|a|$</p>
+<p>$\therefore x<em>{N+1},x</em>{N+2},… &lt; |a|+1$</p>
+<p>设 $M=\max\lbrace |x_1|,|x_2|,|x_3|,…,|x_N|,|a|+1 \rbrace$</p>
 <p>$M$ 即为“跳不出”的边界。</p>
 <p><strong>有界是收敛的必要条件，不是充分条件，例如：$\lbrace -1,1,-1,1,… \rbrace$</strong></p>
 <p><strong>若数列单调有界，则有极限。</strong></p>
-<h3 id="性质-3"><a href="#性质-3" class="headerlink" title="性质 3"></a>性质 3</h3><script type="math/tex; mode=display">\lim_\lbracen\rightarrow +\infty\rbrace\lbracex_n\rbrace=a,a > 0,\exists N,n > N,x_n > 0</script><p>设 $a&gt;0$，取 $\varepsilon =\frac\lbracea\rbrace\lbrace2\rbrace,\exists N,n &gt; N,|x_n-a| &lt; \frac\lbracea\rbrace\lbrace2\rbrace$</p>
-<p>$\therefore -\frac\lbracea\rbrace\lbrace2\rbrace &lt; x_n-a &lt; \frac\lbracea\rbrace\lbrace2\rbrace$</p>
-<p>$\therefore 0 &lt; \frac\lbracea\rbrace\lbrace2\rbrace &lt; x_n &lt; \frac\lbrace3\rbrace\lbrace2\rbracea$</p>
-<h3 id="性质-4"><a href="#性质-4" class="headerlink" title="性质 4"></a>性质 4</h3><p>$\lbrace x<em>n \rbrace$ 收敛于 $a$，任何子数列 $ \lbrace x</em>\lbracek_n\rbrace \rbrace $ 收敛于 $a$</p>
+<h3 id="性质-3"><a href="#性质-3" class="headerlink" title="性质 3"></a>性质 3</h3><ul>
+<li><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,a > 0,\exists N,n > N,x_n > 0</script></li>
+</ul>
+<p>设 $a&gt;0$，取 $\varepsilon =\frac{a}{2},\exists N,n &gt; N,|x_n-a| &lt; \frac{a}{2}$</p>
+<p>$\therefore -\frac{a}{2} &lt; x_n-a &lt; \frac{a}{2}$</p>
+<p>$\therefore 0 &lt; \frac{a}{2} &lt; x_n &lt; \frac{3}{2}a$</p>
+<h3 id="性质-4"><a href="#性质-4" class="headerlink" title="性质 4"></a>性质 4</h3><ul>
+<li>$\lbrace x<em>n \rbrace$ 收敛于 $a$，任何子数列 $\lbrace x</em>{k_n} \rbrace$ 收敛于 $a$。</li>
+</ul>
 <p>原数列：$x_1,x_2,x_3,…$</p>
 <p>子数列：$x_1,x_5,x_7,…$（在原数列中随意取，但要保证数列中的数在原数列中的先后顺序）</p>
-<script type="math/tex; mode=display">\lim_\lbracen\rightarrow +\infty\rbrace\lbracex_n\rbrace=a,\forall \varepsilon > 0,\exists N,n > N,|x_n-a|<\varepsilon</script><p>$\therefore k<em>\lbracen\rbrace\geqslant n&gt;N,|x</em>\lbracek_n\rbrace-a|&lt;\varepsilon$</p>
-<p>$\therefore \lbrace x_\lbracek_n\rbrace \rbrace$ 收敛于 $a$</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,\forall \varepsilon > 0,\exists N,n > N,|x_n-a|<\varepsilon</script><p>$\therefore k<em>n\geqslant n &gt; N,|x</em>{k_n}-a| &lt; \varepsilon$</p>
+<p>$\therefore \lbrace x_{k_n} \rbrace$ 收敛于 $a$</p>
 <h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><ul>
 <li><p>推导 1：找到一个子数列不收敛，则原数列不收敛。</p>
 </li>
@@ -1225,7 +1234,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">84.6k</span>
+                        class="white-color">84.5k</span>
             
             
             
