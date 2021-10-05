@@ -522,7 +522,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2k
+                    2.2k
                 </div>
                 
 
@@ -746,18 +746,14 @@
 <p>$\therefore n &gt; \frac{1}{\varepsilon}^{\frac{1}{a}}$</p>
 <p>$N=\lfloor (\frac{1}{\varepsilon})^{\frac{1}{a}}\rfloor+1$</p>
 <p>$n &gt; N$ 时 $|\frac{1}{n^a}-0| &lt; \varepsilon$</p>
-<h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><h3 id="性质-1"><a href="#性质-1" class="headerlink" title="性质 1"></a>性质 1</h3><ul>
-<li>$\lbrace x_n \rbrace$ 收敛，极限唯一。</li>
-</ul>
+<h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><h3 id="性质-1"><a href="#性质-1" class="headerlink" title="性质 1"></a>性质 1</h3><p>$\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
 <p>反证法：</p>
 <p>假设极限不唯一，有两个极限分别为 $a$，$b$。</p>
 <script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=b</script><p>$a\not=b$，设 $a &lt; b$，取 $\varepsilon =\frac{b-a}{2}$</p>
 <script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=a,\exists N_1,n > N_1,|x_n-a| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-a < \frac{b-a}{2}</script><p>第 $n$ 项范围 $1$：</p>
 <script type="math/tex; mode=display">\therefore \frac{3a-b}{2} < x_n < \frac{a+b}{2}</script><script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=b,\exists N_2,n > N_2,|x_n-b| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-b < \frac{b-a}{2}</script><p>第 $n$ 项范围 $2$：</p>
 <script type="math/tex; mode=display">\therefore \frac{a+b}{2} < x_n < \frac{3b-a}{2}</script><p>第 $n$ 项的范围显然矛盾，所以 $\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
-<h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质 2"></a>性质 2</h3><ul>
-<li>$\lbrace x_n \rbrace$ 收敛，$\lbrace x_n \rbrace$ 有界。</li>
-</ul>
+<h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质 2"></a>性质 2</h3><p>$\lbrace x_n \rbrace$ 收敛，$\lbrace x_n \rbrace$ 有界。</p>
 <script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><p>取 $\varepsilon=1,\exists N,n &gt; N$</p>
 <p>$\therefore |x_n-a| &lt; 1$</p>
 <p>$\therefore |x_n|=|x_n-a+a|\leqslant|x_n-a|+|a|&lt;1+|a|$</p>
@@ -765,19 +761,15 @@
 <p>$M$ 即为“跳不出”的边界。</p>
 <p><strong>有界是收敛的必要条件，不是充分条件，例如：$\lbrace -1,1,-1,1,… \rbrace$</strong></p>
 <p><strong>若数列单调有界，则有极限。</strong></p>
-<h3 id="性质-3"><a href="#性质-3" class="headerlink" title="性质 3"></a>性质 3</h3><ul>
-<li><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,a > 0,\exists N,n > N,x_n > 0</script></li>
-</ul>
-<p>设 $a&gt;0$，取 $\varepsilon =\frac{a}{2},\exists N,n &gt; N,|x_n-a| &lt; \frac{a}{2}$</p>
+<h3 id="性质-3"><a href="#性质-3" class="headerlink" title="性质 3"></a>性质 3</h3><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,a > 0,\exists N,n > N,x_n > 0</script><p>设 $a&gt;0$，取 $\varepsilon =\frac{a}{2},\exists N,n &gt; N,|x_n-a| &lt; \frac{a}{2}$</p>
 <p>$\therefore -\frac{a}{2} &lt; x_n-a &lt; \frac{a}{2}$</p>
 <p>$\therefore 0 &lt; \frac{a}{2} &lt; x_n &lt; \frac{3}{2}a$</p>
-<h3 id="性质-4"><a href="#性质-4" class="headerlink" title="性质 4"></a>性质 4</h3><ul>
-<li>$\lbrace x<em>{n} \rbrace $ 收敛于 $a$，任何子数列 $\lbrace x</em>{k_{n}} \rbrace $ 收敛于 $a$。</li>
-</ul>
+<h3 id="性质-4"><a href="#性质-4" class="headerlink" title="性质 4"></a>性质 4</h3><script type="math/tex; mode=display">\lbrace x_{n} \rbrace</script><p>收敛于 $a$，</p>
+<p>任何子数列 </p>
+<script type="math/tex; mode=display">\lbrace x_{k_{n}} \rbrace</script><p>收敛于 $a$。</p>
 <p>原数列：$x_1,x_2,x_3,…$</p>
 <p>子数列：$x_1,x_5,x_7,…$（在原数列中随意取，但要保证数列中的数在原数列中的先后顺序）</p>
-<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,\forall \varepsilon > 0,\exists N,n > N,|x_n-a|<\varepsilon</script><p>$\therefore k<em>{n} \geqslant n &gt; N,|x</em>{k_{n}}-a| &lt; \varepsilon$</p>
-<p>$\therefore \lbrace x<em>{k</em>{n}} \rbrace$ 收敛于 $a$</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,\forall \varepsilon > 0,\exists N,n > N,|x_n-a|<\varepsilon</script><script type="math/tex; mode=display">k_{n} \geqslant n > N,|x_{k_{n}}-a| < \varepsilon</script><script type="math/tex; mode=display">\lbrace x_{k_{n}} \rbrace</script><p> 收敛于 $a$</p>
 <h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><ul>
 <li><p>推导 1：找到一个子数列不收敛，则原数列不收敛。</p>
 </li>
@@ -1233,7 +1225,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">84.4k</span>
+                        class="white-color">84.6k</span>
             
             
             
