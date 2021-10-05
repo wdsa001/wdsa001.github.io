@@ -43,6 +43,43 @@
   </entry>
   
   <entry>
+    <title>数列极限&amp;极限基础</title>
+    <link href="http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/"/>
+    <id>http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/</id>
+    <published>2021-10-05T08:18:59.000Z</published>
+    <updated>2021-10-05T08:23:05.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;集合-amp-元素&quot;&gt;&lt;a href=&quot;#集合-amp-元素&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="函数" scheme="http://wdsa001.github.io/tags/%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="极限" scheme="http://wdsa001.github.io/tags/%E6%9E%81%E9%99%90/"/>
+    
+    <category term="集合" scheme="http://wdsa001.github.io/tags/%E9%9B%86%E5%90%88/"/>
+    
+    <category term="直积" scheme="http://wdsa001.github.io/tags/%E7%9B%B4%E7%A7%AF/"/>
+    
+    <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
+    
+    <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>生成函数</title>
     <link href="http://wdsa001.github.io/2021/09/29/sheng-cheng-han-shu/"/>
     <id>http://wdsa001.github.io/2021/09/29/sheng-cheng-han-shu/</id>
@@ -628,42 +665,6 @@
     <category term="快速幂" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
     
     <category term="快速乘" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E4%B9%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AC自动机（二次加强）</title>
-    <link href="http://wdsa001.github.io/2021/09/07/ac-zi-dong-ji-er-ci-jia-qiang/"/>
-    <id>http://wdsa001.github.io/2021/09/07/ac-zi-dong-ji-er-ci-jia-qiang/</id>
-    <published>2021-09-07T09:05:43.000Z</published>
-    <updated>2021-09-07T09:31:19.903Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;看此文章前建议先看 &lt;a href=&quot;https://wdsa001.github.io/2021/09/04/zi-dian-shu-ac-zi-dong-ji/&quot;&gt;字典树&amp;amp;AC自动机&lt;/a&gt; 理解相关知识。&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="字典树" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E5%85%B8%E6%A0%91/"/>
-    
-    <category term="AC自动机" scheme="http://wdsa001.github.io/tags/AC%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
-    
-    <category term="拓扑排序" scheme="http://wdsa001.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
