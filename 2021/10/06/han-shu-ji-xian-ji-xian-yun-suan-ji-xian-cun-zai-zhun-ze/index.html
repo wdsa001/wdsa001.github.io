@@ -31,9 +31,9 @@
 
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
-
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
 </head>
 
 
@@ -570,12 +570,14 @@
 <p>使函数值都落在 $a$ 的邻域中。</p>
 <p>例子：</p>
 <script type="math/tex; mode=display">\lim_{x\rightarrow 1}{(2x+1)}=3,\lim_{x\rightarrow+\infty}{\sin{x}\rightarrow \sin{x_0}}</script><h3 id="公式-5"><a href="#公式-5" class="headerlink" title="公式 5"></a>公式 5</h3><ul>
-<li>左极限<br>（$x<em>0 &gt; x$）$x\rightarrow {x</em>{0}}^{-}$（从左边逼近），$0 &lt; x_0-x &lt; \delta$</li>
+<li>左极限（$x_0 &gt; x$）</li>
 </ul>
+<script type="math/tex; mode=display">x\rightarrow {x_{0}}^{-}</script><p>（从左边逼近），$0 &lt; x_0-x &lt; \delta$</p>
 <script type="math/tex; mode=display">\lim_{x\rightarrow {x_{0}}^{-}}{f(x)}=a</script><p>（注意 ${x_{0}}^{-}$ 的<strong>负号</strong>，代表从左逼近极限，是左极限）</p>
 <ul>
-<li>右极限<br>（$x<em>0 &lt; x$）$x\rightarrow {x</em>{0}}^{+}$（从右边逼近），$0 &lt; x-x_0 &lt; \delta$</li>
+<li>右极限 （$x_0 &lt; x$）</li>
 </ul>
+<script type="math/tex; mode=display">x\rightarrow {x_{0}}^{+}</script><p>（从右边逼近），$0 &lt; x-x_0 &lt; \delta$</p>
 <script type="math/tex; mode=display">\lim_{x\rightarrow {x_{0}}^{+}}{f(x)}=a</script><p>（注意 ${x_{0}}^{+}$ 的<strong>正号</strong>，代表从右逼近极限，是右极限）</p>
 <script type="math/tex; mode=display">\lim_{x\rightarrow x_0}{f(x)}=a\Leftrightarrow \lim_{x\rightarrow{x_0}^{-}}{f(x)}=\lim_{x\rightarrow{x_0}^{+}}{f(x)}</script><ul>
 <li><p>左右极限不存在，$x\rightarrow x_0$ 不存在。</p>
