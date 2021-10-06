@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="搭建中。。。, my,world">
+    <meta name="keywords" content="函数极限&amp;极限运算&amp;极限存在准则, my,world">
     <meta name="description" content="就算失败，也要以豪迈的姿态！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>搭建中。。。 | 王大神——A001</title>
+    <title>函数极限&amp;极限运算&amp;极限存在准则 | 王大神——A001</title>
     <link rel="icon" type="image/jpeg" href="/medias/me.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -338,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/63.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">搭建中。。。</h1>
+                    <h1 class="description center-align post-title">函数极限&amp;极限运算&amp;极限存在准则</h1>
                 </div>
             </div>
         </div>
@@ -459,8 +459,24 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">搭建</span>
+                            <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                                <span class="chip bg-color">数论</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%87%BD%E6%95%B0/">
+                                <span class="chip bg-color">函数</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%9E%81%E9%99%90/">
+                                <span class="chip bg-color">极限</span>
+                            </a>
+                        
+                            <a href="/tags/%E9%82%BB%E5%9F%9F/">
+                                <span class="chip bg-color">邻域</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%95%B0%E5%88%97/">
+                                <span class="chip bg-color">数列</span>
                             </a>
                         
                     </div>
@@ -484,21 +500,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-09
+                    2021-10-06
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-04
+                    2021-10-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    20
+                    2.2k
                 </div>
                 
 
@@ -528,12 +544,175 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>搭建博客中。。。</p>
-<p><a target="_blank" rel="noopener" href="https://tool.oschina.net/encrypt?type=2">密码</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/5a27d195678f">数学符号 Markdown</a></p>
-<p><a target="_blank" rel="noopener" href="https://hammyhome.com/">仓鼠之家</a></p>
-<p><a target="_blank" rel="noopener" href="http://lab.mkblog.cn/">奇怪之家</a></p>
+                <h2 id="函数极限"><a href="#函数极限" class="headerlink" title="函数极限"></a>函数极限</h2><p>$\frac{1}{x}$ 函数在 $(x&gt;0)$ 的部分：$x \rightarrow +\infty,f(x)\rightarrow 0$</p>
+<h3 id="公式-1"><a href="#公式-1" class="headerlink" title="公式 1"></a>公式 1</h3><p>$x\rightarrow +\infty,f(x)\rightarrow a$</p>
+<p>若 $\exists a,\forall \varepsilon &gt; 0,\exists X,x &gt; X$ 时，$|f(x)-a| &lt; \varepsilon$ </p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow +\infty}{f(x)}=a</script><p>例：证明 </p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow +\infty}{(\frac{1}{2})^{x}}=0</script><p>$\exists \varepsilon &gt; 0(\varepsilon &lt; 1)$，要使 $|f(x)-0| &lt; \varepsilon $</p>
+<p>$\because (\frac{1}{2})^x&lt;\varepsilon $</p>
+<p>$\therefore \frac{1}{\varepsilon} &lt; 2^x$ </p>
+<p>$\therefore x\lg{2} &gt; \lg{\frac{1}{\varepsilon}}$</p>
+<p>$\therefore x &gt; \frac{\lg{\frac{1}{\varepsilon}}}{\lg{2}}$</p>
+<p>取 $X=\frac{\lg{\frac{1}{\varepsilon}}}{\lg{2}}$</p>
+<p>当 $x &gt; X$ 时，有 $|f(x)-a| &lt; \varepsilon$</p>
+<p>注意：原来是<strong>数列极限</strong>，$x_n$ 代表第 $n$ 项，要 $\lfloor\rfloor$（下取整）但这里的 $x$ 是<strong>实数</strong>，所以不用取整。</p>
+<h3 id="公式-2"><a href="#公式-2" class="headerlink" title="公式 2"></a>公式 2</h3><p>$x\rightarrow -\infty,f(x)\rightarrow a$</p>
+<p>$\forall \varepsilon &gt; 0,\exists X(X &gt; 0),x &lt; -X$ 时，$|f(x)-a| &lt; \varepsilon$ </p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow +\infty}{f(x)}=a</script><h3 id="公式-3（合并前两个公式）"><a href="#公式-3（合并前两个公式）" class="headerlink" title="公式 3（合并前两个公式）"></a>公式 3（合并前两个公式）</h3><p>$x\rightarrow \infty,f(x)\rightarrow a$</p>
+<p>$\forall \varepsilon &gt; 0,\exists X(X &gt; 0),|x| &gt; X$ 时，$|f(x)-a| &lt; \varepsilon$ </p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow +\infty}{f(x)}=a</script><h3 id="公式-4"><a href="#公式-4" class="headerlink" title="公式 4"></a>公式 4</h3><p>$x\rightarrow x_0$（趋于有限数）</p>
+<p>$f(x)$ 在 $x_0$ 的<strong>去心邻域</strong>内有定义，在 $x_0$ 处可以没有定义。</p>
+<p>$\exists a,\forall \varepsilon &gt; 0,\exists \delta &gt; 0,0 &lt; |x-x_0| &lt; \delta,|f(x)-a| &lt; \varepsilon$</p>
+<p>（$x$ 取不到 $x_0$，趋近于 $x_0$）</p>
+<p>$|x-x_0| &gt; 0$，$x_0$ 处是否有定义，取值。</p>
+<p>$\varepsilon$：$a$ 的邻域半径。</p>
+<p>$\delta$；$x_0$ 的淋浴半径。</p>
+<p>使函数值都落在 $a$ 的邻域中。</p>
+<p>例子：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 1}{(2x+1)}=3,\lim_{x\rightarrow+\infty}{\sin{x}\rightarrow \sin{x_0}}</script><h3 id="公式-5"><a href="#公式-5" class="headerlink" title="公式 5"></a>公式 5</h3><ul>
+<li>左极限<br>（$x<em>0 &gt; x$）$x\rightarrow {x</em>{0}}^{-}$（从左边逼近），$0 &lt; x_0-x &lt; \delta$</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{x\rightarrow {x_{0}}^{-}}{f(x)}=a</script><p>（注意 ${x_{0}}^{-}$ 的<strong>负号</strong>，代表从左逼近极限，是左极限）</p>
+<ul>
+<li>右极限<br>（$x<em>0 &lt; x$）$x\rightarrow {x</em>{0}}^{+}$（从右边逼近），$0 &lt; x-x_0 &lt; \delta$</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{x\rightarrow {x_{0}}^{+}}{f(x)}=a</script><p>（注意 ${x_{0}}^{+}$ 的<strong>正号</strong>，代表从右逼近极限，是右极限）</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow x_0}{f(x)}=a\Leftrightarrow \lim_{x\rightarrow{x_0}^{-}}{f(x)}=\lim_{x\rightarrow{x_0}^{+}}{f(x)}</script><ul>
+<li><p>左右极限不存在，$x\rightarrow x_0$ 不存在。</p>
+</li>
+<li><p>左右极限都存在但是不相等，极限不存在。</p>
+</li>
+</ul>
+<p>例：</p>
+<script type="math/tex; mode=display">
+f(x)=
+\left\lbrace
+\begin{matrix}
+x(x \leqslant 1)\\
+2x+1(x>1)
+\end{matrix}\right.
 
+\lim_{x\rightarrow 1}{f(x)}</script><p>左极限：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 1^{-}}{f(x)}=1</script><p>右极限：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 1^{+}}{f(x)}=3</script><p>$1\not=3$ 所以 $x=1$ 不存在极限。</p>
+<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><p>性质 $1$：</p>
+<script type="math/tex; mode=display">\lim{f(x)}</script><p>存在，是唯一的。</p>
+<p>性质 $2$：（局部有界性）</p>
+<script type="math/tex; mode=display">\lim{f(x)}</script><p>存在，存在 $x_0$ 去心邻域，$f(x)$ 有界。</p>
+<p>性质 $3$：（局部保号性）</p>
+<script type="math/tex; mode=display">\lim{f(x)}=a,a > 0</script><p>一定存在去心邻域，$f(x) &gt; 0$</p>
+<p>性质 $4$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow}{f(x)} = a\Leftrightarrow x\rightarrow x_0</script><p>任意 $\lbrace x_n\rbrace$，</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n\rightarrow x_0}</script><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><p>函数：连续</p>
+<p>数列：分散（离散）</p>
+<ul>
+<li><p>若找到一个 $\lbrace x_n \rbrace$，数列极限不存在，极限不存在。</p>
+</li>
+<li><p>两个 $\lbrace x_n \rbrace$，数列极限不相等，原函数极限不存在。</p>
+</li>
+</ul>
+<p>例：</p>
+<p>证明</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 0}{\sin{\frac{1}{x}}}</script><p>不存在。</p>
+<script type="math/tex; mode=display">x_n=\frac{1}{2n\pi+\frac{\pi}{2}} \rightarrow 0(x\rightarrow 0,x_n\rightarrow 0)</script><script type="math/tex; mode=display">\lim_{n\rightarrow \infty}{\sin{\frac{\pi}{2}}}=1</script><script type="math/tex; mode=display">x_n=\frac{1}{2n\pi} \rightarrow 0(x\rightarrow 0,x_n\rightarrow 0)</script><script type="math/tex; mode=display">\lim_{n\rightarrow \infty}{\sin{2n\pi}}=1</script><script type="math/tex; mode=display">\because 1\not=0</script><script type="math/tex; mode=display">\therefore\lim_{x\rightarrow 0}{\sin{\frac{1}{x}}}</script><p>不存在。</p>
+<h2 id="无穷"><a href="#无穷" class="headerlink" title="无穷"></a>无穷</h2><h3 id="无穷小：趋近于-0-。"><a href="#无穷小：趋近于-0-。" class="headerlink" title="无穷小：趋近于 $0$。"></a>无穷小：趋近于 $0$。</h3><script type="math/tex; mode=display">f(x)\rightarrow 0,\lim_{x\rightarrow0}{x^2}=0</script><p>注意变化过程。</p>
+<p>无穷小 $+$ 无穷小 $\rightarrow 0$</p>
+<p>无穷小 $-$ 无穷小 $\rightarrow 0$</p>
+<p>无穷小 $\times$ 无穷小 $\rightarrow 0$</p>
+<p>无穷小 $/$ 无穷小 $\rightarrow ?$</p>
+<script type="math/tex; mode=display">?=
+\left\lbrace
+\begin{matrix}
+\lim_{x\rightarrow 0}{\frac{x}{x}}=1\\\\
+\lim_{x\rightarrow 0}{\frac{x}{2x}}=\frac{1}{2}\\\\
+\lim_{x\rightarrow 0}{\frac{x^2}{x}}=0\\\\
+\vdots
+\end{matrix}
+\right.</script><h4 id="定理-1-："><a href="#定理-1-：" class="headerlink" title="定理 $1$："></a>定理 $1$：</h4><p>无穷小 $x$，有界（确定的数）是无穷小 $=0$。</p>
+<p>例 $1$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 0}{x\sin{\frac{1}{x}}}=0</script><script type="math/tex; mode=display">|\sin{\frac{1}{x}}|\leqslant 1</script><p>有界</p>
+<script type="math/tex; mode=display">\therefore \lim_{x\rightarrow 0}{x\sin{\frac{1}{x}}}=0</script><p>例 $2$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{\sin{x}}{x}}=\lim_{x\rightarrow \infty}{\frac{1}{x}}\sin{x}=0</script><script type="math/tex; mode=display">\because |\sin{x}|\leqslant 1</script><p>有界</p>
+<script type="math/tex; mode=display">\because \lim_{x\rightarrow \infty}{\frac{1}{x}}=0</script><script type="math/tex; mode=display">\therefore \lim_{x\rightarrow \infty}{\frac{\sin{x}}{x}}=0</script><p>例 $3$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{ard\tan{x}}{x}}=0</script><script type="math/tex; mode=display">\because ard\tan{x}\in[-\frac{\pi}{2},\frac{\pi}{2}]</script><script type="math/tex; mode=display">\therefore \lim_{x\rightarrow \infty}{\frac{ard\tan{x}}{x}}=0</script><h4 id="定理-2-："><a href="#定理-2-：" class="headerlink" title="定理 $2$："></a>定理 $2$：</h4><script type="math/tex; mode=display">\lim{f(x)}=a\Leftrightarrow f(x)=a+\alpha(x),\lim{\alpha(x)}=0</script><script type="math/tex; mode=display">\lim{f(x)}=\lim{a}+\lim{\alpha(x)}=a+0=a</script><h3 id="无穷大：-infty-infty-。"><a href="#无穷大：-infty-infty-。" class="headerlink" title="无穷大：$+\infty,-\infty$。"></a>无穷大：$+\infty,-\infty$。</h3><p>无穷大 $+$ 有界 $\rightarrow$ 无穷大</p>
+<p>无穷大 $\times$ 无穷大 $\rightarrow$ 无穷大</p>
+<p>（关于：<a href="https://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/#toc-heading-7">$(+\infty)+(+\infty)$</a> 一类的运算）</p>
+<h4 id="定理-3-："><a href="#定理-3-：" class="headerlink" title="定理 $3$："></a>定理 $3$：</h4><p>$f(x)$ 无穷大，则 $\frac{1}{f(x)}$ 无穷小，同一变化过程。</p>
+<p>$f(x)$ 无穷小，则 $\frac{1}{f(x)}$ 无穷大。</p>
+<h2 id="极限运算"><a href="#极限运算" class="headerlink" title="极限运算"></a>极限运算</h2><script type="math/tex; mode=display">\lim{f(x)}=a,\lim{g(x)}=b</script><p><strong>极限存在</strong></p>
+<script type="math/tex; mode=display">\lim{(f(x)+g(x))}=\lim{f(x)}+\lim{g(x)}=a+b</script><script type="math/tex; mode=display">\lim{(f(x)-g(x))}=\lim{f(x)}-\lim{g(x)}=a-b</script><script type="math/tex; mode=display">\lim{(f(x)\times g(x))}=\lim{f(x)}\times \lim{g(x)}=a\times b</script><script type="math/tex; mode=display">\lim{\frac{f(x)}{g(x)}}=\frac{\lim{f(x)}}{\lim{g(x)}}=\frac{a}{b}</script><script type="math/tex; mode=display">\lim{nf(x)}=n\lim{f(x)}=n\times a</script><script type="math/tex; mode=display">\lim{(f(x)^n)}=(\lim{f(x)})^n=a^n</script><ul>
+<li><p>常数外提</p>
+</li>
+<li><p>于 $x$ <strong>无关</strong>的变量外提</p>
+</li>
+</ul>
+<p>不能拆<strong>无限个</strong>的极限运算</p>
+<script type="math/tex; mode=display">\lim{(f_1(x)+f_2(x)+f_3(x)+…)}</script><ul>
+<li><p>有限个</p>
+</li>
+<li><p>每个函数的极限存在</p>
+</li>
+</ul>
+<p>例 $1$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 1}{(2x^2-x+3)}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 1}{2x^2}-\lim_{x\rightarrow 1}{x}+3</script><script type="math/tex; mode=display">=2-1+3=4</script><p>例 $2$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 2}{\frac{3x-1}{x^2+6}}=\frac{5}{10}=\frac{1}{2}</script><p>例 $3$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 2}{\frac{x+2}{x-2}}=\infty</script><ul>
+<li><p>多项式，只接代入</p>
+</li>
+<li><p>有理分式，多项式 $/$ 多项式（$\not=0$），只接代入</p>
+</li>
+</ul>
+<p>例 $4$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{2x^2+3x+1}{5x^2+4x+3}}</script><p>分子分母同时除去 $x^2$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{2+\frac{3}{x}+\frac{1}{x^2}}{5+\frac{4}{x}+\frac{3}{x^2}}}</script><script type="math/tex; mode=display">\because x\rightarrow \infty</script><script type="math/tex; mode=display">\therefore \frac{3}{x}\rightarrow 0</script><script type="math/tex; mode=display">\therefore \lim_{x\rightarrow \infty}{\frac{2+\frac{3}{x}+\frac{1}{x^2}}{5+\frac{4}{x}+\frac{3}{x^2}}}=\frac{2}{5}</script><ul>
+<li>分子分母同次，最高次的系数比即为答案。</li>
+</ul>
+<p>例 $5$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 0}{\frac{2x^5+x^3+3}{10x^5+x^2-2}}=-\frac{3}{2}</script><p><strong>注意 $x$ 的极限是什么</strong></p>
+<p>例 $6$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{5x^2+4x-1}{3x^3-2}}</script><p>两边同时除 $x^3$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{\frac{5}{x}+\frac{4}{x^2}-\frac{1}{x^3}}{3-\frac{2}{x^3}}}=\frac{0}{3}=0</script><ul>
+<li>分母次数高，结果为 $0$</li>
+</ul>
+<p>例 $7$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{3x^3+4x-1}{3x^2-2}}</script><p>两边同时除 $x^3$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow \infty}{\frac{3+\frac{4}{x^2}-\frac{1}{x^3}}{\frac{3}{x}-\frac{2}{x^3}}}=\frac{3}{0}=\infty</script><ul>
+<li>分子次数高，结果为 $\infty$</li>
+</ul>
+<p>例 $8$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 1}{\frac{x-1}{x^2-1}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 1}{\frac{x-1}{(x-1)(x+1)}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 1}{\frac{1}{x+1}}=\frac{1}{2}</script><p>例 $9$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 0}{\frac{\sqrt{x+1}-1}{x}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 0}{\frac{(\sqrt{x+1}-1)(\sqrt{x+1}+1)}{x(\sqrt{x+1}+1)}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 0}{\frac{x}{x(\sqrt{x+1}+1)}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow 0}{\frac{1}{\sqrt{x+1}+1}}=\frac{1}{2}</script><p>例 $10$：</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow \infty}{(\frac{1}{n^2}+\frac{2}{n^2}+\frac{3}{n^2}+…+\frac{n}{n^2})}</script><script type="math/tex; mode=display">=\lim_{n\rightarrow \infty}{\frac{\frac{1}{2}n(n+1)}{n^2}}</script><script type="math/tex; mode=display">=\lim_{n\rightarrow \infty}{\frac{\frac{1}{2}(n+1)}{n}}</script><script type="math/tex; mode=display">=\frac{1}{2}</script><p>（参见例 $4$ 得到的推论）</p>
+<p>例 $11$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow +\infty}{(\sqrt{x^2+x+1}-\sqrt{x^2-x+1})}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow +\infty}{\frac{x^2+x+1-(x^2-x+1)}{\sqrt{x^2+x+1}+\sqrt{x^2-x+1}}}</script><script type="math/tex; mode=display">=\lim_{x\rightarrow +\infty}{\frac{2x}{\sqrt{x^2+x+1}+\sqrt{x^2-x+1}}}</script><p>$\sqrt{x^2}=x$，指数时 $1$。</p>
+<p>（参见例 $4$ 得到的推论）</p>
+<script type="math/tex; mode=display">=\frac{2}{1+1}=1</script><p>例 $12$：</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 3}{\frac{x^2-2x+k}{x-3}}=4</script><p>因为 $\frac{0}{0}$ 会出现结果为常数的情况</p>
+<script type="math/tex; mode=display">\lim_{x\rightarrow 3}{x^2-2x+k}=0</script><script type="math/tex; mode=display">=9-6+k=0</script><script type="math/tex; mode=display">k=-3</script><h3 id="常见求极限的情况"><a href="#常见求极限的情况" class="headerlink" title="常见求极限的情况"></a>常见求极限的情况</h3><ul>
+<li><p>多项式</p>
+</li>
+<li><p>$\frac{\infty}{\infty}$</p>
+</li>
+<li><p>无限项之和</p>
+</li>
+<li><p>分子有理化</p>
+</li>
+<li><p>分子分母消去</p>
+</li>
+</ul>
+<h2 id="极限存在准则"><a href="#极限存在准则" class="headerlink" title="极限存在准则"></a>极限存在准则</h2><h3 id="夹逼定理"><a href="#夹逼定理" class="headerlink" title="夹逼定理"></a>夹逼定理</h3><p>$f(x),g(x),h(x)$ 满足 $U(\hat{x_0},r)$</p>
+<script type="math/tex; mode=display">g(x)\leqslant f(x)\leqslant h(x)</script><script type="math/tex; mode=display">\lim_{x\rightarrow x_0}{g(x)}=\lim_{x\rightarrow x_0}{h(x)}=a\Rightarrow\lim_{x\rightarrow x_0}{f(x)}=a</script><p>例：</p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow\infty}{\frac{2^n}{n!}}</script><script type="math/tex; mode=display">0 < \frac{2^n}{n!} =\frac{2\times 2\times 2\times …\times  2
+}{1\times 2\times 3\times …\times n} < \frac{2\times 2}{1\times n}=\frac{4}{n}</script><p>$n\rightarrow \infty$ 时，$\frac{4}{n}\rightarrow 0$</p>
+<script type="math/tex; mode=display">\therefore \frac{2^n}{n!}\rightarrow 0</script><script type="math/tex; mode=display">\therefore \lim_{n\rightarrow \infty}{\frac{2^n}{n!}}\rightarrow 0</script><h3 id="定理-2"><a href="#定理-2" class="headerlink" title="定理 2"></a>定理 2</h3><p>单调有界数列必有权限。</p>
+<script type="math/tex; mode=display">|x_n|\leqslant M,-M\leqslant x_n\leqslant M</script><p><strong>单调增有上界必有极限，单调减有下界必有极限。</strong></p>
+<p>例：</p>
+<script type="math/tex; mode=display">a > 0,x_1=\sqrt{a},x_n=\sqrt{a+x_{n-1}}</script><script type="math/tex; mode=display">\sqrt{a} < \sqrt{a+\sqrt{a}}</script><p>设 $x_{n-1} &lt; x_n$</p>
+<script type="math/tex; mode=display">a+x_{n-1} < a+x_n</script><script type="math/tex; mode=display">\sqrt{a+x_{n-1}} < \sqrt{a+x_n}</script><script type="math/tex; mode=display">x_n < x_{n+1}</script><p>$\therefore$ 单调增</p>
+<script type="math/tex; mode=display">x_1=\sqrt{a} < \sqrt{a+\sqrt{a}}</script><p>设 $x_{n-1} &lt; x_n$</p>
+<script type="math/tex; mode=display">x_1=\sqrt{a} < \sqrt{a}+1,x_n< \sqrt{a}+1</script><script type="math/tex; mode=display">x_{n+1}=\sqrt{a+x_n} < \sqrt{a+\sqrt{a}+1}</script><script type="math/tex; mode=display">= \sqrt{(\sqrt{a})^2+\sqrt{a}+1} < \sqrt{(\sqrt{a})^2+2\sqrt{a}+1}=\sqrt{a}+1</script><p>$\therefore$ 有极限</p>
+<p>设 </p>
+<script type="math/tex; mode=display">\lim_{n\rightarrow\infty}{x_n}=b</script><script type="math/tex; mode=display">\lim_{n\rightarrow \infty}{x_n}=\lim_{n\rightarrow \infty}{\sqrt{a+x_{n-1}}}</script><script type="math/tex; mode=display">b=\sqrt{a+b}</script><script type="math/tex; mode=display">b^2-b-a=0</script><script type="math/tex; mode=display">b=\frac{1\pm\sqrt{1+4a}}{2}</script><script type="math/tex; mode=display">b=\frac{1+\sqrt{1+4a}}{2}(b > 0)</script>
                 
             </div>
             <hr/>
@@ -559,7 +738,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wdsa001.github.io/2021/08/09/da-jian-bo-ke/">http://wdsa001.github.io/2021/08/09/da-jian-bo-ke/</a>
+                    <a href="http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/">http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -597,8 +776,24 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">搭建</span>
+                                <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                                    <span class="chip bg-color">数论</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%87%BD%E6%95%B0/">
+                                    <span class="chip bg-color">函数</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%9E%81%E9%99%90/">
+                                    <span class="chip bg-color">极限</span>
+                                </a>
+                            
+                                <a href="/tags/%E9%82%BB%E5%9F%9F/">
+                                    <span class="chip bg-color">邻域</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%95%B0%E5%88%97/">
+                                    <span class="chip bg-color">数列</span>
                                 </a>
                             
                         </div>
@@ -648,23 +843,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/09/da-shen-ji/">
+                <a href="/6666/06/06/shuo-ming/">
                     <div class="card-image">
                         
-                        <img src="/images/0.jpg" class="responsive-img" alt="大神集">
+                        <img src="/images/48.jpg" class="responsive-img" alt="说明">
                         
-                        <span class="card-title">大神集</span>
+                        <span class="card-title">说明</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            小诗
+                            说明
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-09
+                            <i class="far fa-clock fa-fw icon-date"></i>6666-06-06
                         </span>
                         <span class="publish-author">
                             
@@ -693,26 +888,26 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/09/da-jian-bo-ke/">
+                <a href="/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/">
                     <div class="card-image">
                         
-                        <img src="/images/1.jpg" class="responsive-img" alt="搭建中。。。">
+                        <img src="/images/62.jpg" class="responsive-img" alt="数列极限&amp;极限基础">
                         
-                        <span class="card-title">搭建中。。。</span>
+                        <span class="card-title">数列极限&amp;极限基础</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            搭建博客中！
+                            数列极限&极限基础
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-09
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-05
                             </span>
                         <span class="publish-author">
                             
@@ -726,12 +921,35 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">搭建</span>
+                    <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                        <span class="chip bg-color">数论</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%87%BD%E6%95%B0/">
+                        <span class="chip bg-color">函数</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9E%81%E9%99%90/">
+                        <span class="chip bg-color">极限</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%9B%86%E5%90%88/">
+                        <span class="chip bg-color">集合</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%9B%B4%E7%A7%AF/">
+                        <span class="chip bg-color">直积</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%82%BB%E5%9F%9F/">
+                        <span class="chip bg-color">邻域</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E5%88%97/">
+                        <span class="chip bg-color">数列</span>
                     </a>
                     
                 </div>

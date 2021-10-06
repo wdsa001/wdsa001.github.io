@@ -43,6 +43,39 @@
   </entry>
   
   <entry>
+    <title>函数极限&amp;极限运算&amp;极限存在准则</title>
+    <link href="http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/"/>
+    <id>http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/</id>
+    <published>2021-10-06T12:13:27.000Z</published>
+    <updated>2021-10-06T12:18:16.097Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;函数极限&quot;&gt;&lt;a href=&quot;#函数极限&quot; class=&quot;headerlink&quot; title=&quot;函数极限&quot;&gt;&lt;/a&gt;函数极限&lt;/h2&gt;&lt;p&gt;$\frac{1}{x}$ 函数在 $(x&amp;gt;0)$ 的部分：$x \rightarrow</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="函数" scheme="http://wdsa001.github.io/tags/%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="极限" scheme="http://wdsa001.github.io/tags/%E6%9E%81%E9%99%90/"/>
+    
+    <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
+    
+    <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数列极限&amp;极限基础</title>
     <link href="http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/"/>
     <id>http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/</id>
@@ -631,40 +664,6 @@
     <category term="树链剖分" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
     <category term="最近公共祖先" scheme="http://wdsa001.github.io/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>快速降次</title>
-    <link href="http://wdsa001.github.io/2021/09/08/kuai-su-jiang-ci/"/>
-    <id>http://wdsa001.github.io/2021/09/08/kuai-su-jiang-ci/</id>
-    <published>2021-09-08T08:49:37.000Z</published>
-    <updated>2021-09-08T22:58:43.347Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;快速降次&quot;&gt;&lt;a href=&quot;#快速降次&quot; class=&quot;headerlink&quot; title=&quot;快速降次&quot;&gt;&lt;/a&gt;快速降次&lt;/h3&gt;&lt;p&gt;我们以快速幂为例子，模拟一下这个过程。&lt;/p&gt;
-&lt;p&gt;假如我们现在要计算 $2^{13}$。我们可以用</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="矩阵" scheme="http://wdsa001.github.io/tags/%E7%9F%A9%E9%98%B5/"/>
-    
-    <category term="快速幂" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
-    
-    <category term="快速乘" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E4%B9%98/"/>
     
   </entry>
   
