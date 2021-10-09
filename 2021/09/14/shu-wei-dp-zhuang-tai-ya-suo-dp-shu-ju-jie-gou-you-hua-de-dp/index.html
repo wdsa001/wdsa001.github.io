@@ -502,7 +502,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.5k
+                    3.4k
                 </div>
                 
 
@@ -663,8 +663,7 @@
 <span class="token punctuation">}</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="P5308-Quiz（斜率优化）"><a href="#P5308-Quiz（斜率优化）" class="headerlink" title="P5308 Quiz（斜率优化）"></a>P5308 Quiz（斜率优化）</h3><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5308">P5308 COCI2019 Quiz</a></p>
 <p>首先不考虑 $k$，设 $f_i$ 表示从后往前数某一轮还剩 $i$ 个人的最大奖金。<br>枚举这一轮的下一轮还剩多少人，中间少的就是淘汰的。</p>
-<p>$f<em>i=\max</em>{0\le j &lt; i}(f_j+\frac{i-j}{i})$</p>
-<script type="math/tex; mode=display">f_{i}=\max_{0\le j < i}(f_{j}+\frac{i-j}{i})</script><p>假设对于决策 $0 \le k &lt; j &lt; i$，有 $j$ 优于 $k$.</p>
+<script type="math/tex; mode=display">f_{i}=\max_{0\le j < i}(f_{j}+\frac{i-j}{i})</script><p>假设对于决策 $0 \le k &lt; j &lt; i$，有 $j$ 优于 $k$。</p>
 <p>$f_j+\frac{i-j}{i}&gt;f_k+\frac{i-k}{i}$</p>
 <p>$f_j-f_k&gt;\frac{j-k}{i}$</p>
 <p>$\frac{f_j-f_k}{j-k}&gt;\frac{1}{i}$</p>
