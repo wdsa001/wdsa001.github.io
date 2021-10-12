@@ -43,6 +43,50 @@
   </entry>
   
   <entry>
+    <title>数学公式整理</title>
+    <link href="http://wdsa001.github.io/2021/10/12/shu-xue-gong-shi-zheng-li/"/>
+    <id>http://wdsa001.github.io/2021/10/12/shu-xue-gong-shi-zheng-li/</id>
+    <published>2021-10-12T08:10:38.000Z</published>
+    <updated>2021-10-12T08:13:05.153Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;欧几里得算法（辗转相除法）&quot;&gt;&lt;a href=&quot;#欧几里得算法（辗转相除法）&quot; class=&quot;headerlink&quot; title=&quot;欧几里得算法（辗转相除法）&quot;&gt;&lt;/a&gt;欧几里得算法（辗转相除法）&lt;/h3&gt;&lt;p&gt;求 $\gcd(a,b)$&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="裴蜀定理" scheme="http://wdsa001.github.io/tags/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="有理数取余" scheme="http://wdsa001.github.io/tags/%E6%9C%89%E7%90%86%E6%95%B0%E5%8F%96%E4%BD%99/"/>
+    
+    <category term="欧几里得算法（辗转相除）" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%EF%BC%88%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%EF%BC%89/"/>
+    
+    <category term="扩展欧几里得算法" scheme="http://wdsa001.github.io/tags/%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="中国剩余定理" scheme="http://wdsa001.github.io/tags/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="卢卡斯定理" scheme="http://wdsa001.github.io/tags/%E5%8D%A2%E5%8D%A1%E6%96%AF%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="欧拉公式" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F/"/>
+    
+    <category term="费马小定理" scheme="http://wdsa001.github.io/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>扫描线</title>
     <link href="http://wdsa001.github.io/2021/10/09/sao-miao-xian/"/>
     <id>http://wdsa001.github.io/2021/10/09/sao-miao-xian/</id>
@@ -76,7 +120,7 @@
     <link href="http://wdsa001.github.io/2021/10/08/cf476d/"/>
     <id>http://wdsa001.github.io/2021/10/08/cf476d/</id>
     <published>2021-10-08T14:13:31.000Z</published>
-    <updated>2021-10-08T22:20:11.219Z</updated>
+    <updated>2021-10-10T01:17:30.612Z</updated>
     
     
       
@@ -610,39 +654,6 @@
     <category term="LIS" scheme="http://wdsa001.github.io/tags/LIS/"/>
     
     <category term="LCS" scheme="http://wdsa001.github.io/tags/LCS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021.9.11模拟赛</title>
-    <link href="http://wdsa001.github.io/2021/09/11/2021.9.11-mo-ni-sai/"/>
-    <id>http://wdsa001.github.io/2021/09/11/2021.9.11-mo-ni-sai/</id>
-    <published>2021-09-11T13:43:21.000Z</published>
-    <updated>2021-09-12T02:02:36.159Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="模拟赛" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
-    
-    <category term="动态规划" scheme="http://wdsa001.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
-    
-    <category term="树状数组" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="队列" scheme="http://wdsa001.github.io/tags/%E9%98%9F%E5%88%97/"/>
-    
-    <category term="笛卡尔树" scheme="http://wdsa001.github.io/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94%E6%A0%91/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
