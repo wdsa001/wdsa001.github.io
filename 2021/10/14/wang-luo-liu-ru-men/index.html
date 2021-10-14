@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="凸包, my,world">
+    <meta name="keywords" content="网络流入门, my,world">
     <meta name="description" content="就算失败，也要以豪迈的姿态！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>凸包 | 王大神——A001</title>
+    <title>网络流入门 | 王大神——A001</title>
     <link rel="icon" type="image/jpeg" href="/medias/me.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -338,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/68.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">凸包</h1>
+                    <h1 class="description center-align post-title">网络流入门</h1>
                 </div>
             </div>
         </div>
@@ -459,20 +459,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                                <span class="chip bg-color">题解</span>
-                            </a>
-                        
-                            <a href="/tags/%E6%A8%A1%E6%9D%BF/">
-                                <span class="chip bg-color">模板</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/">
-                                <span class="chip bg-color">平面几何</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%87%B8%E5%8C%85/">
-                                <span class="chip bg-color">凸包</span>
+                            <a href="/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/">
+                                <span class="chip bg-color">网络流</span>
                             </a>
                         
                     </div>
@@ -496,21 +484,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-10
+                    2021-10-14
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-09-07
+                    2021-10-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    682
+                    878
                 </div>
                 
 
@@ -540,77 +528,84 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前置知识——叉积"><a href="#前置知识——叉积" class="headerlink" title="前置知识——叉积"></a>前置知识——叉积</h3><p>在平面中我们为了度量一条直线的倾斜状态，为引入倾斜角这个概念。而通过在直角坐标系中建立 $\tan a=k$，我们实现了将几何关系和代数关系的衔接，这其实也是用计算机解决几何问题的一个核心，计算机做的是数值运算，因此你需要做的就是把几何关系用代数关系表达出来。而在空间中，为了表示一个平面相对空间直角坐标系的倾斜程度，我们利用一个垂直该平面的法向量来度量(因为这转化成了描述直线倾斜程度的问题)。</p>
-<h4 id="求解三角形（平行四边形）面积"><a href="#求解三角形（平行四边形）面积" class="headerlink" title="求解三角形（平行四边形）面积"></a>求解三角形（平行四边形）面积</h4><p>$\lvert \vec{a}\times \vec{b}\rvert  =\lvert \vec{a}\rvert\times \lvert\vec{b}\rvert\times\sin \Theta$</p>
-<p>$S_{\Delta ABC}=\frac{1}{2}\vec{\lvert AB\rvert }\vec{\lvert AC\rvert }\sin A = \frac{1}{2}\lvert \vec{AB}\times \vec{AC}\rvert$</p>
-<h4 id="判断-某一点在直线左右侧"><a href="#判断-某一点在直线左右侧" class="headerlink" title="判断 某一点在直线左右侧"></a>判断 某一点在直线左右侧</h4><ul>
-<li>若$a\times b&gt;0$ , 则 $a$ 在 $b$ 的顺时针方向。</li>
-<li>若$a\times b&lt;0$ , 则 $a$ 在 $b$ 的逆时针方向。 </li>
-<li>若$a\times b=0$ , 则 $a$ 与 $b$ 共线，但可能同向也可能反向。 </li>
-</ul>
-<h3 id="凸包"><a href="#凸包" class="headerlink" title="凸包"></a>凸包</h3><h4 id="定义为："><a href="#定义为：" class="headerlink" title="定义为："></a>定义为：</h4><p>平面的一个子集 $S$ 被称为是“凸”的，当且仅当对于任意两点 $p$，$s ∈S$，线段 $ps$ 都完全属于 $S$。（平面凸包定义）<br><img src="https://img-blog.csdn.net/20180204141337435" alt="集合"></p>
-<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2742">P2742 USACO5.1 圈奶牛Fencing the Cows /【模板】二维凸包</a><br></p><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;iostream&gt;</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;cstring&gt;</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;string&gt;</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;algorithm&gt;</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;cstdio&gt;</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;cmath&gt;</span></span>
-<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
-<span class="token keyword">const</span> <span class="token keyword">int</span> o_o<span class="token operator">=</span><span class="token number">5000001</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> n<span class="token punctuation">;</span><span class="token keyword">double</span> ans<span class="token punctuation">;</span><span class="token keyword">int</span> cn<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> fu<span class="token punctuation">[</span>o_o<span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token keyword">struct</span> <span class="token class-name">po</span><span class="token punctuation">{</span>
-  <span class="token keyword">double</span> x<span class="token punctuation">;</span>
-  <span class="token keyword">double</span> y<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>dian<span class="token punctuation">[</span>o_o<span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token keyword">bool</span> <span class="token function">cmp</span><span class="token punctuation">(</span>po a<span class="token punctuation">,</span>po b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span> a<span class="token punctuation">.</span>x<span class="token operator">==</span>b<span class="token punctuation">.</span>x<span class="token operator">?</span>a<span class="token punctuation">.</span>y<span class="token operator">&lt;</span>b<span class="token punctuation">.</span>y<span class="token operator">:</span>a<span class="token punctuation">.</span>x<span class="token operator">&lt;</span>b<span class="token punctuation">.</span>x<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-po <span class="token function">n_e</span><span class="token punctuation">(</span>po a<span class="token punctuation">,</span>po b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span><span class="token punctuation">(</span>po<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>x<span class="token operator">-</span>a<span class="token punctuation">.</span>x<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>y<span class="token operator">-</span>a<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">double</span> <span class="token function">cha</span><span class="token punctuation">(</span>po a<span class="token punctuation">,</span>po b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span> a<span class="token punctuation">.</span>x<span class="token operator">*</span>b<span class="token punctuation">.</span>y<span class="token operator">-</span>a<span class="token punctuation">.</span>y<span class="token operator">*</span>b<span class="token punctuation">.</span>x<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">double</span> <span class="token function">sq</span><span class="token punctuation">(</span>po a<span class="token punctuation">,</span>po b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span> <span class="token function">sqrt</span><span class="token punctuation">(</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>x<span class="token operator">-</span>b<span class="token punctuation">.</span>x<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>x<span class="token operator">-</span>b<span class="token punctuation">.</span>x<span class="token punctuation">)</span><span class="token operator">+</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>y<span class="token operator">-</span>b<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>y<span class="token operator">-</span>b<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">void</span> <span class="token function">get_tb</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">;</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    po u<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    po v<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">cha</span><span class="token punctuation">(</span>u<span class="token punctuation">,</span>v<span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      <span class="token keyword">if</span><span class="token punctuation">(</span>cn<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token keyword">break</span><span class="token punctuation">;</span>
-      cn<span class="token operator">--</span><span class="token punctuation">;</span>
-      u<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-      v<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span>i<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">int</span> end<span class="token operator">=</span>n<span class="token punctuation">;</span>
-  fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span>n<span class="token punctuation">;</span>fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>n<span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">;</span>i<span class="token operator">&gt;=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">--</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    po u<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    po v<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">cha</span><span class="token punctuation">(</span>u<span class="token punctuation">,</span>v<span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      <span class="token keyword">if</span><span class="token punctuation">(</span>cn<span class="token operator">==</span>end<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token keyword">break</span><span class="token punctuation">;</span>
-      cn<span class="token operator">--</span><span class="token punctuation">;</span>
-      u<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-      v<span class="token operator">=</span><span class="token function">n_e</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>cn<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    fu<span class="token punctuation">[</span><span class="token operator">++</span>cn<span class="token punctuation">]</span><span class="token operator">=</span>i<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  cin<span class="token operator">&gt;&gt;</span>n<span class="token punctuation">;</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%lf %lf"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>x<span class="token punctuation">,</span><span class="token operator">&amp;</span>dian<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token function">sort</span><span class="token punctuation">(</span>dian<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>dian<span class="token operator">+</span><span class="token number">1</span><span class="token operator">+</span>n<span class="token punctuation">,</span>cmp<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token function">get_tb</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>cn<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>ans<span class="token operator">+=</span><span class="token function">sq</span><span class="token punctuation">(</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dian<span class="token punctuation">[</span>fu<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.2lf"</span><span class="token punctuation">,</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p></p>
+                <h2 id="S-T-割"><a href="#S-T-割" class="headerlink" title="$S-T$ 割"></a>$S-T$ 割</h2><p><img src="https://z3.ax1x.com/2021/10/14/5lmYDg.png" alt="原图"></p>
+<p>我们知道，判断从 $s$ 到 $t$ 是否存在路径，可以通过 $dfs$ 和 $bfs$ 判断即可，但是如何证明 $s\rightarrow t$ 存在路径呢？</p>
+<p>为了方便理解，我们先将原图更改一下：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmUEj.png" alt="路径判断-1"></p>
+<p>首先，我们通过一些“笨”方法来描述，先枚举所有 $s\rightarrow t$ 的<strong>可能</strong>路径，例如： $s\rightarrow t$，$s\rightarrow a\rightarrow t$，$s\rightarrow a\rightarrow b\rightarrow t$，$…$</p>
+<p>一条 $s\rightarrow t$ 的路径一定在上面的列表中，但是找不到合法路径，所以不存在 $s\rightarrow t$ 的路径。</p>
+<p>这么证明非常麻烦，我们不仅要枚举所有路径，还要判断其是否合法。</p>
+<p>现在我们将整个图分成两部分：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmaUs.png" alt="路径判断-2"></p>
+<p>$S-T$ 割：割的大小为 $S\rightarrow T$ 中点连边的个数（$S\rightarrow T$）</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmd5n.png" alt="路径判断-3"></p>
+<p>$S=\lbrace s\rbrace $</p>
+<p>$T=\lbrace a,b,c,d,t\rbrace $</p>
+<p>这种分割方法 $S\rightarrow T$ 有两条边，所以割边为 $2$。</p>
+<p>集合分的点是在随意的，如下：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lm0Cq.png" alt="路径判断-4"></p>
+<p>$S=\lbrace s,d,c\rbrace$</p>
+<p>$T=\lbrace a,b,t\rbrace$</p>
+<p>$S\rightarrow T$ 割边为 $3$。</p>
+<p>大小为 $0$ 的 $S-T$ 割是“找不到路径”的证明。</p>
+<p>求 $G$ 中最多有多少条不相交的 $S\rightarrow T$ 路径。</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmB80.png" alt="不相交路径-1"></p>
+<p>设不相交数量 $=k$</p>
+<p>若 $k=1$，存在，那么可以找 $k=2$ 是否存在 $…$ 知道不存在为止。</p>
+<p>我们先用一个相对简单的图学习一下。</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmD2V.png" alt="不相交路径-2"></p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmrvT.png" alt="不相交路径-3"></p>
+<p>分成两个集合：$S=\lbrace a,b,c,s\rbrace,T=\lbrace c,t\rbrace$</p>
+<p>枚举路径：</p>
+<p>$s\rightarrow a\rightarrow b\rightarrow c\rightarrow t$</p>
+<p>$s\rightarrow d\rightarrow b\rightarrow c\rightarrow t$</p>
+<p>$s\rightarrow d\rightarrow a\rightarrow b\rightarrow c\rightarrow t$</p>
+<p>如果发现 $S-T=1$,那么 $s,t$ 最多有一条路径（$k\leqslant 1$）,<strong>此时 $k=0$ 也是可能的。</strong></p>
+<p>不难发现：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmB80.png" alt="不相交路径-1"></p>
+<p>所有的 $S-T$ 割都 $\geqslant 2$。</p>
+<p>那么我们这么找路径呢？</p>
+<p>我们可以随意找一条路径，然后不断“纠错”，统计答案个数（类似于求最长上升子序列的思路）</p>
+<p>我们不幸的找到了路：$s\rightarrow d\rightarrow a\rightarrow b\rightarrow c\rightarrow t$</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmyKU.png" alt="不相交路径-4"></p>
+<p>我们找到这条路后将所有经过的路径反转：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lm6rF.png" alt="不相交路径-5"></p>
+<p>然后，我们继续找路：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lm18P.png" alt="不相交路径-6"></p>
+<p>继续反转：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lm3gf.png" alt="不相交路径-7"></p>
+<p>此时已经没有路径可以使 $S\rightarrow T$,所以结果为 $2$，而将路径反转的操作就是“纠错”。也叫作：$Ford-Fulkerson$ 残留网络。</p>
+<h2 id="残留网络"><a href="#残留网络" class="headerlink" title="残留网络"></a>残留网络</h2><p>正确性证明：</p>
+<p>站如现在已经找到了：$p1,p2,p3$这几条路径：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmKUA.png" alt="残留网络-1"></p>
+<p>现在又发现了路径 $p4$ 的存在，那么我们要对原图进行一些修改：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmlCt.png" alt="残留网络-2"></p>
+<p>由于反转操作，中间重合的部分会断掉（因为新出现的 $p4$ 经过了这些道路，所以要“纠错”）</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lmM4I.png" alt="残留网络-3"></p>
+<p>将编号图进行美化：</p>
+<p><img src="https://z3.ax1x.com/2021/10/14/5lm8v8.png" alt="残留网络-4"></p>
+<p>所以正确性没问题。</p>
+<h2 id="带权图（网络流）"><a href="#带权图（网络流）" class="headerlink" title="带权图（网络流）"></a>带权图（网络流）</h2><p><img src="https://z3.ax1x.com/2021/10/14/5lmJKS.png" alt="网络流"></p>
+<p>可以将每个边的权值看成很多个重边，例如：将 $s\rightarrow a$ 可以看成有 $20$ 个 $s\rightarrow a$ 边，然后不断进行“纠错”。</p>
+<p>容量：$C_u,v$</p>
+<p>流量：$x_i$</p>
+<p>设 </p>
+<p>$x_1=s\rightarrow a\rightarrow b\rightarrow t$</p>
+<p>$x_2=s\rightarrow a\rightarrow c\rightarrow d\rightarrow t$</p>
+<p>$…$</p>
+<p>$s\rightarrow a:x_1+x_2+…\leqslant 20$</p>
+<p>$c\rightarrow d:x_2+x_3+…\leqslant 10$</p>
+<p>$x_i\geqslant 0(1\leqslant i\leqslant p)$</p>
+<p>这即是网络流的“原始”表达（线性规划）</p>
+<p>设 $f(s,a)$ 表示为 $s\leftrightarrow a$ 边流量。</p>
+<p>线性规划：</p>
+<p>$f(s,a)=f(a,b)+f(a,c)$ （流出量守恒）</p>
+<p>$f(a,b)=f(b,c)+f(b,t)$</p>
+<p>$…$</p>
+<p>可以想象成路径叠加。</p>
+<p>线性规划“对偶”理论</p>
+<p>最大值约束（$\leqslant$）$\Leftrightarrow$ 最小值约束（$\geqslant$）</p>
+<p>最少的边能覆盖路径不就是 $S-T$ 割么！</p>
 
                 
             </div>
@@ -637,7 +632,7 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wdsa001.github.io/2021/08/10/tu-bao/">http://wdsa001.github.io/2021/08/10/tu-bao/</a>
+                    <a href="http://wdsa001.github.io/2021/10/14/wang-luo-liu-ru-men/">http://wdsa001.github.io/2021/10/14/wang-luo-liu-ru-men/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -675,20 +670,8 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                                    <span class="chip bg-color">题解</span>
-                                </a>
-                            
-                                <a href="/tags/%E6%A8%A1%E6%9D%BF/">
-                                    <span class="chip bg-color">模板</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/">
-                                    <span class="chip bg-color">平面几何</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%87%B8%E5%8C%85/">
-                                    <span class="chip bg-color">凸包</span>
+                                <a href="/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/">
+                                    <span class="chip bg-color">网络流</span>
                                 </a>
                             
                         </div>
@@ -738,23 +721,23 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/10/xin-sui-ji-shu-sheng-cheng-qi/">
+                <a href="/6666/06/06/shuo-ming/">
                     <div class="card-image">
                         
-                        <img src="/images/23.jpg" class="responsive-img" alt="新随机数生成器（c++11）-mt19937">
+                        <img src="/images/48.jpg" class="responsive-img" alt="说明">
                         
-                        <span class="card-title">新随机数生成器（c++11）-mt19937</span>
+                        <span class="card-title">说明</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            随机数
+                            说明
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-10
+                            <i class="far fa-clock fa-fw icon-date"></i>6666-06-06
                         </span>
                         <span class="publish-author">
                             
@@ -771,8 +754,8 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0/">
-                        <span class="chip bg-color">随机数</span>
+                    <a href="/tags/%E6%90%AD%E5%BB%BA/">
+                        <span class="chip bg-color">搭建</span>
                     </a>
                     
                 </div>
@@ -786,23 +769,23 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/10/qiang-lian-tong-fen-liang/">
+                <a href="/2021/10/12/shu-xue-gong-shi-zheng-li/">
                     <div class="card-image">
                         
-                        <img src="/images/21.jpg" class="responsive-img" alt="强联通分量">
+                        <img src="/images/67.jpg" class="responsive-img" alt="数学公式整理">
                         
-                        <span class="card-title">强联通分量</span>
+                        <span class="card-title">数学公式整理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            强联通分量（tarjan）
+                            数学公式整理
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-12
                             </span>
                         <span class="publish-author">
                             
@@ -819,20 +802,44 @@ po <span class="token function">n_e</span><span class="token punctuation">(</spa
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                        <span class="chip bg-color">题解</span>
-                    </a>
-                    
                     <a href="/tags/%E6%A8%A1%E6%9D%BF/">
                         <span class="chip bg-color">模板</span>
                     </a>
                     
-                    <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                        <span class="chip bg-color">图论</span>
+                    <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                        <span class="chip bg-color">数论</span>
                     </a>
                     
-                    <a href="/tags/%E5%BC%BA%E8%81%94%E9%80%9A%E5%88%86%E9%87%8F/">
-                        <span class="chip bg-color">强联通分量</span>
+                    <a href="/tags/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">裴蜀定理</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%89%E7%90%86%E6%95%B0%E5%8F%96%E4%BD%99/">
+                        <span class="chip bg-color">有理数取余</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%EF%BC%88%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%EF%BC%89/">
+                        <span class="chip bg-color">欧几里得算法（辗转相除）</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">扩展欧几里得算法</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">中国剩余定理</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%8D%A2%E5%8D%A1%E6%96%AF%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">卢卡斯定理</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F/">
+                        <span class="chip bg-color">欧拉公式</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">费马小定理</span>
                     </a>
                     
                 </div>
