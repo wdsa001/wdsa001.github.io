@@ -43,6 +43,39 @@
   </entry>
   
   <entry>
+    <title>Dinic（最大流）</title>
+    <link href="http://wdsa001.github.io/2021/12/04/dinic/"/>
+    <id>http://wdsa001.github.io/2021/12/04/dinic/</id>
+    <published>2021-12-04T04:03:02.000Z</published>
+    <updated>2021-12-04T04:03:59.032Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;最大流&quot;&gt;&lt;a href=&quot;#最大流&quot; class=&quot;headerlink&quot; title=&quot;最大流&quot;&gt;&lt;/a&gt;最大流&lt;/h2&gt;&lt;p&gt;复习 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="网络流" scheme="http://wdsa001.github.io/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
+    
+    <category term="Dinic" scheme="http://wdsa001.github.io/tags/Dinic/"/>
+    
+  </entry>
+  
+  <entry>
     <title>矩阵求逆</title>
     <link href="http://wdsa001.github.io/2021/12/04/ju-zhen-qiu-ni/"/>
     <id>http://wdsa001.github.io/2021/12/04/ju-zhen-qiu-ni/</id>
@@ -628,35 +661,6 @@
     <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
     <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树状数组</title>
-    <link href="http://wdsa001.github.io/2021/09/18/shu-zhuang-shu-zu/"/>
-    <id>http://wdsa001.github.io/2021/09/18/shu-zhuang-shu-zu/</id>
-    <published>2021-09-18T09:28:06.000Z</published>
-    <updated>2021-10-09T06:44:09.719Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;树状数组&quot;&gt;&lt;a href=&quot;#树状数组&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="树状数组" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
