@@ -31,9 +31,9 @@
 
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
 </head>
 
 
@@ -736,10 +736,10 @@ f(w^{n-1}) \\\\
 
 二进制：    000,100,010,110,001,101,011,111<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>所以可以直接排好序然后直接从底层分好块遍历。</p>
-<h3 id="处理二进制反转"><a href="#处理二进制反转" class="headerlink" title="处理二进制反转"></a>处理二进制反转</h3><p>用已经处理好的二进制数右移一位，判断移走的哪位是否为 $1$，直接补在最左边。</p>
+<h3 id="处理二进制反转（蝴蝶变换）"><a href="#处理二进制反转（蝴蝶变换）" class="headerlink" title="处理二进制反转（蝴蝶变换）"></a>处理二进制反转（蝴蝶变换）</h3><p>用已经处理好的二进制数右移一位，判断移走的哪位是否为 $1$，直接补在最左边。</p>
 <pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>m_a<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>e_d<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span><span class="token punctuation">(</span>e_d<span class="token punctuation">[</span>i<span class="token operator">&gt;&gt;</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">&gt;&gt;</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">|</span><span class="token punctuation">(</span><span class="token punctuation">(</span>i<span class="token operator">&amp;</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">&lt;&lt;</span><span class="token punctuation">(</span>l_g<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token comment">//反转的二进制 </span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h3 id="蝴蝶效应"><a href="#蝴蝶效应" class="headerlink" title="蝴蝶效应"></a>蝴蝶效应</h3><p>有一个可以让 <code>for</code> 优化 $1$ 毫秒的办法，但由于性价比太小导致我们并不注意，但如果这个 <code>for</code> 调用了几百次甚至几千次，那么将它优化后，就有可能从 <code>TLE</code>变成 <code>AC</code>。</p>
+<p>有一个可以让 <code>for</code> 优化 $1$ 毫秒的办法，但由于性价比太小导致我们并不注意，但如果这个 <code>for</code> 调用了几百次甚至几千次，那么将它优化后，就有可能从 <code>TLE</code>变成 <code>AC</code>。</p>
 <p>在遍历 $f_1,f_2$ 时，如果直接套公式的话：</p>
 <pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp">
 a_a<span class="token punctuation">[</span>j<span class="token operator">+</span>k_k<span class="token punctuation">]</span><span class="token operator">=</span>a_a<span class="token punctuation">[</span>j<span class="token operator">+</span>k_k<span class="token punctuation">]</span><span class="token operator">+</span>k<span class="token operator">*</span>a_a<span class="token punctuation">[</span>j<span class="token operator">+</span>m_i<span class="token operator">+</span>k_k<span class="token punctuation">]</span><span class="token punctuation">;</span>
@@ -1281,7 +1281,7 @@ a_a<span class="token punctuation">[</span>j<span class="token operator">+</span
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">99.4k</span>
+                        class="white-color">101k</span>
             
             
             
