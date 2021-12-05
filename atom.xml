@@ -43,6 +43,41 @@
   </entry>
   
   <entry>
+    <title>扩展kmp</title>
+    <link href="http://wdsa001.github.io/2021/12/05/kuo-zhan-kmp/"/>
+    <id>http://wdsa001.github.io/2021/12/05/kuo-zhan-kmp/</id>
+    <published>2021-12-05T11:13:04.000Z</published>
+    <updated>2021-12-05T11:14:32.191Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;KMP&quot;&gt;&lt;a href=&quot;#KMP&quot; class=&quot;headerlink&quot; title=&quot;KMP&quot;&gt;&lt;/a&gt;KMP&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3375&quot;&gt;P3375</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="KMP" scheme="http://wdsa001.github.io/tags/KMP/"/>
+    
+    <category term="manacher" scheme="http://wdsa001.github.io/tags/manacher/"/>
+    
+    <category term="扩展kmp" scheme="http://wdsa001.github.io/tags/%E6%89%A9%E5%B1%95kmp/"/>
+    
+  </entry>
+  
+  <entry>
     <title>费用流</title>
     <link href="http://wdsa001.github.io/2021/12/05/fei-yong-liu/"/>
     <id>http://wdsa001.github.io/2021/12/05/fei-yong-liu/</id>
@@ -640,38 +675,6 @@
     <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
     
     <category term="fhq-treap" scheme="http://wdsa001.github.io/tags/fhq-treap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>主席树（基础）</title>
-    <link href="http://wdsa001.github.io/2021/09/21/zhu-xi-shu-ji-chu/"/>
-    <id>http://wdsa001.github.io/2021/09/21/zhu-xi-shu-ji-chu/</id>
-    <published>2021-09-21T09:07:36.000Z</published>
-    <updated>2021-09-21T09:16:19.481Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;不断开辟新的节点，存储新状态下改变的点，不改变的点直接回历史中去找，相当于新存变化的节点，不变的节点共用。&lt;/p&gt;
-&lt;h2 id=&quot;可持久化线段树-1&quot;&gt;&lt;a href=&quot;#可持久化线段树-1&quot; class=&quot;headerlink&quot; title=&quot;可持久化线段树</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
     
   </entry>
   
