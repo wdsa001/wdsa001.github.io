@@ -43,6 +43,34 @@
   </entry>
   
   <entry>
+    <title>自然对数e</title>
+    <link href="http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/"/>
+    <id>http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/</id>
+    <published>2021-12-06T12:29:45.000Z</published>
+    <updated>2021-12-06T12:30:18.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;自然对数-e&quot;&gt;&lt;a href=&quot;#自然对数-e&quot; class=&quot;headerlink&quot; title=&quot;自然对数 e&quot;&gt;&lt;/a&gt;自然对数 e&lt;/h2&gt;&lt;p&gt;很自然的一个常数（&lt;del&gt;手动划掉&lt;/del&gt;）&lt;/p&gt;
+&lt;p&gt;再网上翻看了不少资料后，发现它并没有</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="自然对数" scheme="http://wdsa001.github.io/tags/%E8%87%AA%E7%84%B6%E5%AF%B9%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>扩展kmp</title>
     <link href="http://wdsa001.github.io/2021/12/05/kuo-zhan-kmp/"/>
     <id>http://wdsa001.github.io/2021/12/05/kuo-zhan-kmp/</id>
@@ -621,41 +649,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;可持久化文艺平衡树&quot;&gt;&lt;a href=&quot;#可持久化文艺平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化文艺平衡树&quot;&gt;&lt;/a&gt;可持久化文艺平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-    <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
-    
-    <category term="fhq-treap" scheme="http://wdsa001.github.io/tags/fhq-treap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>fhq-treap</title>
-    <link href="http://wdsa001.github.io/2021/09/22/fhq-treap/"/>
-    <id>http://wdsa001.github.io/2021/09/22/fhq-treap/</id>
-    <published>2021-09-22T13:56:13.000Z</published>
-    <updated>2021-09-23T03:07:05.466Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;可持久化平衡树&quot;&gt;&lt;a href=&quot;#可持久化平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化平衡树&quot;&gt;&lt;/a&gt;可持久化平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
     

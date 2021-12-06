@@ -29,6 +29,33 @@
     
     
     <entry>
+      <title>自然对数e</title>
+      <link href="/2021/12/06/zi-ran-dui-shu-e/"/>
+      <url>/2021/12/06/zi-ran-dui-shu-e/</url>
+      
+        <content type="html"><![CDATA[<h2 id="自然对数-e"><a href="#自然对数-e" class="headerlink" title="自然对数 e"></a>自然对数 e</h2><p>很自然的一个常数（<del>手动划掉</del>）</p><p>再网上翻看了不少资料后，发现它并没有 $\pi$ 那么简单理解，更多的解释是一个值为 $2.71828182845904523536⋯$ 的常数，原因是发现不同方面都有它的身影。</p><p>我们从几个简单的例子入手，来大概了解一下它的“自然”。</p><h3 id="增长极限"><a href="#增长极限" class="headerlink" title="增长极限"></a>增长极限</h3><p>我们知道到银行存钱可以“生钱”，一般都会标明“复利”这一概念（通俗来讲：存多少钱，存几年，给多少钱）。那么如果增加涨钱，你会立刻得到很多钱么？</p><p>先在假设在 $1$ 个单位时间内，涨<strong>一</strong>次钱，每次涨<strong>一倍</strong>，那么用公式来表达：</p><script type="math/tex; mode=display">growth=(1+100\%)=2</script><p>$growth$ 代表增长率，现在我们让他增长的快一些，在 $1$ 个单位时间内，涨<strong>两</strong>次钱，那么平均 $\frac{1}{2}$ 个单位时间涨<strong>一</strong>次钱：</p><script type="math/tex; mode=display">growth=(1+\frac{100\%}{2})^2=2.25</script><p>如果单位时间内涨 $10000$ 次，你会一夜暴富么？</p><script type="math/tex; mode=display">growth=(1+\frac{100\%}{10000})^{10000}\approx 2.7181459268</script><p>嗯？怎么和想象的不一样？别急，如果我们单位时间内增长 $n$ 次，就有公式：</p><script type="math/tex; mode=display">growth=\lim_{n\to \infty}(1+\frac{100\%}{n})^n\approx 2.7182818284…=e</script><p>我们的 $e$ 出现了。根据自然增长，“涨”的次数越多，却不会很快的变多，而是有极限的 $e$（虽然它是无限不循环小数）。试想，这其实和现实中的细胞分裂道理相同，如果不加限制的快速增长，那世界会变成什么样子？所以这个常数确实非常“符合”“自然”。</p><script type="math/tex; mode=display">e=\lim_{x\to \infty}{(1+\frac{1}{n})^{n}}</script><p>注意：如果增加涨钱，确实会立刻的到很多钱，我们刚刚讨论的是<strong>增长率</strong>。</p><h3 id="“加减术”"><a href="#“加减术”" class="headerlink" title="“加减术”"></a>“加减术”</h3><p>$2\sin A\times \cos B=\sin(A+B)+\sin(A-B)$</p><p>在很久很久以前如果要计算 $0.258819\times 0.984808$ 会是一个非常麻烦的事情，只能靠手算还要考虑进位。但是有了“加减术”后，可以在三角函数表中找到 $0.258819\approx \sin{15}^{\circ},0.984808\approx \cos{10}^{\circ}$。</p><p>那么就可以直接套公式了：</p><script type="math/tex; mode=display">\sin{15}^{\circ}\times\cos{10}^{\circ}=\frac{1}{2}(\sin{25}^{\circ}+\sin{5}^{\circ})</script><p>然后在三角函数表中找到：$\sin{25}^{\circ}\approx0.422618,\sin{5}^{\circ}\approx0.087156$，得出结果：$\approx0.254887$。</p><p>乘法运算变成了加法运算，是不是很神奇？和 <a href="https://wdsa001.github.io/2021/12/03/fft/">FFT</a> 的想法有些相似。</p><h3 id="约翰-纳皮尔对数"><a href="#约翰-纳皮尔对数" class="headerlink" title="约翰.纳皮尔对数"></a>约翰.纳皮尔对数</h3><p><img src="https://s4.ax1x.com/2021/12/06/oyCsL8.jpg" alt="约翰.纳皮尔对数"></p><p>约翰.纳皮尔用运动来描述对数，一开始有两个粒子，分别在直线和线段上运动，在一开始时两个粒子的初速度相同，但是上面的 $b$ 粒子是匀速直线运动，下面的 $\beta$ 粒子的速度在数值上与它终点的距离相等。</p><p>经过对 $\beta$ 粒子速度的分析（需要微积分的知识，感兴趣的读者可以上网查阅相关内容），最后的到约翰.纳皮尔对数是 $\frac{1}{e}$ 为底的对数。</p><p>随后他有制成了 $10^7$ 的对数表（把圆等分成 $10^7$ 份的精确度），运营弄方法和“加减术”相同。单他简化的是开放乘法计算，类似于：$\sqrt{a\times b}$ 在表中分别找到 $a$ 对应的值 $k_a$，$b$ 对应的值 $k_b$，最后 $\sqrt{a\times b}=\frac{k_a+k_b}{2}$</p><h3 id="无穷级数"><a href="#无穷级数" class="headerlink" title="无穷级数"></a>无穷级数</h3><script type="math/tex; mode=display">e=\sum_{x=0}^{\infty}{\frac{1}{i!}}=\frac{1}{0!}+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+…</script><h3 id="相关公式"><a href="#相关公式" class="headerlink" title="相关公式"></a>相关公式</h3><ul><li>欧拉公式：</li></ul><script type="math/tex; mode=display">e^{i\pi}+1=0</script><ul><li>素数定理：</li></ul><script type="math/tex; mode=display">\lim_{e\to \infty}{\frac{\pi(x)\ln{x}}{x}}=1</script><p>$\pi(x)$ 代表小于等于x的素数的个数。 </p><ul><li>高斯正态分布：</li></ul><script type="math/tex; mode=display">f(x)=(\sqrt{2\pi}\times \sigma)^{-1}\times e^{-\frac{(x-a)^2}{2{\sigma}^2}}</script><p>$\sigma$ 代表标准差，$\sigma^2$ 代表方差。</p><p><strong>平时就当成和 $\pi$ 一样的常数处理就行了，只不过，它很“自然”。</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数论 </tag>
+            
+            <tag> 自然对数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>扩展kmp</title>
       <link href="/2021/12/05/kuo-zhan-kmp/"/>
       <url>/2021/12/05/kuo-zhan-kmp/</url>
