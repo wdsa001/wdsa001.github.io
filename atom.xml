@@ -43,6 +43,40 @@
   </entry>
   
   <entry>
+    <title>后缀数组</title>
+    <link href="http://wdsa001.github.io/2021/12/07/hou-zhui-shu-zu/"/>
+    <id>http://wdsa001.github.io/2021/12/07/hou-zhui-shu-zu/</id>
+    <published>2021-12-07T03:08:55.000Z</published>
+    <updated>2021-12-07T03:09:31.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;后缀数组&quot;&gt;&lt;a href=&quot;#后缀数组&quot; class=&quot;headerlink&quot; title=&quot;后缀数组&quot;&gt;&lt;/a&gt;后缀数组&lt;/h2&gt;&lt;p&gt;后缀数组释然给我们讲原串的每个元素在原串中的后缀按照字典序从大到小排序。&lt;/p&gt;
+&lt;p&gt;首先介绍几个数组的意义</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="后缀数组" scheme="http://wdsa001.github.io/tags/%E5%90%8E%E7%BC%80%E6%95%B0%E7%BB%84/"/>
+    
+    <category term="倍增" scheme="http://wdsa001.github.io/tags/%E5%80%8D%E5%A2%9E/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自然对数e</title>
     <link href="http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/"/>
     <id>http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/</id>
@@ -633,41 +667,6 @@
     <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
     
     <category term="LCT" scheme="http://wdsa001.github.io/tags/LCT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>可持久化文艺平衡树</title>
-    <link href="http://wdsa001.github.io/2021/09/23/ke-chi-jiu-hua-wen-yi-ping-heng-shu/"/>
-    <id>http://wdsa001.github.io/2021/09/23/ke-chi-jiu-hua-wen-yi-ping-heng-shu/</id>
-    <published>2021-09-23T08:33:36.000Z</published>
-    <updated>2021-09-23T08:33:41.770Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;可持久化文艺平衡树&quot;&gt;&lt;a href=&quot;#可持久化文艺平衡树&quot; class=&quot;headerlink&quot; title=&quot;可持久化文艺平衡树&quot;&gt;&lt;/a&gt;可持久化文艺平衡树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-    <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
-    
-    <category term="fhq-treap" scheme="http://wdsa001.github.io/tags/fhq-treap/"/>
     
   </entry>
   
