@@ -43,6 +43,43 @@
   </entry>
   
   <entry>
+    <title>重要极限形式&amp;无穷小比较&amp;函数连续性</title>
+    <link href="http://wdsa001.github.io/2021/12/10/chong-yao-ji-xian-xing-shi-wu-qiong-xiao-bi-jiao-han-shu-lian-xu-xing/"/>
+    <id>http://wdsa001.github.io/2021/12/10/chong-yao-ji-xian-xing-shi-wu-qiong-xiao-bi-jiao-han-shu-lian-xu-xing/</id>
+    <published>2021-12-10T12:34:10.000Z</published>
+    <updated>2021-12-10T13:15:32.474Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前置文章：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/&quot;&gt;数列极限&amp;amp;极限基础&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="函数" scheme="http://wdsa001.github.io/tags/%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="多项式" scheme="http://wdsa001.github.io/tags/%E5%A4%9A%E9%A1%B9%E5%BC%8F/"/>
+    
+    <category term="极限" scheme="http://wdsa001.github.io/tags/%E6%9E%81%E9%99%90/"/>
+    
+    <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
+    
+    <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>树套树</title>
     <link href="http://wdsa001.github.io/2021/12/10/shu-tao-shu/"/>
     <id>http://wdsa001.github.io/2021/12/10/shu-tao-shu/</id>
@@ -637,39 +674,6 @@
     <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
     
     <category term="差分约束" scheme="http://wdsa001.github.io/tags/%E5%B7%AE%E5%88%86%E7%BA%A6%E6%9D%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>函数极限&amp;极限运算&amp;极限存在准则</title>
-    <link href="http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/"/>
-    <id>http://wdsa001.github.io/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/</id>
-    <published>2021-10-06T12:13:27.000Z</published>
-    <updated>2021-10-06T12:36:27.171Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;函数极限&quot;&gt;&lt;a href=&quot;#函数极限&quot; class=&quot;headerlink&quot; title=&quot;函数极限&quot;&gt;&lt;/a&gt;函数极限&lt;/h2&gt;&lt;p&gt;$\frac{1}{x}$ 函数在 $(x&amp;gt;0)$ 的部分：$x \rightarrow</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="函数" scheme="http://wdsa001.github.io/tags/%E5%87%BD%E6%95%B0/"/>
-    
-    <category term="极限" scheme="http://wdsa001.github.io/tags/%E6%9E%81%E9%99%90/"/>
-    
-    <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
-    
-    <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
     
   </entry>
   
