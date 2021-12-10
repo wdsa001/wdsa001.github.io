@@ -43,6 +43,41 @@
   </entry>
   
   <entry>
+    <title>树套树</title>
+    <link href="http://wdsa001.github.io/2021/12/10/shu-tao-shu/"/>
+    <id>http://wdsa001.github.io/2021/12/10/shu-tao-shu/</id>
+    <published>2021-12-10T01:43:45.000Z</published>
+    <updated>2021-12-10T01:44:10.566Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;树套树&quot;&gt;&lt;a href=&quot;#树套树&quot; class=&quot;headerlink&quot; title=&quot;树套树&quot;&gt;&lt;/a&gt;树套树&lt;/h2&gt;&lt;p&gt;在学习 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+    <category term="树套树" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E5%A5%97%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>后缀自动机SAM</title>
     <link href="http://wdsa001.github.io/2021/12/09/hou-zhui-zi-dong-ji-sam/"/>
     <id>http://wdsa001.github.io/2021/12/09/hou-zhui-zi-dong-ji-sam/</id>
@@ -635,43 +670,6 @@
     <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
     
     <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数列极限&amp;极限基础</title>
-    <link href="http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/"/>
-    <id>http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/</id>
-    <published>2021-10-05T08:18:59.000Z</published>
-    <updated>2021-10-05T14:09:27.144Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;集合-amp-元素&quot;&gt;&lt;a href=&quot;#集合-amp-元素&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="函数" scheme="http://wdsa001.github.io/tags/%E5%87%BD%E6%95%B0/"/>
-    
-    <category term="极限" scheme="http://wdsa001.github.io/tags/%E6%9E%81%E9%99%90/"/>
-    
-    <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
-    
-    <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
-    
-    <category term="集合" scheme="http://wdsa001.github.io/tags/%E9%9B%86%E5%90%88/"/>
-    
-    <category term="直积" scheme="http://wdsa001.github.io/tags/%E7%9B%B4%E7%A7%AF/"/>
     
   </entry>
   
