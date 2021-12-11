@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="数列极限&amp;极限基础, my,world">
+    <meta name="keywords" content="微分基础, my,world">
     <meta name="description" content="就算失败，也要以豪迈的姿态！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>数列极限&amp;极限基础 | 王大神——A001</title>
+    <title>微分基础 | 王大神——A001</title>
     <link rel="icon" type="image/jpeg" href="/medias/me.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -338,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/62.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/83.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">数列极限&amp;极限基础</h1>
+                    <h1 class="description center-align post-title">微分基础</h1>
                 </div>
             </div>
         </div>
@@ -467,24 +467,24 @@
                                 <span class="chip bg-color">函数</span>
                             </a>
                         
-                            <a href="/tags/%E6%9E%81%E9%99%90/">
-                                <span class="chip bg-color">极限</span>
+                            <a href="/tags/%E5%A4%9A%E9%A1%B9%E5%BC%8F/">
+                                <span class="chip bg-color">多项式</span>
                             </a>
                         
-                            <a href="/tags/%E9%82%BB%E5%9F%9F/">
-                                <span class="chip bg-color">邻域</span>
+                            <a href="/tags/%E6%9E%81%E9%99%90/">
+                                <span class="chip bg-color">极限</span>
                             </a>
                         
                             <a href="/tags/%E6%95%B0%E5%88%97/">
                                 <span class="chip bg-color">数列</span>
                             </a>
                         
-                            <a href="/tags/%E9%9B%86%E5%90%88/">
-                                <span class="chip bg-color">集合</span>
+                            <a href="/tags/%E5%AF%BC%E6%95%B0/">
+                                <span class="chip bg-color">导数</span>
                             </a>
                         
-                            <a href="/tags/%E7%9B%B4%E7%A7%AF/">
-                                <span class="chip bg-color">直积</span>
+                            <a href="/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/">
+                                <span class="chip bg-color">微积分</span>
                             </a>
                         
                     </div>
@@ -508,21 +508,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-05
+                    2021-12-11
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-05
+                    2021-12-11
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.2k
+                    1.1k
                 </div>
                 
 
@@ -552,243 +552,94 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="集合-amp-元素"><a href="#集合-amp-元素" class="headerlink" title="集合&amp;元素"></a>集合&amp;元素</h2><p>集合：（一般用大写字母表示：$A$,$B$,$C$）一些确定的对象的事物由元素组成。例如：$\lbrace 1,2,3 \rbrace$，直线上所有的点（$y=x,y=x^2,y=\sqrt{x}$）。</p>
-<p>元素：一般用小写字母表示 $a,b,c$。</p>
-<p>元素有限个：有限集；元素无限个：无限集。</p>
-<p>元素和集合有两种关系：元素被包含：$a\in A$；元素不被包含 $a\notin A$。</p>
-<p>子集：$A\subset B$ 或 $A\supset B$（集合之间的关系）</p>
-<h3 id="集合和元素关系"><a href="#集合和元素关系" class="headerlink" title="集合和元素关系"></a>集合和元素关系</h3><p>$a=1$</p>
-<p>$A=\lbrace 1,2,3 \rbrace$</p>
-<p>$B=\lbrace \lbrace 1,2,3 \rbrace,\lbrace 1,4 \rbrace \rbrace$</p>
-<p>$a\in A$</p>
-<p>$A\in B$（注意符号：对于 B 来说 A 属于元素）</p>
-<p>$A\subset B,B\subset A\Rightarrow A=B$</p>
-<p>空集：$\phi$</p>
-<h3 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h3><p>$\cup:A\cup B,A$ 和 $B$ 集合所有包含部分。</p>
-<p>$\cap:A\cap B,A$ 和 $B$ 集合所有重叠部分。</p>
-<p>$-:A- B,A$ 集合中所有和 $B$ 不重叠部分。</p>
-<p>$\Omega:$ 全集。</p>
-<p>$\overline{A}:\overline{A}=\Omega-A$，集合中不与 $A$ 重叠的部分（补集）。</p>
-<p>多重运算：</p>
-<p>$A\cup B=B\cup A$</p>
-<p>$A\cap B=B\cap A$</p>
-<p>$A\cup(B\cup C)=(A\cup B)\cup C$</p>
-<p>$A\cap(B\cap C)=(A\cap B)\cap C$</p>
-<p>$A\cup(B\cap C)=(A\cup B)\cap (A\cup B)$</p>
-<p>$A\cap(B\cup C)=(A\cap B)\cup (A\cap B)$</p>
-<p>$\overline{A\cup B}=\overline{A}\cap\overline{B}$</p>
-<p>$\overline{A\cap B}=\overline{A}\cup\overline{B}$</p>
-<h3 id="直积（笛卡尔乘积）"><a href="#直积（笛卡尔乘积）" class="headerlink" title="直积（笛卡尔乘积）"></a>直积（笛卡尔乘积）</h3><p>直积（笛卡尔乘积）：两个集合相乘。</p>
-<p>$A\times B=\lbrace (a,b)|a\in A,b\in B \rbrace$ <strong>有序对</strong> $a,b$。</p>
-<p>$A=\lbrace 1,2 \rbrace,B=\lbrace 3,4,5 \rbrace$</p>
-<p>$A\times B=\lbrace \lbrace 1,3 \rbrace,\lbrace 1,4 \rbrace,\lbrace 1,5 \rbrace,\lbrace 2,3 \rbrace,\lbrace 2,4 \rbrace,\lbrace 2,5 \rbrace \rbrace$</p>
-<p>$B\times A=\lbrace \lbrace 3,1 \rbrace,\lbrace 3,2 \rbrace,\lbrace 4,1 \rbrace,\lbrace 4,2 \rbrace,\lbrace 5,1 \rbrace,\lbrace 5,2 \rbrace \rbrace$</p>
-<h3 id="邻域"><a href="#邻域" class="headerlink" title="邻域"></a>邻域</h3><p>$U(a,\delta)=\lbrace x|a-\delta &lt; x &lt; a+\delta \rbrace$</p>
-<p>$a$：中点，$\delta$：半径。</p>
-<p>去心邻域（不要中点的邻域）：</p>
-<p>$U(\hat{a},\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
-<p>$\mathring{U}(a,\delta)=\lbrace 0 &lt; |x-a| &lt; \delta \rbrace$</p>
-<p>（符号不统一，两种表示方法同一个意思）。</p>
-<h3 id="区间"><a href="#区间" class="headerlink" title="区间"></a>区间</h3><p>有限区间：</p>
+                <p><a href="https://wdsa001.github.io/2021/12/11/dao-shu/">导数</a></p>
+<h2 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h2><script type="math/tex; mode=display">\Delta x,\Delta y=y(x_0+\Delta x)-y(x_0)</script><script type="math/tex; mode=display">y=e^x,x:1\to 1.01,\Delta y=e^{1.01}-e^1</script><p>人工不好计算出 $\Delta y$ 的值，并且，在现实生活中不需要那么高的精度。所以我们可以去<strong>近似值</strong>。</p>
+<p><img src="https://s1.ax1x.com/2021/12/10/oI7z4g.png" alt="微分例子"></p>
+<p>原来，我们有边长为 $x_0$ 的正方形，现在我们将它扩建，边长增加 $\Delta x$，那么 </p>
+<script type="math/tex; mode=display">\Delta S=(x_0+\Delta x)^2-x_0^2=2(x_0+\Delta x)\Delta x</script><script type="math/tex; mode=display">=2x_0\Delta x+(\Delta x^2)</script><script type="math/tex; mode=display">\because \Delta x\to 0</script><script type="math/tex; mode=display">\therefore \approx 2x_0\Delta x</script><p>我们舍去了 $(\Delta x)^2$，不难发现 $\Delta x$ 越大，结果就越不精准，所以一般 $\Delta x$ 会去很小，保证结果在精度范围内。（$x_0$ 是常量，$\Delta x$ 是变量）。</p>
+<p>$f(x)$ 在邻域范围内有定义，$(x+\Delta x)$ 在邻域内。</p>
+<script type="math/tex; mode=display">\Delta y=f(x_0+\Delta x)-f(x_0)</script><p>可以表示为：</p>
+<script type="math/tex; mode=display">\Delta y=A\Delta x+o(\Delta x)</script><p><strong>$\Delta y$：精确值，$dy$：近似值（$o(\Delta x)$ 舍去）。</strong></p>
+<p>$f(x)$ 在 $x_0$ 可微 $\Leftrightarrow$ $dy=f^{‘}{(x_0)}\Delta x$</p>
+<p>其中，上文中的 $A=f^{‘}{(x_0)}$</p>
+<p><strong>$\Delta x=dx,\Delta y\approx dy$</strong></p>
+<p>$\frac{dy}{dx}=f^{‘}{(x)}$ 导数也叫“微商”。</p>
 <ul>
-<li><p>开区间：$(a,b)$</p>
+<li>练习：</li>
+</ul>
+<p>$f(x)=x^2$ 在 $x=2$ 处的微分，$\Delta x=0.01$，该变量和微分值。</p>
+<script type="math/tex; mode=display">dy=2x\Delta x,\left.dy\right|_{x=2}=2\Delta x,\Delta x=0.01,dy=0.04</script><p>微分值。</p>
+<script type="math/tex; mode=display">\Delta y=(2.01)^2-2^2=0.0401</script><p>精确值。</p>
+<p>为什么会出现细微的差距呢？因为我们舍了 $(\Delta x)^2$。</p>
+<p><img src="https://s1.ax1x.com/2021/12/10/oI7xUS.png" alt="微分"></p>
+<p>图中形象的区别了 $\Delta y$ 和 $dy$ 的差距是如何出现的，我们在 $x_0$ 处求了导数，利用导数找到在 $x_0+\Delta x$ 处的 $y$ 值。所以和真实出现了偏差。</p>
+<script type="math/tex; mode=display">\Delta y=A\Delta x+o(\Delta x)</script><script type="math/tex; mode=display">\Delta y\approx dy</script><script type="math/tex; mode=display">dy=A\Delta x=f^{'}{(x)}dx</script><ul>
+<li>基本公式：$dc=c^{‘}dx$</li>
+</ul>
+<h3 id="四则运算"><a href="#四则运算" class="headerlink" title="四则运算"></a>四则运算</h3><script type="math/tex; mode=display">d(u\pm v)=du\pm dv</script><script type="math/tex; mode=display">d(u+v)=(u+v)^{'}dx=u^{'}dx+v^{'}dx=du+dv</script><script type="math/tex; mode=display">d(uv)=udv+vdu</script><script type="math/tex; mode=display">d(cu)=cdu</script><p>（$c$ 是常数）。</p>
+<script type="math/tex; mode=display">d(\frac{u}{v})=\frac{vdu-udv}{v^2}</script><script type="math/tex; mode=display">(\frac{u}{v})^{'}=\frac{u^{'}v-v^{'}u}{v^2}</script><ul>
+<li><p>练习：</p>
 </li>
-<li><p>闭区间：$[a,b]$</p>
-</li>
-<li><p>左开右闭：$(a,b]$</p>
-</li>
-<li><p>左闭右开：$[a,b)$</p>
+<li><p>$1$：</p>
 </li>
 </ul>
-<p>无限区间：</p>
-<ul>
-<li><p>开区间：$(-\infty,\infty)$</p>
+<script type="math/tex; mode=display">y=x^2+\ln x-3^x</script><script type="math/tex; mode=display">dy=dx^2+d\ln x-d3^x</script><script type="math/tex; mode=display">=2xdx+\frac{1}{x}dx-3^x(\ln 3)dx</script><script type="math/tex; mode=display">=(2x+\frac{1}{x}-3^x\ln 3)dx</script><script type="math/tex; mode=display">dy=y^{'}dx=(2x+\frac{1}{x}-3^x\ln 3)dx</script><ul>
+<li>$2$：</li>
+</ul>
+<script type="math/tex; mode=display">y=x^3e^x\sin x</script><script type="math/tex; mode=display">d(uvw)=vwdu+uwdv+uvdw</script><script type="math/tex; mode=display">dy=e^x\sin x d x^3+x^3\sin d e^x+x^3 e^x d\sin x</script><script type="math/tex; mode=display">=(3e^x\sin x x^2+x^3\sin x e^x+x^3e^x\cos x)dx</script><ul>
+<li>$3$：</li>
+</ul>
+<script type="math/tex; mode=display">y=\frac{x^2+1}{x+1},dy=d(\frac{x^2-1+2}{x+1})=d(x-1+\frac{2}{x+1})</script><script type="math/tex; mode=display">=dx+d(\frac{2}{x+2})=dx-\frac{2}{(x+1)^2}dx</script><h3 id="一阶微分形式不变性"><a href="#一阶微分形式不变性" class="headerlink" title="一阶微分形式不变性"></a>一阶微分形式不变性</h3><script type="math/tex; mode=display">y=f(x)</script><p>$x$ 是自变量 $dy=f^{‘}{(x)}dx$</p>
+<p>$x$ 是函数 $x=g(k),y=f(g(k))$</p>
+<script type="math/tex; mode=display">dy=f^{'}{(x)}g^{'}{(k)}dk=f^{'}{(x)}dx</script><script type="math/tex; mode=display">dx=g^{'}{(x)}dk</script><ul>
+<li><p>练习：</p>
 </li>
-<li><p>左开右闭：$(-\infty,b]$</p>
-</li>
-<li><p>左闭右开：$[a,\infty)$</p>
-</li>
-</ul>
-<h3 id="无穷的运算"><a href="#无穷的运算" class="headerlink" title="无穷的运算"></a>无穷的运算</h3><p>$(+\infty)+(+\infty)=+\infty$</p>
-<p>$(-\infty)+(-\infty)=-\infty$</p>
-<p>$(+\infty)-(+\infty)=$不确定</p>
-<p>$(-\infty)-(-\infty)=$不确定</p>
-<p>$(+\infty)+(-\infty)=$不确定</p>
-<p>$(+\infty)\times(+\infty)=+\infty$</p>
-<p>$(-\infty)\times(+\infty)=+\infty$</p>
-<p>$(+\infty)\times(-\infty)=-\infty$</p>
-<p>$\frac{+\infty}{+\infty}=$不确定</p>
-<p>$\frac{+\infty}{-\infty}=$不确定</p>
-<p>$\frac{-\infty}{-\infty}=$不确定</p>
-<p>推导：$(+\infty)-(+\infty)=$不确定</p>
-<p>设 $x=+\infty$</p>
-<p>$(+\infty)-(+\infty)=x-x=0$（$0$）</p>
-<p>设 $x=+\infty$</p>
-<p>$\therefore$ $x+5=+\infty$</p>
-<p>$(+\infty)-(+\infty)=(x+5)-x=5$（正数）</p>
-<p>设 $x=+\infty$</p>
-<p>$\therefore$ $x+5=+\infty$</p>
-<p>$(+\infty)-(+\infty)=x-(x+5)=-5$（负数）</p>
-<p>设 $x=+\infty$</p>
-<p>$\therefore$ $x^2=+\infty$</p>
-<p>$(+\infty)-(+\infty)=x^2-x=x\times(x-1)$</p>
-<p>$\because x-1=+\infty$</p>
-<p>$\therefore (+\infty)-(+\infty)=(+\infty)\times(+\infty)=+\infty$（正无穷）</p>
-<p>设 $x=+\infty$</p>
-<p>$\therefore$ $x^2=+\infty$</p>
-<p>$(+\infty)-(+\infty)=x-x^2=x\times(1-x)$</p>
-<p>$\because 1-x=1-\infty=-\infty$</p>
-<p>$\therefore (+\infty)-(+\infty)=(+\infty)\times(-\infty)=-\infty$（负无穷）</p>
-<p>$\therefore$ $(+\infty)-(+\infty)=$不确定</p>
-<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p>函数概念：设 $A,B$ 是非空的数集，如果按照某个确定的对应关系 $f$，使对于集合 $A$ 中的任意一个数 $x$，在集合 $B$ 中都有唯一确定的数 $f (x)$和它对应，那么就称 $f$ ： $A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数。 记作：$y=f(x)$，$x\in A$。</p>
-<p>函数相同：<strong>定义域相同</strong>，定义域对应关系相同。</p>
-<p>$\ln(x^2)\not=2\ln(x)$</p>
-<p>$\because \ln(x^2)(x\not=0)$</p>
-<p>$\because 2\ln(x)(x&gt;0)$</p>
-<p>$\therefore \ln(x^2)\not=2\ln(x)$</p>
-<p>例题：$f(x+1)=x^2-x$，求 $f(x)$。</p>
-<p>设 $t=x+1$</p>
-<p>$\therefore f(t)=(t-1)^2-(t-1)$</p>
-<p>$\therefore f(t)=t^2-2t+1-t+1$</p>
-<p>$\therefore f(t)=t^2-3t+2$</p>
-<p>$\therefore f(x)=x^2-3x+2$</p>
-<h3 id="函数表示法："><a href="#函数表示法：" class="headerlink" title="函数表示法："></a>函数表示法：</h3><ul>
-<li>解析法（公式法）</li>
-</ul>
-<p>函数：$y=x$</p>
-<p>分段函数：$y=\lfloor x\rfloor$（不超过 $x$ 的最大值 $\lfloor 1.5\rfloor=1,\lfloor -0.5\rfloor=-1,\lfloor -1.1\rfloor=-2$）</p>
-<ul>
-<li>列表法</li>
-</ul>
-<p>写出几个 $x$ 和其对应的 $y$。（要保证有函数“特色”，根据数据能表示出函数）。</p>
-<ul>
-<li>图像法</li>
-</ul>
-<p>平面直角坐标系。</p>
-<h3 id="特殊函数"><a href="#特殊函数" class="headerlink" title="特殊函数"></a>特殊函数</h3><ul>
-<li>周期函数</li>
-</ul>
-<p>周期函数：$f(x+T)=f(x)$，最小正数 $T$ 是它的周期。</p>
-<p>$\because f(x)$，的周期是 $T$。</p>
-<p>$\therefore f(ax)$，的周期是 $\frac{T}{a}$。</p>
-<ul>
-<li>单调递增函数</li>
-</ul>
-<p>$x_1 &lt; x_2,f(x_1) &lt; f(x_2)$</p>
-<ul>
-<li>单调递减函数</li>
-</ul>
-<p>$x_1 &lt; x_2,f(x_1) &gt; f(x_2)$</p>
-<ul>
-<li>奇函数（定义域关于原点对称)</li>
-</ul>
-<p>$f(-x)=-f(x)$</p>
-<ul>
-<li>偶函数（定义域关于原点对称)</li>
-</ul>
-<p>$f(-x)=f(x)$</p>
-<ul>
-<li>有界函数</li>
-</ul>
-<p>$|f(x)|\leqslant M\Rightarrow -M\leqslant f(x)\leqslant M$（$-M,M$ 即界限）</p>
-<ul>
-<li>反函数</li>
-</ul>
-<p>函数：$y=2x$</p>
-<p>它的反函数 $x=\frac{y}{2}$</p>
-<p>由于书写习惯左边用 $y$ 写，$y=\frac{x}{2}$</p>
-<p>（也可以看成根据 $y=x$ 函数对称）</p>
-<p>变化：</p>
-<p>原函数定义域 $\rightarrow$ 反函数值域</p>
-<p>原函数值域 $\rightarrow$ 反函数定义域</p>
-<p>根据特征不难发现，有些函数<strong>没有</strong>反函数，如果有反函数，函数必须满足原函数 $x,y$ 唯一对应。</p>
-<h2 id="数列极限"><a href="#数列极限" class="headerlink" title="数列极限"></a>数列极限</h2><p>数列：$x_1,x_2,x_3,x_4,…$</p>
-<p>$1,\frac{1}{2},\frac{1}{3},\frac{1}{4},…$(无穷数列)</p>
-<p>第 $n$ 项（通项公式）：$\frac{1}{n}$</p>
-<p>单调递增：$x_1\leqslant x_2\leqslant x_3\leqslant …$</p>
-<p>单调递减：$x_1\geqslant x_2\geqslant x_3\geqslant …$</p>
-<ul>
-<li>有界数列 $|x_n|\leqslant M$</li>
-</ul>
-<p>数列：$\frac{n}{n+1}\Rightarrow \frac{1}{2},\frac{2}{3},\frac{3}{4},…\rightarrow 1$</p>
-<p>我们先定一段小的区间 $\varepsilon=0.1$，代表距离 $1$ 的距离所包含的区间（值 $\geqslant0.9$），设 $N=9$，当 $n$（第 $n$ 项）$&gt; N$ 时 $|x_n-a|&lt; \varepsilon$ 时，$\lbrace x_n \rbrace$ 以 $a$ 为极限。</p>
-<p>极限定义：$|x_n-a|&lt; \varepsilon$ 落在以 $a$ 为中心，以 $\varepsilon$ 为半径的邻域中。</p>
-<h3 id="定义证明极限存在（套模板答题）"><a href="#定义证明极限存在（套模板答题）" class="headerlink" title="定义证明极限存在（套模板答题）"></a>定义证明极限存在（套模板答题）</h3><ul>
-<li>例一：$\lbrace \frac{n}{n+1} \rbrace$ 的极限是 $1$</li>
-</ul>
-<p>我们只要找到 $N$ 的存在即可。</p>
-<p>任给 $\varepsilon &gt; 0$</p>
-<p>$\because |x_n-a|=|\frac{n}{n+1}-1|=\frac{1}{n+1} &lt; \varepsilon$（定义）</p>
-<p>$\therefore \frac{1}{\varepsilon} &lt; n+1$</p>
-<p>$\therefore n&gt;\frac{1}{\varepsilon }-1$</p>
-<p>$\therefore N=\lfloor |\frac{1}{\varepsilon}-1|\rfloor+1$</p>
-<p><strong>注意：这里 $N$ 最后的 $+1$ 只是保证 $n &gt; N$ 后，保证后面所有的项都在邻域中。（$ N=\lfloor |\frac{1}{\varepsilon}-1|\rfloor+100$ 这么写也不是错的）</strong></p>
-<ul>
-<li>例二：$|q| &lt; 1$ 证明：</li>
-</ul>
-<script type="math/tex; mode=display">\lim_{n\rightarrow+\infty}q^n=0</script><p>当 $q=0$ 时，$0^n=0$</p>
-<p>当 $q\not=0$ 时，$\forall \varepsilon &gt; 0(\varepsilon &lt; 1)$</p>
-<p>$\because |q_n-0| &lt; \varepsilon (a=0)$</p>
-<p>$\therefore |q_n| &lt; \varepsilon $</p>
-<p>$\therefore n\log|q| &lt; \log{\varepsilon}$</p>
-<p>$\because |q| &lt; 1$</p>
-<p>$\therefore \log{|q|}&lt;0$</p>
-<p>$\therefore n &gt; \frac{log{\varepsilon}}{\log{|q|}}$</p>
-<p>$\therefore N=\lfloor \frac{log{\varepsilon}}{\log{|q|}}\rfloor +1$</p>
-<p>$n &gt; N$ 时，$|q^n-0| &lt; \varepsilon$</p>
-<ul>
-<li>例三：$a &gt; 0,$ 证明：</li>
-</ul>
-<script type="math/tex; mode=display">\lim_{n\rightarrow+\infty}{\frac{1}{n^a}}=0</script><p>$\forall \varepsilon &gt; 0,|\frac{1}{n^a-0}| &lt; \varepsilon$</p>
-<p>$\therefore \frac{1}{n^a} &gt; \varepsilon$</p>
-<p>$\therefore n^a &gt; \frac{1}{\varepsilon}$</p>
-<p>$\therefore (n^a)^{\frac{1}{a}} &gt; \frac{1}{\varepsilon}^{\frac{1}{a}}$</p>
-<p>$\therefore n &gt; \frac{1}{\varepsilon}^{\frac{1}{a}}$</p>
-<p>$N=\lfloor (\frac{1}{\varepsilon})^{\frac{1}{a}}\rfloor+1$</p>
-<p>$n &gt; N$ 时 $|\frac{1}{n^a}-0| &lt; \varepsilon$</p>
-<h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><h3 id="性质-1"><a href="#性质-1" class="headerlink" title="性质 1"></a>性质 1</h3><p>$\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
-<p>反证法：</p>
-<p>假设极限不唯一，有两个极限分别为 $a$，$b$。</p>
-<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=b</script><p>$a\not=b$，设 $a &lt; b$，取 $\varepsilon =\frac{b-a}{2}$</p>
-<script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=a,\exists N_1,n > N_1,|x_n-a| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-a < \frac{b-a}{2}</script><p>第 $n$ 项范围 $1$：</p>
-<script type="math/tex; mode=display">\therefore \frac{3a-b}{2} < x_n < \frac{a+b}{2}</script><script type="math/tex; mode=display">\because \lim_{n\rightarrow+\infty}{x_n}=b,\exists N_2,n > N_2,|x_n-b| < \frac{b-a}{2}</script><script type="math/tex; mode=display">\therefore -\frac{b-a}{2} < x_n-b < \frac{b-a}{2}</script><p>第 $n$ 项范围 $2$：</p>
-<script type="math/tex; mode=display">\therefore \frac{a+b}{2} < x_n < \frac{3b-a}{2}</script><p>第 $n$ 项的范围显然矛盾，所以 $\lbrace x_n \rbrace$ 收敛，极限唯一。</p>
-<h3 id="性质-2"><a href="#性质-2" class="headerlink" title="性质 2"></a>性质 2</h3><p>$\lbrace x_n \rbrace$ 收敛，$\lbrace x_n \rbrace$ 有界。</p>
-<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a</script><p>取 $\varepsilon=1,\exists N,n &gt; N$</p>
-<p>$\therefore |x_n-a| &lt; 1$</p>
-<p>$\therefore |x_n|=|x_n-a+a|\leqslant|x_n-a|+|a|&lt;1+|a|$</p>
-<script type="math/tex; mode=display">x_{N+1},x_{N+2},… <|a|+1</script><p>设 $M=\max\lbrace |x_1|,|x_2|,|x_3|,…,|x_N|,|a|+1 \rbrace$</p>
-<p>$M$ 即为“跳不出”的边界。</p>
-<p><strong>有界是收敛的必要条件，不是充分条件，例如：$\lbrace -1,1,-1,1,… \rbrace$</strong></p>
-<p><strong>若数列单调有界，则有极限。</strong></p>
-<h3 id="性质-3"><a href="#性质-3" class="headerlink" title="性质 3"></a>性质 3</h3><script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,a > 0,\exists N,n > N,x_n > 0</script><p>设 $a&gt;0$，取 $\varepsilon =\frac{a}{2},\exists N,n &gt; N,|x_n-a| &lt; \frac{a}{2}$</p>
-<p>$\therefore -\frac{a}{2} &lt; x_n-a &lt; \frac{a}{2}$</p>
-<p>$\therefore 0 &lt; \frac{a}{2} &lt; x_n &lt; \frac{3}{2}a$</p>
-<h3 id="性质-4"><a href="#性质-4" class="headerlink" title="性质 4"></a>性质 4</h3><script type="math/tex; mode=display">\lbrace x_{n} \rbrace</script><p>收敛于 $a$，</p>
-<p>任何子数列 </p>
-<script type="math/tex; mode=display">\lbrace x_{k_{n}} \rbrace</script><p>收敛于 $a$。</p>
-<p>原数列：$x_1,x_2,x_3,…$</p>
-<p>子数列：$x_1,x_5,x_7,…$（在原数列中随意取，但要保证数列中的数在原数列中的先后顺序）</p>
-<script type="math/tex; mode=display">\lim_{n\rightarrow +\infty}{x_n}=a,\forall \varepsilon > 0,\exists N,n > N,|x_n-a|<\varepsilon</script><script type="math/tex; mode=display">k_{n} \geqslant n > N,|x_{k_{n}}-a| < \varepsilon</script><script type="math/tex; mode=display">\lbrace x_{k_{n}} \rbrace</script><p> 收敛于 $a$</p>
-<h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><ul>
-<li><p>推导 1：找到一个子数列不收敛，则原数列不收敛。</p>
-</li>
-<li><p>推导 2：找到两个子数列，虽然收敛，但极限不同，则原序列发散。</p>
+<li><p>$1$：</p>
 </li>
 </ul>
-<p>原数列：$\lbrace 1,-1,1,-1,… \rbrace$</p>
-<p>子序列 $1$：$1,1,1,1,…$（极限：$1$）</p>
-<p>子序列 $2$：$-1,-1,-1,…$（极限： $-1$）</p>
-<p>子序列极限不同，说明原序列发散。</p>
-<ul>
-<li><p>推导 3：原数列收敛 $\Leftrightarrow$ 奇数项，偶数项构成子序列收敛且极限相同。</p>
-</li>
-<li><p>总结：</p>
-</li>
+<script type="math/tex; mode=display">y=e^{\sin^2 x}</script><script type="math/tex; mode=display">dy=de^{\sin^2 x}=e^{\sin^2 x}d\sin^2 x</script><script type="math/tex; mode=display">=e^{\sin^2 x}2\sin(x) d\sin (x)</script><script type="math/tex; mode=display">=e^{\sin^2 x}2\sin(x) \cos (x)dx</script><ul>
+<li>$2$：</li>
 </ul>
-<p>如果找到一个收敛子序列，原序列未必收敛。</p>
-<p>如果找到无穷个收敛子序列，原序列未必收敛（找的方式不同）。</p>
-<p>如果找到所有收敛子序列，原序列一定收敛。</p>
+<script type="math/tex; mode=display">y=\ln(x+\sqrt{1+x^2})</script><script type="math/tex; mode=display">dy=\frac{1}{x+\sqrt{1+x^2}}d(x+\sqrt{1+x^2})</script><script type="math/tex; mode=display">=\frac{1}{x+\sqrt{1+x^2}}(dx+\frac{d(1+x^2)}{2\sqrt{1+x^2}})</script><script type="math/tex; mode=display">=\frac{1}{x+\sqrt{1+x^2}}(dx+\frac{2xdx}{2\sqrt{1+x^2}})</script><script type="math/tex; mode=display">=\frac{1}{x+\sqrt{1+x^2}}(1+\frac{2x}{2\sqrt{1+x^2}})dx</script><script type="math/tex; mode=display">=\frac{1}{\sqrt{1+x^2}}dx</script><ul>
+<li>$3$ 复杂：</li>
+</ul>
+<script type="math/tex; mode=display">x^2+2xy-y^2=2x</script><p>两边同时对 $x$ 求导：</p>
+<script type="math/tex; mode=display">2x+2y+2xy^{'}-2yy^{'}=2</script><script type="math/tex; mode=display">y^{'}=\frac{1-x-y}{x-y}</script><script type="math/tex; mode=display">dy=\frac{1-x-y}{x-y}dx</script><p>也可以用今天刚学的微分方法：</p>
+<script type="math/tex; mode=display">2xdx+2ydx+2xdy-2ydy=2dx</script><script type="math/tex; mode=display">(2x-2y)dy=(2-2x-2y)dx</script><script type="math/tex; mode=display">dy=\frac{2-2x-2y}{2x-2y}dx</script><script type="math/tex; mode=display">dy=\frac{1-x-y}{x-y}dx</script><ul>
+<li>总结：</li>
+</ul>
+<script type="math/tex; mode=display">\Delta y\approx dy=f^{'}{(x_0)}\Delta x</script><script type="math/tex; mode=display">f(x_0+\Delta x)-f(x_0)\approx f^{'}{(x_0)}\Delta x</script><script type="math/tex; mode=display">f(x_0+\Delta x)\approx f(x_0)+f^{'}{(x_0)}\Delta x</script><p>$|\Delta x|$ 取得很小。</p>
+<ul>
+<li>练习：</li>
+</ul>
+<p>$f(x)=2x^2-3x,x_0=5,\Delta x=0.2,\Delta x=1$ 分别求 $\Delta y,dy$。</p>
+<script type="math/tex; mode=display">\Delta y=f(5+\Delta x)-f(5)=17\Delta x+2(\Delta x)^2</script><script type="math/tex; mode=display">dy=17\Delta x</script><script type="math/tex; mode=display">\Delta x=0.2,\Delta y=3.48,dy=3.4</script><script type="math/tex; mode=display">\Delta x=1,\Delta y=19,dy=17</script><p>可以直观的看出 $\Delta x$ 对于精度的影响。</p>
+<h3 id="常见微分"><a href="#常见微分" class="headerlink" title="常见微分"></a>常见微分</h3><p>取 $x_0=0,\Delta x=x$</p>
+<script type="math/tex; mode=display">f(x)\approx f(0)+f^{'}{(0)}x</script><ul>
+<li>$1$：</li>
+</ul>
+<script type="math/tex; mode=display">\sqrt[n]{1\pm x}\approx 1\pm \frac{x}{n}</script><script type="math/tex; mode=display">\sqrt[n]{1+x} \approx f(0)+f^{'}{(0)}x=1+\frac{x}{n}</script><ul>
+<li>$2$：</li>
+</ul>
+<script type="math/tex; mode=display">\sin x\approx x</script><script type="math/tex; mode=display">\lim_{x\to 0}{\frac{\sin x}{x}}=1</script><ul>
+<li>$3$：</li>
+</ul>
+<script type="math/tex; mode=display">\tan x=x</script><ul>
+<li>$4$：</li>
+</ul>
+<script type="math/tex; mode=display">e^x\approx 1+x</script><ul>
+<li>$5$：</li>
+</ul>
+<script type="math/tex; mode=display">\ln{(1+x)}\approx x</script><ul>
+<li>$6$：</li>
+</ul>
+<script type="math/tex; mode=display">\frac{1}{1+x}\approx 1-x</script><script type="math/tex; mode=display">1\approx 1-x^2</script><ul>
+<li>$7$：</li>
+</ul>
+<script type="math/tex; mode=display">\arcsin x\approx x</script><ul>
+<li>$8$：</li>
+</ul>
+<script type="math/tex; mode=display">\arctan x\approx x</script><h3 id="利用微思想求值"><a href="#利用微思想求值" class="headerlink" title="利用微思想求值"></a>利用微思想求值</h3><script type="math/tex; mode=display">\sqrt[3]{997}=\sqrt[3]{1000-3}=10\sqrt[3]{1-0.003}\approx 10\times (1-\frac{0.003}{3})=9.99</script><script type="math/tex; mode=display">\ln{1.03}=\ln{(1+0.03)}\approx 0.03</script><p>先我们可以通过学习的知识对一些无理数求大概的值了。</p>
 
                 
             </div>
@@ -815,7 +666,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/">http://wdsa001.github.io/2021/10/05/shu-lie-ji-xian-ji-xian-ji-chu/</a>
+                    <a href="http://wdsa001.github.io/2021/12/11/wei-fen-ji-chu/">http://wdsa001.github.io/2021/12/11/wei-fen-ji-chu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -861,24 +712,24 @@
                                     <span class="chip bg-color">函数</span>
                                 </a>
                             
-                                <a href="/tags/%E6%9E%81%E9%99%90/">
-                                    <span class="chip bg-color">极限</span>
+                                <a href="/tags/%E5%A4%9A%E9%A1%B9%E5%BC%8F/">
+                                    <span class="chip bg-color">多项式</span>
                                 </a>
                             
-                                <a href="/tags/%E9%82%BB%E5%9F%9F/">
-                                    <span class="chip bg-color">邻域</span>
+                                <a href="/tags/%E6%9E%81%E9%99%90/">
+                                    <span class="chip bg-color">极限</span>
                                 </a>
                             
                                 <a href="/tags/%E6%95%B0%E5%88%97/">
                                     <span class="chip bg-color">数列</span>
                                 </a>
                             
-                                <a href="/tags/%E9%9B%86%E5%90%88/">
-                                    <span class="chip bg-color">集合</span>
+                                <a href="/tags/%E5%AF%BC%E6%95%B0/">
+                                    <span class="chip bg-color">导数</span>
                                 </a>
                             
-                                <a href="/tags/%E7%9B%B4%E7%A7%AF/">
-                                    <span class="chip bg-color">直积</span>
+                                <a href="/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/">
+                                    <span class="chip bg-color">微积分</span>
                                 </a>
                             
                         </div>
@@ -928,23 +779,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/06/han-shu-ji-xian-ji-xian-yun-suan-ji-xian-cun-zai-zhun-ze/">
+                <a href="/6666/06/06/shuo-ming/">
                     <div class="card-image">
                         
-                        <img src="/images/63.jpg" class="responsive-img" alt="函数极限&amp;极限运算&amp;极限存在准则">
+                        <img src="/images/48.jpg" class="responsive-img" alt="说明">
                         
-                        <span class="card-title">函数极限&amp;极限运算&amp;极限存在准则</span>
+                        <span class="card-title">说明</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            函数极限&极限运算&极限存在准则
+                            说明
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-06
+                            <i class="far fa-clock fa-fw icon-date"></i>6666-06-06
                         </span>
                         <span class="publish-author">
                             
@@ -961,24 +812,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E8%AE%BA/">
-                        <span class="chip bg-color">数论</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%87%BD%E6%95%B0/">
-                        <span class="chip bg-color">函数</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%9E%81%E9%99%90/">
-                        <span class="chip bg-color">极限</span>
-                    </a>
-                    
-                    <a href="/tags/%E9%82%BB%E5%9F%9F/">
-                        <span class="chip bg-color">邻域</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%95%B0%E5%88%97/">
-                        <span class="chip bg-color">数列</span>
+                    <a href="/tags/%E6%90%AD%E5%BB%BA/">
+                        <span class="chip bg-color">搭建</span>
                     </a>
                     
                 </div>
@@ -992,23 +827,23 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/09/29/sheng-cheng-han-shu/">
+                <a href="/2021/12/11/dao-shu/">
                     <div class="card-image">
                         
-                        <img src="/images/61.jpg" class="responsive-img" alt="生成函数">
+                        <img src="/images/82.jpg" class="responsive-img" alt="导数">
                         
-                        <span class="card-title">生成函数</span>
+                        <span class="card-title">导数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            生成函数
+                            导数
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
                             </span>
                         <span class="publish-author">
                             
@@ -1033,20 +868,20 @@
                         <span class="chip bg-color">函数</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%B7%E7%A7%AF/">
-                        <span class="chip bg-color">卷积</span>
-                    </a>
-                    
                     <a href="/tags/%E5%A4%9A%E9%A1%B9%E5%BC%8F/">
                         <span class="chip bg-color">多项式</span>
                     </a>
                     
-                    <a href="/tags/%E4%BA%8C%E9%A1%B9%E5%BC%8F%E5%AE%9A%E7%90%86/">
-                        <span class="chip bg-color">二项式定理</span>
+                    <a href="/tags/%E6%9E%81%E9%99%90/">
+                        <span class="chip bg-color">极限</span>
                     </a>
                     
-                    <a href="/tags/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0/">
-                        <span class="chip bg-color">生成函数</span>
+                    <a href="/tags/%E6%95%B0%E5%88%97/">
+                        <span class="chip bg-color">数列</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%AF%BC%E6%95%B0/">
+                        <span class="chip bg-color">导数</span>
                     </a>
                     
                 </div>
