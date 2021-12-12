@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="中值定理&amp;泰勒展开&amp;洛必达法则, my,world">
+    <meta name="keywords" content="中值定理&amp;泰勒展开&amp;洛必达法则&amp;函数凹凸及绘制, my,world">
     <meta name="description" content="就算失败，也要以豪迈的姿态！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>中值定理&amp;泰勒展开&amp;洛必达法则 | 王大神——A001</title>
+    <title>中值定理&amp;泰勒展开&amp;洛必达法则&amp;函数凹凸及绘制 | 王大神——A001</title>
     <link rel="icon" type="image/jpeg" href="/medias/me.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -31,9 +31,9 @@
 
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
-
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
 </head>
 
 
@@ -343,7 +343,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">中值定理&amp;泰勒展开&amp;洛必达法则</h1>
+                    <h1 class="description center-align post-title">中值定理&amp;泰勒展开&amp;洛必达法则&amp;函数凹凸及绘制</h1>
                 </div>
             </div>
         </div>
@@ -489,6 +489,10 @@
                         
                             <a href="/tags/%E6%B4%9B%E5%BF%85%E8%BE%BE%E6%B3%95%E5%88%99/">
                                 <span class="chip bg-color">洛必达法则</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%BE%AE%E5%88%86/">
+                                <span class="chip bg-color">微分</span>
                             </a>
                         
                     </div>
@@ -688,7 +692,353 @@
 <script type="math/tex; mode=display">\lim_{x\to 0}{x^2e^{\frac{1}{x^2}}}=\lim_{x\to 0}{\frac{e^{\frac{1}{x^2}}}{\frac{1}{x^2}}}=\lim_{x\to 0}{\frac{-\frac{2}{x^3}e^{\frac{1}{x^2}}}{-\frac{2}{x^3}}}=\lim_{x\to 0}{e^{\frac{1}{x^2}}}=\infty</script><ul>
 <li>无穷小替换：</li>
 </ul>
-<script type="math/tex; mode=display">\lim_{x\to 0^{+}}{x^x}=\lim_{x\to 0^{+}}{e^{x\ln x}}=\lim_{x\to 0^{+}}{e^{\frac{\ln x}{\frac{1}{x}}}}=\lim_{x\to 0^{+}}{e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}}=e^0=1</script>
+<script type="math/tex; mode=display">\lim_{x\to 0^{+}}{x^x}=\lim_{x\to 0^{+}}{e^{x\ln x}}=\lim_{x\to 0^{+}}{e^{\frac{\ln x}{\frac{1}{x}}}}=\lim_{x\to 0^{+}}{e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}}=e^0=1</script><h2 id="函数凹凸性"><a href="#函数凹凸性" class="headerlink" title="函数凹凸性"></a>函数凹凸性</h2><h3 id="单调性判断"><a href="#单调性判断" class="headerlink" title="单调性判断"></a>单调性判断</h3><p>单调性，$f^{‘}{(x)} &gt; 0$ 增函数，$f^{‘}{(x)} &lt; 0$ 减函数，$f^{‘}{(x)}\ge 0$ 等号在个别点成立。</p>
+<ul>
+<li>$1$：</li>
+</ul>
+<script type="math/tex; mode=display">y=x-\sin x</script><p>定义域：$[0,2\pi]$</p>
+<script type="math/tex; mode=display">y^{'}=1-\cos x > 0</script><p>$(0,2x)$ 增</p>
+<ul>
+<li>$2$：</li>
+</ul>
+<script type="math/tex; mode=display">y=e^x-x-1,y^{'}=e^x-1</script><p>$x&lt;0,y^{‘}&lt;0$ 减</p>
+<p>$x&gt;0,y^{‘}&gt;0$ 增</p>
+<ul>
+<li>$3$：</li>
+</ul>
+<script type="math/tex; mode=display">y=\sqrt[3]{x^2}=x^{\frac{2}{3}}</script><p>定义域 $(-\infty,\infty)$</p>
+<script type="math/tex; mode=display">x\not=0,y^{'}=\frac{2}{3}\frac{1}{\sqrt[3]{x}}</script><p>$x&lt;0,y^{‘}&lt;0$ 减</p>
+<p>$x&gt;0,y^{‘}&gt;0$ 增</p>
+<p>$x=0$ 分界点。</p>
+<script type="math/tex; mode=display">\lim_{\Delta x\to 0^{-}}{\frac{\Delta x^{\frac{2}{3}}-0}{\Delta x}}=\lim_{\Delta x\to 0^{-}}{\frac{1}{\Delta x^{\frac{1}{3}}}}=-\infty</script><script type="math/tex; mode=display">\lim_{\Delta x\to 0^{+}}{\frac{\Delta x^{\frac{2}{3}}-0}{\Delta x}}=\lim_{\Delta x\to 0^{+}}{\frac{1}{\Delta x^{\frac{1}{3}}}}=+\infty</script><p>导数不存在。</p>
+<p>分界点：</p>
+<ul>
+<li><p>$f^{‘}{(x)}=0$ 驻点。</p>
+</li>
+<li><p>导数不存在。</p>
+</li>
+</ul>
+<p><img src="https://s4.ax1x.com/2021/12/12/oql81I.png" alt="分界点"></p>
+<h3 id="凹凸性"><a href="#凹凸性" class="headerlink" title="凹凸性"></a>凹凸性</h3><p>凹：</p>
+<p><img src="https://s4.ax1x.com/2021/12/12/obIsy9.png" alt="凹性"></p>
+<script type="math/tex; mode=display">f(\frac{x_1+x_2}{2})<\frac{f(x_1)+f(x_2)}{2}</script><p>凸：</p>
+<p><img src="https://s4.ax1x.com/2021/12/12/obIgdx.png" alt="凸性"></p>
+<script type="math/tex; mode=display">f(\frac{x_1+x_2}{2})>\frac{f(x_1)+f(x_2)}{2}</script><p>$f^{‘}{(x)}$ 增，$f^{‘’}{(x)}&gt;0$ 凹。</p>
+<p>$f^{‘}{(x)}$ 减，$f^{‘’}{(x)}&lt;0$ 凸。</p>
+<ul>
+<li>推导：</li>
+</ul>
+<p>$f^{‘’}{(x)}&gt;0,x_1,x_2,x_1 &lt; x_2,x_0=\frac{x_1+x_2}{2}$</p>
+<p>在 $[x_1,x_0],f^{‘}{(\xi_1)}=\frac{f(b)-f(a)}{b-a}$ </p>
+<script type="math/tex; mode=display">f{(x_0)}-f(x_1)=f^{'}{(\xi_1)}(x_0-x_1)</script><script type="math/tex; mode=display">\xi_1\in(x_1,x_0)</script><p>在 $[x_0,x_2],f^{‘}{(\xi_2)}=\frac{f(b)-f(a)}{b-a}$ </p>
+<script type="math/tex; mode=display">f{(x_2)}-f(x_0)=f^{'}{(\xi_2)}(x_2-x_0)</script><script type="math/tex; mode=display">\xi_2\in(x_0,x_2)</script><script type="math/tex; mode=display">2f(x_0)-(f{(x_1)}+f{(x_2)})=\frac{1}{2}(f^{'}{(\xi_1)}-f^{'}{(\xi_2)})(x_2-x_1)</script><script type="math/tex; mode=display">=\frac{1}{2}(x_2-x_1)f^{''}{(\eta)}(\xi_1-\xi_2)</script><script type="math/tex; mode=display">(x_2-x_1)>0,f^{''}{(\eta)}>0,(\xi_1-\xi_2)<0</script><script type="math/tex; mode=display">\frac{1}{2}(x_2-x_1)f^{''}{(\eta)}(\xi_1-\xi_2)<0</script><script type="math/tex; mode=display">2f(x_0)-(f{(x_1)}+f{(x_2)})<0</script><script type="math/tex; mode=display">f(\frac{x_1+x_2}{2})<\frac{f(x_1)+f(x_2)}{2}</script><ul>
+<li><p>拐点：凹凸性质改变，$f^{‘’}{(x)}=0$ 或 $f^{‘’}{(x)}$ 不存在。</p>
+</li>
+<li><p>练习：</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">y=xe^{-x}</script><p>定义域：$[-\infty,+\infty]$</p>
+<script type="math/tex; mode=display">y^{'}=e^{-x}(1-x),y^{''}=e^{-x}(x-2)</script><script type="math/tex; mode=display">x=2,f^{''}{(x)}=0</script><p>列表作图：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$x$</th>
+<th style="text-align:center">$(-\infty,2)$</th>
+<th style="text-align:center">$2$</th>
+<th style="text-align:center">$(2,+\infty)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$y^{‘’}$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">$+$</td>
+</tr>
+<tr>
+<td style="text-align:center">$y$</td>
+<td style="text-align:center">凸</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">凹</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://s4.ax1x.com/2021/12/12/oqaTFP.png" alt="图-1"></p>
+<h3 id="极大值，极小值"><a href="#极大值，极小值" class="headerlink" title="极大值，极小值"></a>极大值，极小值</h3><script type="math/tex; mode=display">U(x_0),\forall x\in U(x_0),f(x)<f(x_0)</script><p>$f(x_0)$ 极大值，$x_0$ 极大值点。</p>
+<p>$f(x)&gt;f(x_0)$，$f(x_0)$ 极小值，$x_0$ 极小值点。局部，极值不唯一，不相等。</p>
+<p>定理：$f(x_0)$ 在 $x_0$ 可导，且在 $x_0$ 取极值，$f^{‘}{(x_0)}=0$ 。</p>
+<p>证明：设取极大值，$x_0$ 邻域，$f(x_0)&gt;f(x_0+\Delta x)$</p>
+<script type="math/tex; mode=display">f(x_0+\Delta x)-f(x_0)<0</script><p>左导数：</p>
+<script type="math/tex; mode=display">\lim_{\Delta x\to 0^{-}}{\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}}\ge 0</script><p>右导数：</p>
+<script type="math/tex; mode=display">\lim_{\Delta x\to 0^{+}}{\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}}\le 0</script><p>$f^{‘}{(x_0)}=0$ 驻点。</p>
+<ul>
+<li><p>可导函数极值点是驻点。</p>
+</li>
+<li><p>驻点不一定是极值点。</p>
+</li>
+<li><p>极值点一定是驻点或导数不存在。</p>
+</li>
+<li><p>驻点导数不存在未必都是极值点。</p>
+</li>
+</ul>
+<p>定理：$f(x)$ 在 $(x_0-\delta,x_0+\delta)$ 内连续在邻域内，（$x_0$ 点可除外）可导。且 $f^{‘}{(x_0)}=0$ 或不存在。</p>
+<ul>
+<li><p>左增右减极大值 $x\in (x_0-\delta,x_0)$，$f^{‘}{(x)}&gt;0,x\in(x_0,x_0+\delta),f^{‘}{(x)}&lt;0$</p>
+</li>
+<li><p>左减右增极小值 $x\in (x_0-\delta,x_0)$，$f^{‘}{(x)}&lt;0,x\in(x_0,x_0+\delta),f^{‘}{(x)}&gt;0$</p>
+</li>
+<li><p>左右都增（减），$x\in U(x_0)$，$f^{‘}{(x)}$ 不变号，不是极值。极值：</p>
+</li>
+</ul>
+<blockquote>
+<p>定义域：求导数 $=0$ 和不存在。</p>
+<p>$f^{‘}{(x)}$ 左右符号：</p>
+<p>左正右负，极大值</p>
+<p>左负右正，极小值</p>
+<p>左右同号，啥也不是</p>
+</blockquote>
+<h3 id="求函数数值"><a href="#求函数数值" class="headerlink" title="求函数数值"></a>求函数数值</h3><script type="math/tex; mode=display">y=(x-1)^2(x+1)^3</script><p>定义域：$(-\infty,+\infty)$</p>
+<script type="math/tex; mode=display">y^{'}{(x)}=2(x-1)(x+1)^3+3(x-1)^2(x+1)^2</script><script type="math/tex; mode=display">=(x-1)(x+1)^2(5x-1)</script><script type="math/tex; mode=display">y^{'}=0,x=-1,\frac{1}{5},1</script><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$x$</th>
+<th style="text-align:center">$(-\infty,-1)$</th>
+<th style="text-align:center">$-1$</th>
+<th style="text-align:center">$(-1,\frac{1}{5})$</th>
+<th style="text-align:center">$\frac{1}{5}$</th>
+<th style="text-align:center">$(\frac{1}{5},1)$</th>
+<th style="text-align:center">$1$</th>
+<th style="text-align:center">$(1,\infty)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$f^{‘}$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$+$</td>
+</tr>
+<tr>
+<td style="text-align:center">$f$</td>
+<td style="text-align:center">增</td>
+<td style="text-align:center">非极值点</td>
+<td style="text-align:center">增</td>
+<td style="text-align:center">极大值点</td>
+<td style="text-align:center">减</td>
+<td style="text-align:center">极小值点</td>
+<td style="text-align:center">增</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://s4.ax1x.com/2021/12/12/oqa7Jf.png" alt="图-2"></p>
+<p>定理：$x_0$ 除，二阶导数。</p>
+<p>$f^{‘}{(x_0)}=0,f^{‘’}{(x_0)}\not=0$</p>
+<ul>
+<li>$f^{‘’}{(x_0)}&lt;0$ 极大值</li>
+</ul>
+<script type="math/tex; mode=display">f^{''}{(x_0)}=\lim_{x\to x_0}{\frac{f^{'}{(x)}-f^{'}{(x_0)}}{x-x_0}}=\lim_{x\to x_0}{\frac{f^{'}{(x)}}{x-x_0}}<0</script><p>$x_0$ 左，$x\in (x_0-\delta,x_0)$</p>
+<p>$f^{‘}{(x)}&gt;0,x_0$ 右，$x\in(x_0,x_0+\delta)$ $f^{‘}{(x)}&lt;0$ 极大值。</p>
+<ul>
+<li>$f^{‘’}{(x_0)}&gt;0$ 极小值</li>
+</ul>
+<h3 id="全局性，局部性"><a href="#全局性，局部性" class="headerlink" title="全局性，局部性"></a>全局性，局部性</h3><ul>
+<li><p>驻点</p>
+</li>
+<li><p>导数不存在</p>
+</li>
+<li><p>端点</p>
+</li>
+</ul>
+<p>$[a,b]$ 要检验 $f(a),f(b)$ 对最后结果是否有影响。</p>
+<ul>
+<li><p>连续 $[a,b]$ 单调</p>
+</li>
+<li><p>区间内仅有一个极值，实际问题，区间内取，只有一个驻点。</p>
+</li>
+</ul>
+<h2 id="函数作图"><a href="#函数作图" class="headerlink" title="函数作图"></a>函数作图</h2><ul>
+<li><p>渐近线：水平渐近线，垂直渐近线，斜渐近线。</p>
+</li>
+<li><p>水平渐近线：</p>
+</li>
+</ul>
+<p>最大值接近渐近线：</p>
+<script type="math/tex; mode=display">\lim_{x\to +\infty}{f(x)}=b</script><p>最小值接近渐近线：</p>
+<script type="math/tex; mode=display">\lim_{x\to -\infty}{f(x)}=b</script><p>极值接近渐近线;</p>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{f(x)}=b</script><p>$y=\frac{1}{x-1}$ 水平渐近线：</p>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{1}{x-1}}=0</script><p>$y=0$ 水平渐近线。</p>
+<p>$y=\arctan x$ 渐近线;</p>
+<script type="math/tex; mode=display">\lim_{x\to +\infty}{\arctan x=\frac{\pi}{2}}</script><script type="math/tex; mode=display">\lim_{x\to -\infty}{\arctan x=-\frac{\pi}{2}}</script><p><img src="https://s4.ax1x.com/2021/12/12/oqaIot.png" alt="图-3"></p>
+<ul>
+<li>垂直渐近线：</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{x\to c^{+}}{f(x)}=\infty</script><script type="math/tex; mode=display">\lim_{x\to c^{-}}{f(x)}=\infty</script><p>$y=\frac{1}{1-x^2},x=-1,1$</p>
+<script type="math/tex; mode=display">\lim_{x\to 1}{\frac{1}{1-x^2}}=\infty</script><script type="math/tex; mode=display">\lim_{x\to -1}{\frac{1}{1-x^2}}=\infty</script><p>$x=1,x=-1$ 垂直渐近线。</p>
+<ul>
+<li>斜渐近线：</li>
+</ul>
+<p>最大值逼近：</p>
+<script type="math/tex; mode=display">\lim_{x\to +\infty}{(f(x)-a_x)}=b</script><script type="math/tex; mode=display">\lim_{x\to +\infty}{\frac{f(x)}{x}}=\lim_{x\to +\infty}{\frac{ax+b}{x}}=\lim_{x\to +\infty}{a+\frac{b}{x}}=a</script><p>最小值接近：</p>
+<script type="math/tex; mode=display">\lim_{x\to -\infty}{(f(x)-a_x)}=b</script><script type="math/tex; mode=display">\lim_{x\to -\infty}{\frac{f(x)}{x}}=a</script><ul>
+<li>练习：</li>
+</ul>
+<p>$f(x)\frac{x^3}{x^2+2x-3}$ 渐近线：</p>
+<blockquote>
+<p>水平渐近线：</p>
+</blockquote>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{x^3}{x^2+2x-3}}=\infty</script><p>（无水平渐近线）</p>
+<blockquote>
+<p>垂直渐近线：</p>
+</blockquote>
+<script type="math/tex; mode=display">x^2+2x-3=0</script><script type="math/tex; mode=display">x=-3,x=1</script><script type="math/tex; mode=display">\lim_{x\to -3}{f(x)=\infty}</script><script type="math/tex; mode=display">\lim_{x\to 1}{f(x)=\infty}</script><p>$x=-3,x=1$ 是垂直渐近线。</p>
+<blockquote>
+<p>斜渐近线：</p>
+</blockquote>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{f(x)}{x}}=\lim_{x\to \infty}{\frac{x^2}{x^2+2x-3}}=1</script><script type="math/tex; mode=display">\lim_{x\to \infty}{(f(x)-x)=\lim_{x\to \infty}{\frac{x^3-x^3-2x^2+3x}{x^2+2x-3}}}=\lim_{x\to \infty}{\frac{-2x^2+3x}{x^2+2x-3}}=-2</script><p>（看最高次）</p>
+<p>斜渐近线： $y=x-2$</p>
+<h3 id="微分法作图"><a href="#微分法作图" class="headerlink" title="微分法作图"></a>微分法作图</h3><ul>
+<li><p>定义域，不连续点，坐标轴相交</p>
+</li>
+<li><p>奇偶周期</p>
+</li>
+<li><p>渐近线，无穷远状态</p>
+</li>
+<li><p>$f^{‘}{(x)}=0,f^{‘’}{(x)}=0$，$f^{‘},f^{‘’}$ 不存在的点，极值升降凹凸，拐点，特殊点。</p>
+</li>
+<li><p>练习：</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">y=e^{-x^2}</script><ul>
+<li><p>定义域：$(-\infty,+\infty),x=0,y=1,y&gt;0,x$ 轴上方。 </p>
+</li>
+<li><p>偶函数 $y$ 轴对称。</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{1}{e^{x^2}}}=0</script><ul>
+<li><p>$y=0$ 水平渐近线。</p>
+</li>
+<li><p>$f^{‘}{(x)}=-2xe^{-x},f^{‘’}{(x)}=4{x^2-\frac{1}{2}}e^{-{x^2}}$</p>
+</li>
+</ul>
+<p>$x=0,f^{‘}{(x)}=0,x=\pm \frac{\sqrt{2}}{2},f^{‘’}{(x)}=0$</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$x$</th>
+<th style="text-align:center">$(-\infty,-\frac{\sqrt{2}}{2})$</th>
+<th style="text-align:center">$-\frac{\sqrt{2}}{2}$</th>
+<th style="text-align:center">$(-\frac{\sqrt{2}}{2},0)$</th>
+<th style="text-align:center">$0$</th>
+<th style="text-align:center">$(0,\frac{\sqrt{2}}{2})$</th>
+<th style="text-align:center">$\frac{\sqrt{2}}{2}$</th>
+<th style="text-align:center">$(\frac{\sqrt{2}}{2},+\infty)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$f^{‘}$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+</tr>
+<tr>
+<td style="text-align:center">$f^{‘’}$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$+$</td>
+</tr>
+<tr>
+<td style="text-align:center">$f$</td>
+<td style="text-align:center">增，凹</td>
+<td style="text-align:center">拐点</td>
+<td style="text-align:center">增，凸</td>
+<td style="text-align:center">极大值</td>
+<td style="text-align:center">减，凸</td>
+<td style="text-align:center">拐点</td>
+<td style="text-align:center">减，凹</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://s4.ax1x.com/2021/12/12/oqa5dI.png" alt="图-4"></p>
+<ul>
+<li>练习：</li>
+</ul>
+<script type="math/tex; mode=display">y=\frac{(x-1)^3}{(x+1)^2}</script><ul>
+<li><p>$(-\infty,-1)\cup(-1,+\infty),x=-1$ 无穷间断点。$(-1,0),(0,1)$</p>
+</li>
+<li><p>$x=-1$ 垂直。</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{y}{x}}=\lim_{x\to \infty}{\frac{(x-1)^3}{x(x+1)^2}}=1</script><script type="math/tex; mode=display">\lim_{x\to \infty}{\frac{y}{x}}=\lim_{x\to \infty}{(\frac{(x-1)^3}{(x+1)^2}-x)}=-5</script><p>斜渐近线：$y=x-5$。</p>
+<script type="math/tex; mode=display">y^{'}=\frac{(x-1)^2(x+5)}{(x+1)^3},y^{''}=\frac{24(x-1)}{(x+1)^4}</script><p>$x=-1,y^{‘},y^{‘’}$ 不存在。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$x$</th>
+<th style="text-align:center">$(-\infty,-5)$</th>
+<th style="text-align:center">$-5$</th>
+<th style="text-align:center">$(-5,-1)$</th>
+<th style="text-align:center">$-1$</th>
+<th style="text-align:center">$(-1,1)$</th>
+<th style="text-align:center">$1$</th>
+<th style="text-align:center">$(1,+\infty)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$y^{‘}$</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">不存在</td>
+<td style="text-align:center">$+$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$+$</td>
+</tr>
+<tr>
+<td style="text-align:center">$y^{‘’}$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">不存在</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$0$</td>
+<td style="text-align:center">$+$</td>
+</tr>
+<tr>
+<td style="text-align:center">$y$</td>
+<td style="text-align:center">增，凸</td>
+<td style="text-align:center">极大值</td>
+<td style="text-align:center">减，凸</td>
+<td style="text-align:center">间断</td>
+<td style="text-align:center">增，凸</td>
+<td style="text-align:center">拐点</td>
+<td style="text-align:center">增，凹</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://s4.ax1x.com/2021/12/12/oqgIGd.png" alt="图-5"></p>
+
                 
             </div>
             <hr/>
@@ -714,7 +1064,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wdsa001.github.io/2021/12/12/zhong-zhi-ding-li-tai-le-zhan-kai-luo-bi-da-fa-ze/">http://wdsa001.github.io/2021/12/12/zhong-zhi-ding-li-tai-le-zhan-kai-luo-bi-da-fa-ze/</a>
+                    <a href="http://wdsa001.github.io/2021/12/12/zhong-zhi-ding-li-tai-le-zhan-kai-luo-bi-da-fa-ze-han-shu-ao-tu-ji-hui-zhi/">http://wdsa001.github.io/2021/12/12/zhong-zhi-ding-li-tai-le-zhan-kai-luo-bi-da-fa-ze-han-shu-ao-tu-ji-hui-zhi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -782,6 +1132,10 @@
                             
                                 <a href="/tags/%E6%B4%9B%E5%BF%85%E8%BE%BE%E6%B3%95%E5%88%99/">
                                     <span class="chip bg-color">洛必达法则</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%BE%AE%E5%88%86/">
+                                    <span class="chip bg-color">微分</span>
                                 </a>
                             
                         </div>
