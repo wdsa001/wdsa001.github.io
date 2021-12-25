@@ -43,6 +43,45 @@
   </entry>
   
   <entry>
+    <title>二分图匹配&amp;带权完美匹配</title>
+    <link href="http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/"/>
+    <id>http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/</id>
+    <published>2021-12-25T12:57:16.000Z</published>
+    <updated>2021-12-25T12:58:24.054Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;集&quot;&gt;&lt;a href=&quot;#集&quot; class=&quot;headerlink&quot; title=&quot;集&quot;&gt;&lt;/a&gt;集&lt;/h2&gt;&lt;h3 id=&quot;支配集&quot;&gt;&lt;a href=&quot;#支配集&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="搜索" scheme="http://wdsa001.github.io/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="匈牙利算法" scheme="http://wdsa001.github.io/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
+    
+    <category term="DFS" scheme="http://wdsa001.github.io/tags/DFS/"/>
+    
+    <category term="KM算法" scheme="http://wdsa001.github.io/tags/KM%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>点分治&amp;点分树</title>
     <link href="http://wdsa001.github.io/2021/12/24/dian-fen-zhi-dian-fen-shu/"/>
     <id>http://wdsa001.github.io/2021/12/24/dian-fen-zhi-dian-fen-shu/</id>
@@ -699,34 +738,6 @@
     <category term="后缀数组" scheme="http://wdsa001.github.io/tags/%E5%90%8E%E7%BC%80%E6%95%B0%E7%BB%84/"/>
     
     <category term="倍增" scheme="http://wdsa001.github.io/tags/%E5%80%8D%E5%A2%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自然对数e</title>
-    <link href="http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/"/>
-    <id>http://wdsa001.github.io/2021/12/06/zi-ran-dui-shu-e/</id>
-    <published>2021-12-06T12:29:45.000Z</published>
-    <updated>2021-12-11T10:27:22.705Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;自然对数-e&quot;&gt;&lt;a href=&quot;#自然对数-e&quot; class=&quot;headerlink&quot; title=&quot;自然对数 e&quot;&gt;&lt;/a&gt;自然对数 e&lt;/h2&gt;&lt;p&gt;很自然的一个常数（&lt;del&gt;手动划掉&lt;/del&gt;）&lt;/p&gt;
-&lt;p&gt;再网上翻看了不少资料后，发现它并没有</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="自然对数" scheme="http://wdsa001.github.io/tags/%E8%87%AA%E7%84%B6%E5%AF%B9%E6%95%B0/"/>
     
   </entry>
   
