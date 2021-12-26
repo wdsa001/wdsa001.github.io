@@ -43,6 +43,47 @@
   </entry>
   
   <entry>
+    <title>一般图匹配</title>
+    <link href="http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/"/>
+    <id>http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/</id>
+    <published>2021-12-26T11:01:57.000Z</published>
+    <updated>2021-12-26T11:02:48.144Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前置知识：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/#toc-heading-5&quot;&gt;二分图匹配&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+    <category term="最近公共祖先" scheme="http://wdsa001.github.io/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="并查集" scheme="http://wdsa001.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    <category term="匈牙利算法" scheme="http://wdsa001.github.io/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
+    
+    <category term="带花树" scheme="http://wdsa001.github.io/tags/%E5%B8%A6%E8%8A%B1%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>二分图匹配&amp;带权完美匹配</title>
     <link href="http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/"/>
     <id>http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/</id>
@@ -704,40 +745,6 @@
     <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
     
     <category term="prufer" scheme="http://wdsa001.github.io/tags/prufer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后缀数组</title>
-    <link href="http://wdsa001.github.io/2021/12/07/hou-zhui-shu-zu/"/>
-    <id>http://wdsa001.github.io/2021/12/07/hou-zhui-shu-zu/</id>
-    <published>2021-12-07T03:08:55.000Z</published>
-    <updated>2021-12-07T03:09:31.123Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;后缀数组&quot;&gt;&lt;a href=&quot;#后缀数组&quot; class=&quot;headerlink&quot; title=&quot;后缀数组&quot;&gt;&lt;/a&gt;后缀数组&lt;/h2&gt;&lt;p&gt;后缀数组释然给我们讲原串的每个元素在原串中的后缀按照字典序从大到小排序。&lt;/p&gt;
-&lt;p&gt;首先介绍几个数组的意义</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="后缀数组" scheme="http://wdsa001.github.io/tags/%E5%90%8E%E7%BC%80%E6%95%B0%E7%BB%84/"/>
-    
-    <category term="倍增" scheme="http://wdsa001.github.io/tags/%E5%80%8D%E5%A2%9E/"/>
     
   </entry>
   
