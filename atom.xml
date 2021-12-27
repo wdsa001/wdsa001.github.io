@@ -43,6 +43,41 @@
   </entry>
   
   <entry>
+    <title>原根</title>
+    <link href="http://wdsa001.github.io/2021/12/27/yuan-gen/"/>
+    <id>http://wdsa001.github.io/2021/12/27/yuan-gen/</id>
+    <published>2021-12-27T13:03:33.000Z</published>
+    <updated>2021-12-27T13:04:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;阶&quot;&gt;&lt;a href=&quot;#阶&quot; class=&quot;headerlink&quot; title=&quot;阶&quot;&gt;&lt;/a&gt;阶&lt;/h2&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^r\equiv 1(\mod m)&lt;/script&gt;&lt;p&gt;当 $r$</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="欧拉函数" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="费马小定理" scheme="http://wdsa001.github.io/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="原根" scheme="http://wdsa001.github.io/tags/%E5%8E%9F%E6%A0%B9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一般图匹配</title>
     <link href="http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/"/>
     <id>http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/</id>
@@ -712,39 +747,6 @@
     <category term="四分树" scheme="http://wdsa001.github.io/tags/%E5%9B%9B%E5%88%86%E6%A0%91/"/>
     
     <category term="树套树" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E5%A5%97%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>prufer序</title>
-    <link href="http://wdsa001.github.io/2021/12/07/prufer-xu/"/>
-    <id>http://wdsa001.github.io/2021/12/07/prufer-xu/</id>
-    <published>2021-12-07T07:27:47.000Z</published>
-    <updated>2021-12-07T07:27:51.867Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;prufer-序&quot;&gt;&lt;a href=&quot;#prufer-序&quot; class=&quot;headerlink&quot; title=&quot;prufer 序&quot;&gt;&lt;/a&gt;prufer 序&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="prufer" scheme="http://wdsa001.github.io/tags/prufer/"/>
     
   </entry>
   
