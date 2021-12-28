@@ -31,9 +31,9 @@
 
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="王大神——A001" type="application/atom+xml">
 </head>
 
 
@@ -568,7 +568,8 @@
 <p><code>BSGS</code> 最精妙的地方在于它构造了一个数：$m=\lceil{\sqrt{p}}\rceil$。</p>
 <p>为什么这么说呢？我们将 $x$ 换一种写法：$x=a\times m-b$。那么就有：</p>
 <script type="math/tex; mode=display">k^{a\times m-b}\equiv 1(\mod p)</script><script type="math/tex; mode=display">k^{a\times m}\equiv k^{b}
-(\mod p)</script><script type="math/tex; mode=display">(k^m)^a\equiv k^b(\mod p)</script><p>这时，暴力枚举 $b$，用 <code>map</code> 或其他存储方式记录值。在枚举 $a$，如果匹配上了，通过 $a\times m-b=x$ 求出结果即可。</p>
+(\mod p)</script><script type="math/tex; mode=display">(k^m)^a\equiv k^b(\mod p)</script><p>注意题目恒等式的右边还有一个常数 $n$：</p>
+<script type="math/tex; mode=display">(k^m)^a\equiv n\times k^b(\mod p)</script><p>这时，暴力枚举 $b$，用 <code>map</code> 或其他存储方式记录值。在枚举 $a$，如果匹配上了，通过 $a\times m-b=x$ 求出结果即可。</p>
 <p>此时，由于 $m=\lceil{\sqrt{p}}\rceil,x &lt; p$，所以 $a &lt; \sqrt{p}$。</p>
 <p>如果 $b\ge \sqrt{p}$，假设 $b=d\times \sqrt{p}+c$ 那么我们完全可以当成 $m\times(a-d)-c$ 的情况处理，而这种情况包含在了 $a$ 枚举的区间，所以 $b\in[0,\sqrt{p})$。</p>
 <p>复杂度就将到了 $O(\sqrt{p})$。</p>
@@ -649,8 +650,8 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
 <script type="math/tex; mode=display">\frac{k^x}{\gcd(k,p)}\equiv\frac{b}{\gcd(k,p)}(\mod \frac{p}{\gcd(k,p)})</script><p>所以我们可以先将 $k^x$ 和 $p$ 化简，使他们互质。（如果 $b\not=0,1$ 并且 $b\nmid \gcd(k,p)$ 那么无解。）</p>
 <p>假设 $k^x$ 每次和 $p$ 的公因数是 $p_i$，一共化简 $n$ 次，那么最后化简为：</p>
 <script type="math/tex; mode=display">\frac{k^n}{\prod_{i=1}^n}\times k^{x-n}\equiv\frac{b}{\prod_{i=1}^n}(\mod \frac{p}{\prod_{i=1}^n})</script><p>我们可以利用扩展欧几里得（或者费马小定理）求逆元，将 $\frac{k^n}{\prod^n_{i=1}}$ 挪到右边。</p>
-<script type="math/tex; mode=display">k^{x-n}\equiv(\frac{k^n}{\prod_{i=1}^n})^{-1}\times \frac{b}{\prod_{i=1}^n}(\mod \frac{p}{\prod_{i=1}^n})</script><p>此时的 $k^{x-n}$ 和模数互质，这个形式和 <code>BSGS</code> 的唯一差别在于同余不是 $1$ 了：</p>
-<script type="math/tex; mode=display">k^{i\times m-j}\equiv b(\mod p)</script><script type="math/tex; mode=display">(k^m)^i\equiv b\times k^{j}(\mod p)</script><p>仍然是枚举右边，只不过这次多了一个常数。然后从小到大枚举左边，判读是否出现过即可。</p>
+<script type="math/tex; mode=display">k^{x-n}\equiv(\frac{k^n}{\prod_{i=1}^n})^{-1}\times \frac{b}{\prod_{i=1}^n}(\mod \frac{p}{\prod_{i=1}^n})</script><p>此时的 $k^{x-n}$ 和模数互质，这个形式和 <code>BSGS</code> 的形式相同：</p>
+<script type="math/tex; mode=display">k^{i\times m-j}\equiv b(\mod p)</script><script type="math/tex; mode=display">(k^m)^i\equiv b\times k^{j}(\mod p)</script><p>仍然是枚举右边，同样右边有一个常数。然后从小到大枚举左边，判读是否出现过即可。</p>
 <p>注意：此时计算出的是 $i\times m-j=x-n$ 最后要将 $n$ 加回来，才是最后的结果。</p>
 <h3 id="代码思路"><a href="#代码思路" class="headerlink" title="代码思路"></a>代码思路</h3><ul>
 <li><p>读入基本信息（注意读入终止条件）。</p>
@@ -902,23 +903,23 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/6666/06/06/shuo-ming/">
+                <a href="/2021/12/28/wan-quan-shu/">
                     <div class="card-image">
                         
-                        <img src="/images/48.jpg" class="responsive-img" alt="说明">
+                        <img src="/images/98.jpg" class="responsive-img" alt="完全数">
                         
-                        <span class="card-title">说明</span>
+                        <span class="card-title">完全数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            说明
+                            完全数
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>6666-06-06
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-28
                         </span>
                         <span class="publish-author">
                             
@@ -935,8 +936,20 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">搭建</span>
+                    <a href="/tags/%E9%A2%98%E8%A7%A3/">
+                        <span class="chip bg-color">题解</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                        <span class="chip bg-color">数论</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%A8%A1%E6%9D%BF/">
+                        <span class="chip bg-color">模板</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%AE%8C%E5%85%A8%E6%95%B0/">
+                        <span class="chip bg-color">完全数</span>
                     </a>
                     
                 </div>
@@ -1203,7 +1216,7 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">148.7k</span>
+                        class="white-color">149.2k</span>
             
             
             

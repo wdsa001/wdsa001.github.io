@@ -43,11 +43,42 @@
   </entry>
   
   <entry>
+    <title>完全数</title>
+    <link href="http://wdsa001.github.io/2021/12/28/wan-quan-shu/"/>
+    <id>http://wdsa001.github.io/2021/12/28/wan-quan-shu/</id>
+    <published>2021-12-28T01:51:34.000Z</published>
+    <updated>2021-12-28T01:51:57.935Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;完全数&quot;&gt;&lt;a href=&quot;#完全数&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="完全数" scheme="http://wdsa001.github.io/tags/%E5%AE%8C%E5%85%A8%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>BSGS&amp;exBSGS</title>
     <link href="http://wdsa001.github.io/2021/12/28/bsgs-exbsgs/"/>
     <id>http://wdsa001.github.io/2021/12/28/bsgs-exbsgs/</id>
     <published>2021-12-28T00:37:17.000Z</published>
-    <updated>2021-12-28T00:38:35.996Z</updated>
+    <updated>2021-12-28T01:50:01.209Z</updated>
     
     
       
@@ -717,40 +748,6 @@
     <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
     
     <category term="树套树" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E5%A5%97%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后缀自动机SAM</title>
-    <link href="http://wdsa001.github.io/2021/12/09/hou-zhui-zi-dong-ji-sam/"/>
-    <id>http://wdsa001.github.io/2021/12/09/hou-zhui-zi-dong-ji-sam/</id>
-    <published>2021-12-09T11:52:55.000Z</published>
-    <updated>2021-12-09T11:53:08.868Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;建议先学会 &lt;a href=&quot;https://wdsa001.github.io/2021/09/06/zi-dian-shu-ac-zi-dong-ji/&quot;&gt;Trie 图和 AC 自动机&lt;/a&gt; 了解自动机大概是什么。&lt;/p&gt;
-&lt;h2 id=&quot;后缀自动机SAM&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="字典树" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E5%85%B8%E6%A0%91/"/>
-    
-    <category term="SAM自动机" scheme="http://wdsa001.github.io/tags/SAM%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
     
   </entry>
   
