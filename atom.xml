@@ -43,6 +43,51 @@
   </entry>
   
   <entry>
+    <title>二次剩余&amp;二次同余式&amp;二次互反律</title>
+    <link href="http://wdsa001.github.io/2021/12/28/er-ci-sheng-yu-er-ci-tong-yu-shi-er-ci-hu-fan-lu/"/>
+    <id>http://wdsa001.github.io/2021/12/28/er-ci-sheng-yu-er-ci-tong-yu-shi-er-ci-hu-fan-lu/</id>
+    <published>2021-12-28T12:54:16.000Z</published>
+    <updated>2021-12-28T12:59:00.268Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;二次剩余&quot;&gt;&lt;a href=&quot;#二次剩余&quot; class=&quot;headerlink&quot; title=&quot;二次剩余&quot;&gt;&lt;/a&gt;二次剩余&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P5491&quot;&gt;P5491</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="快速幂" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
+    
+    <category term="中国剩余定理" scheme="http://wdsa001.github.io/tags/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="欧拉函数" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="费马小定理" scheme="http://wdsa001.github.io/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="原根" scheme="http://wdsa001.github.io/tags/%E5%8E%9F%E6%A0%B9/"/>
+    
+    <category term="欧拉准则" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%87%86%E5%88%99/"/>
+    
+    <category term="勒让德符号" scheme="http://wdsa001.github.io/tags/%E5%8B%92%E8%AE%A9%E5%BE%B7%E7%AC%A6%E5%8F%B7/"/>
+    
+    <category term="Cipolla" scheme="http://wdsa001.github.io/tags/Cipolla/"/>
+    
+  </entry>
+  
+  <entry>
     <title>完全数</title>
     <link href="http://wdsa001.github.io/2021/12/28/wan-quan-shu/"/>
     <id>http://wdsa001.github.io/2021/12/28/wan-quan-shu/</id>
@@ -713,41 +758,6 @@
     <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
     
     <category term="邻域" scheme="http://wdsa001.github.io/tags/%E9%82%BB%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树套树</title>
-    <link href="http://wdsa001.github.io/2021/12/10/shu-tao-shu/"/>
-    <id>http://wdsa001.github.io/2021/12/10/shu-tao-shu/</id>
-    <published>2021-12-10T01:43:45.000Z</published>
-    <updated>2021-12-10T01:46:43.473Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;树套树&quot;&gt;&lt;a href=&quot;#树套树&quot; class=&quot;headerlink&quot; title=&quot;树套树&quot;&gt;&lt;/a&gt;树套树&lt;/h2&gt;&lt;p&gt;在学习 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="平衡树" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-    <category term="树套树" scheme="http://wdsa001.github.io/tags/%E6%A0%91%E5%A5%97%E6%A0%91/"/>
     
   </entry>
   
