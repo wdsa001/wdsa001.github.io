@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="排序, my,world">
+    <meta name="keywords" content="斯特林数, my,world">
     <meta name="description" content="就算失败，也要以豪迈的姿态！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>排序 | 王大神——A001</title>
+    <title>斯特林数 | 王大神——A001</title>
     <link rel="icon" type="image/jpeg" href="/medias/me.jpeg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -338,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/39.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">排序</h1>
+                    <h1 class="description center-align post-title">斯特林数</h1>
                 </div>
             </div>
         </div>
@@ -459,12 +459,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%A8%A1%E6%9D%BF/">
-                                <span class="chip bg-color">模板</span>
+                            <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                                <span class="chip bg-color">数论</span>
                             </a>
                         
-                            <a href="/tags/%E6%8E%92%E5%BA%8F/">
-                                <span class="chip bg-color">排序</span>
+                            <a href="/tags/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0/">
+                                <span class="chip bg-color">生成函数</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%96%AF%E7%89%B9%E6%9E%97%E6%95%B0/">
+                                <span class="chip bg-color">斯特林数</span>
                             </a>
                         
                     </div>
@@ -488,21 +492,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-10
+                    2021-12-31
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-23
+                    2021-12-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    774
+                    2.4k
                 </div>
                 
 
@@ -532,50 +536,247 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>通过比较两个相邻元素大小，不断交换位置，最后使得整序列有序。效率较低，但可以优化。</p>
-<h3 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h3><p>每个元素从前向后扫，到自己截止，若有元素比自己大，则插到其前面。</p>
-<h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3><p>假设有一组｛$9, 1, 2, 5, 7, 4, 8, 6, 3, 5$｝无序序列。</p>
-<p>第一趟排序： </p>
-<p>$\frac{10}{2}=5$，即相隔距离为 $5$ 的元素组成一组，可以分为 $5$ 组。接下来，按照直接插入排序的方法对每个组进行排序。</p>
-<p>第二趟排序：</p>
-<p>将上次的长度缩小一半，即 $\frac{5}{2}$ (取整数)。这样每相隔距离为 $2$ 的元素组成一组，可以分为 $2$ 组。按照直接插入排序的方法对每个组进行排序。</p>
-<p>第三趟排序：</p>
-<p>再缩小一半，即 $\frac{2}{2}=1$。 这样相隔距离为 $1$ 的元素组成一组，即只有一组。按照直接插入排序的方法对每个组进行排序。</p>
-<p>此时，排序已经结束。</p>
-<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p>每回选择最小的数换到当前位置。</p>
-<h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><p>从元素之中挑一个基准，所有比他小的排到左边，比他大的排到右边。</p>
-<h3 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h3><p>将整个序列拆成子序列，子序列排成有序后，合并子序列时，再将两个子序列排序，排序时有技巧。</p>
-<p>例子：</p>
-<p>子序列 $1$：$1,3,4$</p>
-<p>子序列 $2$：$2,7,8$</p>
-<p>第一步：比较第一位（$1,2$）比较</p>
-<p>合并序列：$1$</p>
-<p>第二步：大的数比较小的数的后一位（$2,3$）比较</p>
-<p>合并序列：$1,2$</p>
-<p>第三步：重复第二步，比较（$3,7$）</p>
-<p>合并序列：$1,2,3$</p>
-<p>第四步：重复第二步，比较（$4,7$）</p>
-<p>合并序列：$1,2,3,4$</p>
-<p>最后，一个序列已经比较完了，另一个序列剩下的直接补到序列尾。</p>
-<p>合并序列：$1,2,3,4,7,8$</p>
-<h3 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h3><p>本质是一颗二叉树。</p>
-<p>先将所有的数建一棵二叉树。</p>
-<p>每次将比对父节点和儿子的值，值大的向上传。</p>
-<p>此时根节点至最大。</p>
-<p>最大值入数组，与树的子节点交换后删除此节点。</p>
-<p>不断出最大值，最后数组倒序。</p>
-<h3 id="计数排序"><a href="#计数排序" class="headerlink" title="计数排序"></a>计数排序</h3><p>将所有的数直接存入相应的下标，最后按下标从小到大输出。</p>
-<p>存入时要计数，输出时，输出下标是记得数的个数。</p>
-<h3 id="桶排序"><a href="#桶排序" class="headerlink" title="桶排序"></a>桶排序</h3><p>先将最大值除去数组长度 $-1$ 后，将所有的数值同样除去数组长度 $-1$ 后，按计数排序存入数组。</p>
-<p>每一个数组的下标用链表存储数据，数据存入时，按链表顺序与值比对大小，使之有序。</p>
-<h3 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h3><p>将数字按位排序，例子：</p>
-<p>$12,43,23,45,61,29,57,49,92$</p>
-<p>第一步：将个位排序</p>
-<p>$61,12,92,43,23,45,57,29,49$</p>
-<p>第二步：将十位排序</p>
-<p>$12,23,29,43,45,49,57,61,92$</p>
-<p>若还有更高数位，依次排序即可。</p>
+                <h2 id="第一类斯特林数"><a href="#第一类斯特林数" class="headerlink" title="第一类斯特林数"></a>第一类斯特林数</h2><p>定义：将 $n$ 个元素，换份为 $k$ 个圆排列的方案数，记作 $s(n,k)$，或 $\big[_k^n\big]$。又根据正负性分为无符号的 $s_u(n,m)$ 和带符号的 $s_s(n,m)$。组合数学中的第一类斯特林数一般是只无符号的。</p>
+<ul>
+<li>圆排列</li>
+</ul>
+<p>可以看成 <a href="https://wdsa001.github.io/2021/12/30/polya-ding-li/#toc-heading-6">旋转置换</a>，通过旋转任意角度排列仍然相同，就属于一种方案。</p>
+<p>第一类斯特林数就是解决圆排列的方案数。</p>
+<ul>
+<li>递推求第一类斯特林数</li>
+</ul>
+<p>将 $1$ 到 $n$ 的排列划分为 $k$ 个圆排列，共有多少种方案？</p>
+<p>一共有两种放置方法：$n$ 新圆中，或放到已经有的圆中。</p>
+<ul>
+<li>$n$ 放到一个新圆中</li>
+</ul>
+<p>假设前 $n-1$ 个数放到 $k-1$ 个圆中，$n$ 放到新圆 $k$ 中，此时的方案数和不放当前数的方案数相同，即：$\big[_{k-1}^{n-1}\big]$。</p>
+<ul>
+<li>$n$ 放到已有的圆中</li>
+</ul>
+<p>那么有 $n-1$ 数，放到 $k$ 个圆里，就有 $(n-1)\times \big[_{k}^{n-1}\big]$ 种放置方案（有 $n-1$ 条边，放在每条边上都算一种方案）。</p>
+<p>将两种情况统计起来，就得到了递推式：</p>
+<script type="math/tex; mode=display">\big[_{k}^{n}\big]=\big[_{k-1}^{n-1}\big]+(n-1)\times \big[_{k}^{n-1}\big]</script><p>其中 $s(n,n)=1(n\ge 0),s(n,0)=0(n\ge 1)$</p>
+<ul>
+<li>第一类斯特林数表</li>
+</ul>
+<pre class="line-numbers language-latex" data-language="latex"><code class="language-latex">    0    1    2    3    4    5    6
+1   1
+2   0    1
+3   0    1    1
+4   0    6   11    6    1
+5   0   24   50   35   10    1
+6   0  120  274  225   85   15    1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>斯特林三角</li>
+</ul>
+<p>有符号斯特林数和无符号斯特林数的关系：</p>
+<script type="math/tex; mode=display">s(n,k)=(-1)^{n-k}\big[_{k}^{n}\big]</script><pre class="line-numbers language-latex" data-language="latex"><code class="language-latex">     无符号斯特林数            有符号斯特林数
 
+0          1                        1
+1         0 1                      0 1
+2        0 1 1                   0 -1 1
+3       0 2 3 1                 0 2 -3 1
+4     0 6 11 6 1              0 -6 11 -6 1
+5   0 24 50 35 10 1         0 24 -50 35 -10 1 
+6 0 120 274 225 85 15 1  0 -120 274 -225 85 -15 1  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="第一类斯特林数的性质"><a href="#第一类斯特林数的性质" class="headerlink" title="第一类斯特林数的性质"></a>第一类斯特林数的性质</h3><ul>
+<li><script type="math/tex; mode=display">s_u(0,0)=1</script></li>
+</ul>
+<p><del>人为规定</del></p>
+<ul>
+<li><script type="math/tex; mode=display">s_u(n,0)=0</script></li>
+<li><script type="math/tex; mode=display">s_u(n,n)=1</script></li>
+<li><script type="math/tex; mode=display">s_u(n,1)=(n-1)!</script></li>
+<li><script type="math/tex; mode=display">s_u(n,n-1)=C_n^2</script></li>
+<li><script type="math/tex; mode=display">s_u(n,n-2)=2\times C^3_n+3\times C^4_n</script></li>
+<li><script type="math/tex; mode=display">s_u(n,2)=(n-1)!\sum_{i=1}^{n-1}{\frac{1}{i}}</script></li>
+</ul>
+<p>如果 $n$ 个数放在 $1$ 个圈里，有 $(n-1) !$ 种情况，现在选 $i$ 个数放到第二个圈中：</p>
+<script type="math/tex; mode=display">\frac{C^i_n\times (i-1)!\times (n-i-1)!}{A_2^2}</script><p>注意两个圈是没有区别的。</p>
+<script type="math/tex; mode=display">=\frac{1}{2}\times \frac{n!}{i!(n-i)!}\times (i-1)!\times (n-i-1)!</script><script type="math/tex; mode=display">=\frac{1}{2}\times \frac{n!}{i(n-i)}</script><script type="math/tex; mode=display">=\frac{1}{2}\times (n-1)!\times \frac{n}{i(n-i)}</script><script type="math/tex; mode=display">=\frac{1}{2}\times (n-1)!\times (\frac{1}{i}+\frac{1}{n-i})</script><p>方案总数（就是将上面的 $i$ 枚举出来）：</p>
+<script type="math/tex; mode=display">\sum_{i=1}^{n-1}{\frac{C^i_n\times (i-1)!\times (n-i-1)!}{2}}</script><script type="math/tex; mode=display">=\sum_{i=1}^{n-1}{\frac{1}{2}{\times (n-1)!\times (\frac{1}{i}+\frac{1}{n-i})}}</script><script type="math/tex; mode=display">\because \sum_{i=1}^{n-1}{\frac{1}{i}}=\sum_{i=1}^{n-1}{\frac{1}{n-i}}</script><script type="math/tex; mode=display">\therefore =\sum_{i=1}^{n-1}{\frac{1}{2}\times(n-1)!\times 2\times \frac{1}{i}}</script><script type="math/tex; mode=display">=\sum_{i=1}^{n-1}(n-1)!\times \frac{1}{i}</script><script type="math/tex; mode=display">=(n-1)!\times \sum_{i=1}^{n-1}{\frac{1}{i}}</script><ul>
+<li><script type="math/tex; mode=display">\sum_{k=0}^n{s_u(n,k)}=n!</script></li>
+</ul>
+<h3 id="上升幂-amp-下降幂"><a href="#上升幂-amp-下降幂" class="headerlink" title="上升幂&amp;下降幂"></a>上升幂&amp;下降幂</h3><ul>
+<li>上升阶乘幂（上升幂）</li>
+</ul>
+<script type="math/tex; mode=display">x^{\overline{n}}=\prod_{k=0}^{n-1}{(x+k)=x(x+1)(x+2)…(x+n-1)}</script><p>上升幂转化为普通幂</p>
+<script type="math/tex; mode=display">x^{\overline{n}}=\sum_{k=0}^n{\begin{gathered}
+\begin{bmatrix}
+n\\k
+\end{bmatrix}
+\end{gathered}}x^k</script><p>普通幂转化为上升幂</p>
+<script type="math/tex; mode=display">
+x^n=
+\sum_{k}{
+\begin{gathered}
+\begin{Bmatrix}
+n\\k
+\end{Bmatrix}
+\end{gathered}
+}(-1)^{n-k}x^{\overline{k}}</script><p>（大括号是第二类斯特林数，后面会讲。）</p>
+<ul>
+<li>下降阶乘幂（下降幂）</li>
+</ul>
+<script type="math/tex; mode=display">x^{\underline{n}}=\frac{x!}{(x-n)!}=\prod_{k=0}^{n-1}{(n-k)}</script><p>普通幂转换为下降幂：</p>
+<script type="math/tex; mode=display">x^n={\sum_{k}{
+\begin{gathered}
+\begin{Bmatrix}
+n\\k
+\end{Bmatrix}
+\end{gathered}
+}x^{\underline{k}}}</script><p>下降幂转化为普通幂：</p>
+<script type="math/tex; mode=display">x^{\underline{n}}=\sum_{k}{
+\begin{gathered}
+\begin{bmatrix}
+n\\k
+\end{bmatrix}
+\end{gathered}
+(-1)^{n-k}x^k
+}</script><ul>
+<li>多项式下降阶乘幂表示与多项式点值表示的关系</li>
+</ul>
+<p>多项式的下降幂阶乘幂表示就是用</p>
+<script type="math/tex; mode=display">f(x)=\sum_{i=0}^{n}{b_ix^{\underline{i}}}</script><p>的形式表示一个多项式，而点值表示就是用 $n+1$ 个点</p>
+<script type="math/tex; mode=display">(i,a_i),i=0…n</script><p>来表示一个多项式。</p>
+<p>那么就有：</p>
+<script type="math/tex; mode=display">a_k=\sum_{i=0}^n{b_ik^{\underline{i}}}</script><script type="math/tex; mode=display">a_k=\sum_{i=0}^n{\frac{b_ik!}{(k-i)!}}</script><script type="math/tex; mode=display">\frac{a_k}{k!}=\sum_{i=0}^k{b_i\frac{1}{(k-i)!}}</script><p>这是一个卷积的形式，那么我们可以用 <a href="https://wdsa001.github.io/2021/12/03/fft/"><code>FFT</code></a> 来优化。</p>
+<h3 id="第一类斯特林数的生成函数"><a href="#第一类斯特林数的生成函数" class="headerlink" title="第一类斯特林数的生成函数"></a>第一类斯特林数的生成函数</h3><p>有符号斯特林数的生成函数是下降幂：</p>
+<script type="math/tex; mode=display">x^{\underline{n}}=\sum_{k=0}^n{s_s(n,k)x^k}</script><p>无符号斯特林数的生成函数是上升幂：</p>
+<script type="math/tex; mode=display">x^{\overline{n}}=\sum_{k=0}^{n}{s_u(n,k)x^k}</script><h2 id="第二类斯特林数"><a href="#第二类斯特林数" class="headerlink" title="第二类斯特林数"></a>第二类斯特林数</h2><p>将 $n$ 个不同的元素拆分成 $m$ 个集合间有序（集合有编号，且不能空）的方案数，记 $S(n,m)$ 或者</p>
+<script type="math/tex; mode=display">\begin{gathered}
+\begin{Bmatrix}
+n\\m
+\end{Bmatrix}
+\end{gathered}</script><p>和第一类斯特林数不同的是，这里的集合内部是不考虑次序的，而圆排列圆内部是有序的。典型的例子：将 $n$ 和不同的球放入 $m$ 个无差别的盒子中，要求盒子非空，有几种方案？</p>
+<script type="math/tex; mode=display">S(n,m)=\frac{1}{m!}\sum_{k=0}^m{(-1)^kC^k_m(m-k)^n}</script><h3 id="递推求第二类斯特林数"><a href="#递推求第二类斯特林数" class="headerlink" title="递推求第二类斯特林数"></a>递推求第二类斯特林数</h3><p>将 $n$ 个元素分成 $k$ 个集合，我们来分析第 $n$ 个数 $n$，有哪些放置方法。</p>
+<p>有两种情况：$n$ 放在一个新的集合中，或者 $n$ 放在已有的集合中。</p>
+<ul>
+<li>$n$ 放在一个新的集合中</li>
+</ul>
+<p>假设前 $n-1$ 和数放到 $k-1$ 个集合中，$n$ 放到自己的集合中，就是第 $k$ 个集合。方案数和不放这个元素的方案数相等：</p>
+<script type="math/tex; mode=display">\begin{gathered}
+\begin{Bmatrix}
+n-1\\k-1
+\end{Bmatrix}
+\end{gathered}</script><ul>
+<li>$n$ 放到已有的集合中</li>
+</ul>
+<p>前 $n-1$ 个数放到 $k$ 个集合里，第 $n$ 个数放到前 $k$ 个集合里，对于每一个集合中，由于内部是无序的，所以有 $k$ 中选择，</p>
+<script type="math/tex; mode=display">k\times \begin{gathered}
+\begin{Bmatrix}
+n-1\\k
+\end{Bmatrix}
+\end{gathered}</script><p>综合上面两种情况，有递推公式：</p>
+<script type="math/tex; mode=display">\begin{gathered}
+\begin{Bmatrix}
+n\\k
+\end{Bmatrix}
+\end{gathered}
+
+=
+\begin{gathered}
+\begin{Bmatrix}
+n-1\\k-1
+\end{Bmatrix}
+\end{gathered}
++k\times 
+\begin{gathered}
+\begin{Bmatrix}
+n-1\\k
+\end{Bmatrix}
+\end{gathered}</script><p>同时有 $S(n,n)=1,p\ge 0$，$S(n,0)=0,n\ge 1$。</p>
+<h3 id="第二类斯特林数三角"><a href="#第二类斯特林数三角" class="headerlink" title="第二类斯特林数三角"></a>第二类斯特林数三角</h3><pre class="line-numbers language-latex" data-language="latex"><code class="language-latex">0                1
+1               0 1
+2              0 1 1
+3             0 1 3 1
+4            0 1 7 6 1 
+5         0 1 15 25 10 1
+6       0 1 31 90 65 15 1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="第二类斯特林数性质"><a href="#第二类斯特林数性质" class="headerlink" title="第二类斯特林数性质"></a>第二类斯特林数性质</h3><ul>
+<li><script type="math/tex; mode=display">S(n,0)=0^n</script></li>
+<li><script type="math/tex; mode=display">S(n-1)=1</script></li>
+<li><script type="math/tex; mode=display">S(n,n)=1</script></li>
+<li><script type="math/tex; mode=display">S(n,2)=2^{n-1}-1</script></li>
+<li><script type="math/tex; mode=display">S(n,n-1)=C(n,2)</script></li>
+<li><script type="math/tex; mode=display">S(n,n-2)=C(n,3)+3\times C(n,4)</script></li>
+<li><script type="math/tex; mode=display">S(n,3)=\frac{1}{2}(3^{n-1}+1)-2^{n-1}</script></li>
+<li><script type="math/tex; mode=display">S(n,n-3)=C(n,4)+10\times C(n,5)+15\times C(n,6)</script></li>
+<li><script type="math/tex; mode=display">\sum_{k=0}^n{S(n,k)=B_n}</script></li>
+</ul>
+<p>$B_n$ 是贝尔数。</p>
+<ul>
+<li><script type="math/tex; mode=display">\sum_{k=0}^{m}{(-1)^kC^k_m(m-k)^m}=m!</script></li>
+<li><script type="math/tex; mode=display">n^k=\sum_{i=0}^k{S(k,i)\times i!\times C^i_n}</script></li>
+</ul>
+<h3 id="第二类斯特林数生成函数"><a href="#第二类斯特林数生成函数" class="headerlink" title="第二类斯特林数生成函数"></a>第二类斯特林数生成函数</h3><script type="math/tex; mode=display">G_0(S(n,k))=\sum_{n\ge k}{S(n,k)x^n}=\frac{x^k}{(1-x)(1-2x)…(1-kx)}=\frac{x^k}{\prod_{r=1}^k{(1-rx)}}</script><p>指数生成函数：</p>
+<script type="math/tex; mode=display">G_2(S(n,k))=\sum_{n\ge k}{S(n,k)}\times \frac{x^n}{n!}=\frac{(e^x-1)^k}{k!}</script><h3 id="第二类斯特林数的通项公式"><a href="#第二类斯特林数的通项公式" class="headerlink" title="第二类斯特林数的通项公式"></a>第二类斯特林数的通项公式</h3><script type="math/tex; mode=display">
+\begin{gathered}
+\begin{Bmatrix}
+n\\m
+\end{Bmatrix}
+\end{gathered}
+
+=\sum_{i=0}^m{\frac{(-1)^{m-i}i^n}{i!(m-i)!}}</script><h3 id="第三类斯特林数（拉赫数）"><a href="#第三类斯特林数（拉赫数）" class="headerlink" title="第三类斯特林数（拉赫数）"></a>第三类斯特林数（拉赫数）</h3><p>无符号拉赫数：</p>
+<p>升阶函数：</p>
+<script type="math/tex; mode=display">x^{\overline{n}}=\sum_{k=0}^n{L(n,k)x^{\underline{k}}}</script><p>降阶函数：</p>
+<script type="math/tex; mode=display">x^{\underline{n}}=\sum_{k=0}^n{(-1)^{n-k}L(n,k)x^{\overline{k}}}</script><p>其中 $L(n,k)$ 为拉赫数。</p>
+<p>有符号拉赫数：</p>
+<p>升阶函数：</p>
+<script type="math/tex; mode=display">x^{\overline{n}}=(-1)^n\sum_{k=0}^n{L(n,k)x^{\underline{k}}}</script><p>降阶函数：</p>
+<script type="math/tex; mode=display">x^{\underline{n}}=\sum_{k=0}^n{(-1)^{k}L(n,k)x^{\overline{k}}}</script><p>无符号拉赫数计算的是有 $n$ 个元素的集合拆分成 $k$ 个非空线性有序子集方法的数目。</p>
+<p>无符号拉赫数公式：</p>
+<script type="math/tex; mode=display">L(n,k)=C_{n-1}^{k-1}\frac{n!}{k!}</script><p>有符号拉赫数公式：</p>
+<script type="math/tex; mode=display">L^{'}(n,k)=(-1)^nC_{n-1}^{k-1}\frac{n!}{k!}</script><h3 id="递推求第三类斯特林数"><a href="#递推求第三类斯特林数" class="headerlink" title="递推求第三类斯特林数"></a>递推求第三类斯特林数</h3><p>无符号：</p>
+<script type="math/tex; mode=display">L(n,k+1)=\frac{n-k}{k(k+1)}L(n,k)</script><p>和：</p>
+<script type="math/tex; mode=display">L(n+1,k)=(n+k)L(n,k)+L(n,k-1)</script><p>有：$L(n,0)=0$，$L(n,k)=0(k &gt; n )$，$L(1,1)=1$。</p>
+<h3 id="第三类斯特林数表"><a href="#第三类斯特林数表" class="headerlink" title="第三类斯特林数表"></a>第三类斯特林数表</h3><pre class="line-numbers language-latex" data-language="latex"><code class="language-latex">     0     1     2     3     4     5     6
+0    1
+1    0     1
+2    0     2     1
+3    0     6     6     1
+4    0    24    36    12     1
+5    0   120   240   120    20     1
+6    0   720  1800  1200   300    30     1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="第三类斯特林数的性质"><a href="#第三类斯特林数的性质" class="headerlink" title="第三类斯特林数的性质"></a>第三类斯特林数的性质</h3><ul>
+<li><script type="math/tex; mode=display">L(0,0)=1,L(n,0)=0(n>0)</script></li>
+<li><script type="math/tex; mode=display">k>n,L(n,k)=0</script></li>
+<li><script type="math/tex; mode=display">L(n,1)=n!</script></li>
+<li><script type="math/tex; mode=display">L(n,2)=\frac{(n-1)n!}{2}</script></li>
+<li><script type="math/tex; mode=display">L(n,3)=\frac{(n-2)(n-1)n!}{12}</script></li>
+<li><script type="math/tex; mode=display">L(n,n-1)=n(n-1)</script></li>
+<li><script type="math/tex; mode=display">L(n,n)=1</script></li>
+<li><script type="math/tex; mode=display">\sum_{n\ge k}{L(n,k)\frac{x^n}{n!}}=\frac{1}{k!}(\frac{x}{1-x})^k</script></li>
+</ul>
+<p>无符号拉赫数还有：</p>
+<ul>
+<li><script type="math/tex; mode=display">L(n,k)=C_{n-1}^{k-1}\frac{n!}{k!}=C_n^k\frac{(n-1)!}{(k-1)!}=C_n^kC_{n-1}^{k-1}(n-k)!</script></li>
+<li><script type="math/tex; mode=display">L(n,k)=\frac{n!(n-1)!}{k!(k-1)!}\times \frac{1}{(n-k)!}=(\frac{n!}{k!})^2\frac{k}{n(n-k)!}</script></li>
+</ul>
+<p>无符号拉赫数还可写成：</p>
+<script type="math/tex; mode=display">L(n,k)=\sum_{j=0}^n{
+\begin{gathered}
+\begin{bmatrix}
+n\\j
+\end{bmatrix}
+\end{gathered}
+\begin{gathered}
+\begin{Bmatrix}
+j\\k
+\end{Bmatrix}
+\end{gathered}
+}</script><p>还有：</p>
+<script type="math/tex; mode=display">\sum_{j\ge 0}{L(n,j)L(j,k)}=\delta_{nk}</script><p>$\delta_{nk}$ 是克罗内克尔 $\delta$。</p>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><ul>
+<li><p>反转公式：</p>
+</li>
+<li><script type="math/tex; mode=display">\sum_{i=m}^{n}{S(n,i)s(i,m)(-1)^{i-m}=[m=n]}</script></li>
+<li><script type="math/tex; mode=display">\sum_{i=m}^{n}{s(n,i)S(i,m)(-1)^{i-m}=[m=n]}</script></li>
+<li><p>斯特林反演：</p>
+</li>
+</ul>
+<script type="math/tex; mode=display">f(n)=\sum_{i=0}^n{S(n,i)g(i)}\Leftrightarrow g(n)=\sum_{i=0}^n{(-1)^{n-i}s(n,i)f(i)}</script>
                 
             </div>
             <hr/>
@@ -601,7 +802,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wdsa001.github.io/2021/08/10/pai-xu/">http://wdsa001.github.io/2021/08/10/pai-xu/</a>
+                    <a href="http://wdsa001.github.io/2021/12/31/si-te-lin-shu/">http://wdsa001.github.io/2021/12/31/si-te-lin-shu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -639,12 +840,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%A8%A1%E6%9D%BF/">
-                                    <span class="chip bg-color">模板</span>
+                                <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                                    <span class="chip bg-color">数论</span>
                                 </a>
                             
-                                <a href="/tags/%E6%8E%92%E5%BA%8F/">
-                                    <span class="chip bg-color">排序</span>
+                                <a href="/tags/%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0/">
+                                    <span class="chip bg-color">生成函数</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%96%AF%E7%89%B9%E6%9E%97%E6%95%B0/">
+                                    <span class="chip bg-color">斯特林数</span>
                                 </a>
                             
                         </div>
@@ -694,24 +899,72 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/10/uva147/">
+                <a href="/6666/06/06/shuo-ming/">
                     <div class="card-image">
                         
-                        <img src="/images/34.jpg" class="responsive-img" alt="UVA147 Dollars">
+                        <img src="/images/48.jpg" class="responsive-img" alt="说明">
                         
-                        <span class="card-title">UVA147 Dollars</span>
+                        <span class="card-title">说明</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            题解
+                            说明
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-10
+                            <i class="far fa-clock fa-fw icon-date"></i>6666-06-06
                         </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%90%AD%E5%BB%BA/">
+                        <span class="chip bg-color">搭建</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/12/30/polya-ding-li/">
+                    <div class="card-image">
+                        
+                        <img src="/images/2.jpg" class="responsive-img" alt="Pólya 定理">
+                        
+                        <span class="card-title">Pólya 定理</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Pólya 定理
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-30
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -731,56 +984,40 @@
                         <span class="chip bg-color">题解</span>
                     </a>
                     
-                    <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
-                        <span class="chip bg-color">动态规划</span>
+                    <a href="/tags/%E6%95%B0%E8%AE%BA/">
+                        <span class="chip bg-color">数论</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/08/10/xin-sui-ji-shu-sheng-cheng-qi/">
-                    <div class="card-image">
-                        
-                        <img src="/images/23.jpg" class="responsive-img" alt="新随机数生成器（c++11）-mt19937">
-                        
-                        <span class="card-title">新随机数生成器（c++11）-mt19937</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            随机数
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-10
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
+                    <a href="/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/">
+                        <span class="chip bg-color">欧拉函数</span>
+                    </a>
                     
-                    <a href="/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0/">
-                        <span class="chip bg-color">随机数</span>
+                    <a href="/tags/%E9%9B%86%E5%90%88/">
+                        <span class="chip bg-color">集合</span>
+                    </a>
+                    
+                    <a href="/tags/Polya%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">Pólya定理</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BE%A4/">
+                        <span class="chip bg-color">群</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">拉格朗日定理</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%BD%A8%E9%81%93-%E7%A8%B3%E5%AE%9A%E5%AD%90%E5%AE%9A%E7%90%86/">
+                        <span class="chip bg-color">轨道-稳定子定理</span>
+                    </a>
+                    
+                    <a href="/tags/Burnside%E5%BC%95%E7%90%86/">
+                        <span class="chip bg-color">Burnside引理</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BD%AE%E6%8D%A2/">
+                        <span class="chip bg-color">置换</span>
                     </a>
                     
                 </div>
