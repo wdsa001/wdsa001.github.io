@@ -43,6 +43,29 @@
   </entry>
   
   <entry>
+    <title>加密通话</title>
+    <link href="http://wdsa001.github.io/2022/01/01/jia-mi-tong-hua/"/>
+    <id>http://wdsa001.github.io/2022/01/01/jia-mi-tong-hua/</id>
+    <published>2022-01-01T14:11:33.000Z</published>
+    <updated>2021-12-31T14:11:51.060Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="原根" scheme="http://wdsa001.github.io/tags/%E5%8E%9F%E6%A0%B9/"/>
+    
+    <category term="BSGS" scheme="http://wdsa001.github.io/tags/BSGS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>斯特林数</title>
     <link href="http://wdsa001.github.io/2021/12/31/si-te-lin-shu/"/>
     <id>http://wdsa001.github.io/2021/12/31/si-te-lin-shu/</id>
@@ -736,37 +759,6 @@
     <category term="数列" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E5%88%97/"/>
     
     <category term="微积分" scheme="http://wdsa001.github.io/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>husky排队吃糖</title>
-    <link href="http://wdsa001.github.io/2021/12/13/husky-pai-dui-chi-tang/"/>
-    <id>http://wdsa001.github.io/2021/12/13/husky-pai-dui-chi-tang/</id>
-    <published>2021-12-13T13:49:59.000Z</published>
-    <updated>2021-12-18T04:06:49.722Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;有 $K$（$1\le K\le 10^6$）只小 $husky$ 按 $AC$ 题的数量排成一列，等着大 $husky$</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="二分" scheme="http://wdsa001.github.io/tags/%E4%BA%8C%E5%88%86/"/>
     
   </entry>
   
