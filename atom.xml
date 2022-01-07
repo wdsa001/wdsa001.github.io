@@ -43,6 +43,40 @@
   </entry>
   
   <entry>
+    <title>后缀自动机SAM</title>
+    <link href="http://wdsa001.github.io/2022/01/07/hou-zhui-zi-dong-ji-sam/"/>
+    <id>http://wdsa001.github.io/2022/01/07/hou-zhui-zi-dong-ji-sam/</id>
+    <published>2022-01-07T13:05:08.000Z</published>
+    <updated>2022-01-07T13:09:27.514Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;建议先学会 &lt;a href=&quot;https://wdsa001.github.io/2021/09/06/zi-dian-shu-ac-zi-dong-ji/&quot;&gt;Trie 图和 AC 自动机&lt;/a&gt; 了解自动机大概是什么。&lt;/p&gt;
+&lt;h2 id=&quot;后缀自动机SAM&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="字典树" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E5%85%B8%E6%A0%91/"/>
+    
+    <category term="SAM自动机" scheme="http://wdsa001.github.io/tags/SAM%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>exCRT&amp;exLucas</title>
     <link href="http://wdsa001.github.io/2022/01/06/excrt-exlucas/"/>
     <id>http://wdsa001.github.io/2022/01/06/excrt-exlucas/</id>
@@ -725,41 +759,6 @@
     <category term="左偏树" scheme="http://wdsa001.github.io/tags/%E5%B7%A6%E5%81%8F%E6%A0%91/"/>
     
     <category term="并查集" scheme="http://wdsa001.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>子序列自动机</title>
-    <link href="http://wdsa001.github.io/2021/12/22/zi-xu-lie-zi-dong-ji/"/>
-    <id>http://wdsa001.github.io/2021/12/22/zi-xu-lie-zi-dong-ji/</id>
-    <published>2021-12-22T11:27:48.000Z</published>
-    <updated>2021-12-22T23:29:05.722Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;子序列自动机&quot;&gt;&lt;a href=&quot;#子序列自动机&quot; class=&quot;headerlink&quot; title=&quot;子序列自动机&quot;&gt;&lt;/a&gt;子序列自动机&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="字符串" scheme="http://wdsa001.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="主席树" scheme="http://wdsa001.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
-    
-    <category term="子序列自动机" scheme="http://wdsa001.github.io/tags/%E5%AD%90%E5%BA%8F%E5%88%97%E8%87%AA%E5%8A%A8%E6%9C%BA/"/>
     
   </entry>
   
