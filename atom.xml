@@ -43,6 +43,45 @@
   </entry>
   
   <entry>
+    <title>有源汇上下界最大流</title>
+    <link href="http://wdsa001.github.io/2022/01/10/you-yuan-hui-shang-xia-jie-zui-da-liu/"/>
+    <id>http://wdsa001.github.io/2022/01/10/you-yuan-hui-shang-xia-jie-zui-da-liu/</id>
+    <published>2022-01-10T07:14:52.000Z</published>
+    <updated>2022-01-10T07:17:44.861Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前置知识：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wdsa001.github.io/2021/12/04/dinic/&quot;&gt;最大流（&lt;code&gt;Dinic&lt;/code&gt;）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+    <category term="网络流" scheme="http://wdsa001.github.io/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
+    
+    <category term="Dinic" scheme="http://wdsa001.github.io/tags/Dinic/"/>
+    
+    <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
+    
+    <category term="DFS" scheme="http://wdsa001.github.io/tags/DFS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自适应辛普森法</title>
     <link href="http://wdsa001.github.io/2022/01/09/zi-gua-ying-xin-pu-sen-fa/"/>
     <id>http://wdsa001.github.io/2022/01/09/zi-gua-ying-xin-pu-sen-fa/</id>
@@ -120,7 +159,7 @@
     <link href="http://wdsa001.github.io/2022/01/07/hou-zhui-zi-dong-ji-sam/"/>
     <id>http://wdsa001.github.io/2022/01/07/hou-zhui-zi-dong-ji-sam/</id>
     <published>2022-01-07T13:05:08.000Z</published>
-    <updated>2022-01-07T13:09:27.514Z</updated>
+    <updated>2022-01-10T07:18:38.507Z</updated>
     
     
       
@@ -721,45 +760,6 @@
     <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
     
     <category term="带花树" scheme="http://wdsa001.github.io/tags/%E5%B8%A6%E8%8A%B1%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图匹配&amp;带权完美匹配</title>
-    <link href="http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/"/>
-    <id>http://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/</id>
-    <published>2021-12-25T12:57:16.000Z</published>
-    <updated>2021-12-25T12:58:24.054Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;集&quot;&gt;&lt;a href=&quot;#集&quot; class=&quot;headerlink&quot; title=&quot;集&quot;&gt;&lt;/a&gt;集&lt;/h2&gt;&lt;h3 id=&quot;支配集&quot;&gt;&lt;a href=&quot;#支配集&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="搜索" scheme="http://wdsa001.github.io/tags/%E6%90%9C%E7%B4%A2/"/>
-    
-    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="匈牙利算法" scheme="http://wdsa001.github.io/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
-    
-    <category term="DFS" scheme="http://wdsa001.github.io/tags/DFS/"/>
-    
-    <category term="KM算法" scheme="http://wdsa001.github.io/tags/KM%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
