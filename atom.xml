@@ -43,6 +43,104 @@
   </entry>
   
   <entry>
+    <title>ACPC10B Sum the Square</title>
+    <link href="http://wdsa001.github.io/2022/01/26/acpc10b/"/>
+    <id>http://wdsa001.github.io/2022/01/26/acpc10b/</id>
+    <published>2022-01-26T10:29:10.000Z</published>
+    <updated>2022-01-26T10:29:18.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/SP7976&quot;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;思路分析&quot;&gt;&lt;a href=&quot;#思路分析&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="暴力" scheme="http://wdsa001.github.io/tags/%E6%9A%B4%E5%8A%9B/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+    <category term="基环树" scheme="http://wdsa001.github.io/tags/%E5%9F%BA%E7%8E%AF%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最大值</title>
+    <link href="http://wdsa001.github.io/2022/01/23/zui-da-zhi/"/>
+    <id>http://wdsa001.github.io/2022/01/23/zui-da-zhi/</id>
+    <published>2022-01-23T07:16:59.000Z</published>
+    <updated>2022-01-26T10:18:57.420Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h2&gt;&lt;p&gt;现在有一个序列，有 $n$ 个数：$a_1,a_2,…,a_n$&lt;/p&gt;
+&lt;p&gt;假设有一个区间</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="二分" scheme="http://wdsa001.github.io/tags/%E4%BA%8C%E5%88%86/"/>
+    
+    <category term="平面几何" scheme="http://wdsa001.github.io/tags/%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/"/>
+    
+    <category term="凸包" scheme="http://wdsa001.github.io/tags/%E5%87%B8%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高速公路</title>
+    <link href="http://wdsa001.github.io/2022/01/20/gao-su-gong-lu/"/>
+    <id>http://wdsa001.github.io/2022/01/20/gao-su-gong-lu/</id>
+    <published>2022-01-20T09:21:04.000Z</published>
+    <updated>2022-01-26T10:24:38.037Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P2221&quot;&gt;P2221 高速公路&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;简介题目&quot;&gt;&lt;a href=&quot;#简介题目&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
+    
+    
+    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="暴力" scheme="http://wdsa001.github.io/tags/%E6%9A%B4%E5%8A%9B/"/>
+    
+    <category term="数据结构" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="线段树" scheme="http://wdsa001.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>有源汇上下界最大流</title>
     <link href="http://wdsa001.github.io/2022/01/10/you-yuan-hui-shang-xia-jie-zui-da-liu/"/>
     <id>http://wdsa001.github.io/2022/01/10/you-yuan-hui-shang-xia-jie-zui-da-liu/</id>
@@ -641,125 +739,6 @@
     <category term="勒让德符号" scheme="http://wdsa001.github.io/tags/%E5%8B%92%E8%AE%A9%E5%BE%B7%E7%AC%A6%E5%8F%B7/"/>
     
     <category term="Cipolla" scheme="http://wdsa001.github.io/tags/Cipolla/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BSGS&amp;exBSGS</title>
-    <link href="http://wdsa001.github.io/2021/12/28/bsgs-exbsgs/"/>
-    <id>http://wdsa001.github.io/2021/12/28/bsgs-exbsgs/</id>
-    <published>2021-12-28T00:37:17.000Z</published>
-    <updated>2021-12-28T01:50:01.209Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;BSGS&quot;&gt;&lt;a href=&quot;#BSGS&quot; class=&quot;headerlink&quot; title=&quot;BSGS&quot;&gt;&lt;/a&gt;BSGS&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3846&quot;&gt;P3846</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="快速幂" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
-    
-    <category term="扩展欧几里得算法" scheme="http://wdsa001.github.io/tags/%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="欧拉函数" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/"/>
-    
-    <category term="费马小定理" scheme="http://wdsa001.github.io/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/"/>
-    
-    <category term="BSGS" scheme="http://wdsa001.github.io/tags/BSGS/"/>
-    
-    <category term="exBSGS" scheme="http://wdsa001.github.io/tags/exBSGS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原根</title>
-    <link href="http://wdsa001.github.io/2021/12/27/yuan-gen/"/>
-    <id>http://wdsa001.github.io/2021/12/27/yuan-gen/</id>
-    <published>2021-12-27T13:03:33.000Z</published>
-    <updated>2021-12-28T00:37:09.732Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;阶&quot;&gt;&lt;a href=&quot;#阶&quot; class=&quot;headerlink&quot; title=&quot;阶&quot;&gt;&lt;/a&gt;阶&lt;/h2&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^r\equiv 1(\mod m)&lt;/script&gt;&lt;p&gt;当 $r$</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="数论" scheme="http://wdsa001.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="快速幂" scheme="http://wdsa001.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
-    
-    <category term="欧拉函数" scheme="http://wdsa001.github.io/tags/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/"/>
-    
-    <category term="费马小定理" scheme="http://wdsa001.github.io/tags/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86/"/>
-    
-    <category term="原根" scheme="http://wdsa001.github.io/tags/%E5%8E%9F%E6%A0%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一般图匹配</title>
-    <link href="http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/"/>
-    <id>http://wdsa001.github.io/2021/12/26/yi-ban-tu-pi-pei/</id>
-    <published>2021-12-26T11:01:57.000Z</published>
-    <updated>2021-12-26T11:02:48.144Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前置知识：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://wdsa001.github.io/2021/12/25/er-fen-tu-pi-pei-dai-quan-wan-mei-pi-pei/#toc-heading-5&quot;&gt;二分图匹配&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="http://wdsa001.github.io/categories/Markdown/"/>
-    
-    
-    <category term="题解" scheme="http://wdsa001.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="图论" scheme="http://wdsa001.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-    <category term="最近公共祖先" scheme="http://wdsa001.github.io/tags/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/"/>
-    
-    <category term="模板" scheme="http://wdsa001.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="并查集" scheme="http://wdsa001.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-    <category term="匈牙利算法" scheme="http://wdsa001.github.io/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="BFS" scheme="http://wdsa001.github.io/tags/BFS/"/>
-    
-    <category term="带花树" scheme="http://wdsa001.github.io/tags/%E5%B8%A6%E8%8A%B1%E6%A0%91/"/>
     
   </entry>
   
