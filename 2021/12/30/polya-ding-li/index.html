@@ -527,7 +527,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-12-29
+                    2022-01-26
                 </div>
                 
 
@@ -716,7 +716,8 @@
 <script type="math/tex; mode=display">L=\sum_{a_i\in G}{\frac{1}{[G:G^x]}}</script><p>轨道-稳定子定理（还有在拉格朗日的推导）：</p>
 <script type="math/tex; mode=display">[G:G^x]=\frac{G}{|G^x|}</script><script type="math/tex; mode=display">L=\sum_{a_i\in G}{\frac{G^x}{G}}</script><p>将 $G$ 提出来：</p>
 <script type="math/tex; mode=display">L=\frac{1}{|G|}\sum_{a_i\in G}{G^x}</script><p>这里的 $G^x$ 是 $G$ 的子群（见上文），将它当成上文的 $f(x)$ 即可。</p>
-<h3 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h3><p>本质不同的 $n$ 个点的环可以看成群 $G$ 为 ${$ 旋转 $0$ 个，旋转 $1$ 个，$…$，旋转 $n-1$ 个 $}$，这些置换作用下的得到的等价类的数量。</p>
+<h3 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h3><p>本质不同的 $n$ 个点的环可以看成群 $G$ 为：</p>
+<script type="math/tex; mode=display">\text{ 旋转 $0$ 个，旋转 $1$ 个，$…$，旋转 $n-1$ 个。}</script><p>这些置换作用下的得到的等价类的数量。</p>
 <p>设集合 $M$ 为 ${1\rightarrow n}$ 的所有可能的排列的初始的环。</p>
 <script type="math/tex; mode=display">ans=\frac{1}{|G|}\sum_{a_i\in G}{M^{\lambda(a_i)}}</script><p>对于旋转 $k$ 个，一个元素的不动点等价与存在一个长度为 $a$ 的循环，满足 $a\mid k$，又因为对于循环节 $a$，必定存在 $a\mid n$，那么一个循环长度就是 $\gcd(k,n)$。</p>
 <p>每个子串的前 $\gcd(k,n)$ 是任意取得，一共有 $n$ 个点，贡献为 $n^{\gcd(k,n)}$。</p>
