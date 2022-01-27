@@ -503,7 +503,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-01-26
+                    2022-01-27
                 </div>
                 
 
@@ -551,7 +551,9 @@
 <h3 id="读入格式"><a href="#读入格式" class="headerlink" title="读入格式"></a>读入格式</h3><p>$n,m$ 分别代表序列长度，$m$ 表示询问次数。</p>
 <p>接下来一行 $n$ 个数，代表 $a_i$。</p>
 <p>接下来 $m$ 行，代表 $m_i$。</p>
-<h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>$m$ 行每行一个数，表示序列增加 $m<em>i$ 后的最大值 $k</em>{l,r}$。</p>
+<h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>$m$ 行每行一个数，表示序列增加 $m<em>i<script type="math/tex">后的最大值</script>k</em>{l,r}$。</p>
+<p>$k<em>{min}$ 和 $k</em>{max}$ </p>
+<p>$k<em>{minn}$ 和 $k</em>{maxn}$</p>
 <h3 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 $1$"></a>样例 $1$</h3><h4 id="读入"><a href="#读入" class="headerlink" title="读入"></a>读入</h4><pre class="line-numbers language-latex" data-language="latex"><code class="language-latex">2 5
 -5 -3 
 6
@@ -609,16 +611,16 @@
 <p><strong>保证数据有梯度，<del>保证正解不是数据结构</del>。</strong></p>
 <h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P4756">原题链接</a></p>
 <p>为了方便直接获得一段区间的和，我们使用前缀。</p>
-<p>那么区间的最大值即为：$k<em>{max}-k</em>{min}$</p>
-<p>但是在变化（整个序列增加 $m<em>i$）后，$k</em>{max}$ 或 $k_{min}$ 会改变。例如：</p>
+<p>那么区间的最大值即为：</p>
+<script type="math/tex; mode=display">k_{max}-k_{min}</script><p>但是在变化（整个序列增加 $m_i$）后：</p>
+<p>$k<em>{max}$ 或 $k</em>{min}$ 会改变。例如：</p>
 <p>$1,-1,-5,-10,-3,9$</p>
-<p>$k<em>{max}=k</em>{2,5}$</p>
-<p>但是将整个序列增加 $3$：</p>
+<script type="math/tex; mode=display">k_{max}=k_{2,5}</script><p>但是将整个序列增加 $3$：</p>
 <p>$4,2,-2,-7,0,12$</p>
-<p>$k<em>{max}=k</em>{6,6}$</p>
-<p>所以我们要找到每次更新后的 $k<em>{max}$ 和 $k</em>{min}$。</p>
-<p>假设整个序列增加的值是 $m<em>i$，那么一段区间 $[l,r]$ 增加的值为：$(r-l+1)\times m_i$，那么 $(k</em>{l,r})^{‘}=k_{l,r}+(r-l+1)\times m_i$。</p>
-<p>其中 $r-l+1$ 和 $k_{l,r}$ 是常数，$m_i$ 是变量，所以整个式子是一个一次函数。</p>
+<script type="math/tex; mode=display">k_{max}=k_{6,6}</script><p>所以我们要找到每次更新后的 $k<em>{max}$ 和 $k</em>{min}$。</p>
+<p>假设整个序列增加的值是 $m_i$，那么一段区间 $[l,r]$ 增加的值为：</p>
+<script type="math/tex; mode=display">(r-l+1)\times m_i</script><p>那么 </p>
+<script type="math/tex; mode=display">(k_{l,r})^{'}=k_{l,r}+(r-l+1)\times m_i</script><p>其中 $r-l+1$ 和 $k_{l,r}$ 是常数，$m_i$ 是变量，所以整个式子是一个一次函数。</p>
 <p>每次询问的增长都是所有元素同时增长，那么每个一次函数也都增长，增长的多少取决于斜率的大小（即 $r-l+1$）。</p>
 <p>用凸包维护所有的一次函数，每次询问的 $m_i$ 增长后的最值在凸包上找。</p>
 <p>上凸包和下凸包都是单调的，所以可以通过二分，来找到每次询问的 $m_i$ 在那条线段上，最后相减得到结果。</p>
